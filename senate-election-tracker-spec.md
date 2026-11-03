@@ -494,11 +494,11 @@ Source discovery is not proof that an API exists.
 
 The website uses plain HTML, CSS, and vanilla JavaScript modules. GitHub Pages serves `frontend/` directly. The dashboard, scenario calculator, theme, sorting, XML import, and rendering run in the browser. The deployed site requires no Node.js, npm, build step, framework, or application server. Python's built-in HTTP server is used only for local preview.
 
-North Carolina permits cross-origin reads. The browser fetches its official ZIP, decompresses it with the browser's native streaming API, and parses the Senate contest. Ohio's XML feed did not grant cross-origin reads in testing. A scheduled GitHub Actions job fetches Ohio's XML, Alaska's CSV, and Texas's HTML using `curl`, then parses and validates them with Python. The workflow saves updated records into `frontend/results.json` and deploys the static files. Ohio also supports a browser-only XML import for the current tab.
+North Carolina permits cross-origin reads. The browser fetches its official ZIP, decompresses it with the browser's native streaming API, and parses the Senate contest. Ohio's XML feed did not grant cross-origin reads in testing. A scheduled GitHub Actions job fetches Ohio's XML, Alaska's CSV, Texas's HTML, and Maine's published Senate workbook when listed using `curl`, then parses and validates them with Python. The workflow saves updated records into `frontend/results.json` and deploys the static files. Ohio also supports a browser-only XML import for the current tab.
 
 ```text
 North Carolina ZIP → browser parser → dashboard
-Ohio XML + Alaska CSV + Texas HTML → GitHub Actions → results.json → dashboard
+Ohio XML + Alaska CSV + Texas HTML + Maine XLSX → GitHub Actions → results.json → dashboard
 ```
 
 The earlier FastAPI and SQLite design is superseded by this static deployment for the current release. Durable historical storage and charts remain future work.
@@ -509,7 +509,7 @@ The earlier FastAPI and SQLite design is superseded by this static deployment fo
 
 The browser checks North Carolina on page load and roughly every five minutes while open. It checks the published `results.json` on load and roughly every 30 seconds. These are polling targets. State publication, browser timers, job queues, and Pages deployment can affect when results appear.
 
-GitHub Actions checks Ohio, Alaska, and Texas on a five-minute schedule. The workflow also supports relevant pushes to `main` and manual runs. Collectors run in separate steps so a failed download or parse for one state does not prevent the other from updating. Changed records are committed to `main` before Pages deploys. If a browser refresh fails, the dashboard retains its last accepted data for the current tab.
+GitHub Actions checks Ohio, Alaska, Texas, and Maine on a five-minute schedule. The workflow also supports relevant pushes to `main` and manual runs. Collectors run in separate steps so a failed download or parse for one state does not prevent the other from updating. Changed records are committed to `main` before Pages deploys. If a browser refresh fails, the dashboard retains its last accepted data for the current tab.
 
 Ohio test reports and missing Alaska downloads leave the stored snapshot intact. Alaska's adapter publishes first-choice totals only. Other states await integration.
 
@@ -893,6 +893,7 @@ collectors/
   ohio.py                    Scheduled Ohio XML collector
   alaska.py                  Scheduled Alaska first-choice CSV collector
   texas.py                   Scheduled Texas results page collector
+  maine.py                   Scheduled Maine workbook discovery and collection
   snapshot.py                Shared static snapshot writer
   update-results.mjs         Optional North Carolina snapshot publisher
   north-carolina.mjs         Node adapter for the optional publisher
@@ -909,7 +910,7 @@ The optional publisher and JavaScript tests use Node.js. They run outside the de
 
 ## 17. Development Phases
 
-The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. Five states still need adapters.
+The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. The Maine adapter was verified with the 2020 and 2024 statewide workbooks. The 2026 general-election workbook was not listed during verification. Four states still need adapters.
 
 
 ### Phase 1 — Frontend and calculations

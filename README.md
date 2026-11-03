@@ -22,9 +22,10 @@ Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the fil
 | Ohio | GitHub Actions | Downloads official XML with `curl`, uses Python to extract statewide Senate totals, and skips reports marked as tests. The site also offers an XML import for the current browser tab. |
 | Alaska | GitHub Actions | Parses the official CSV for statewide first-choice totals. The seat remains unresolved pending ranked-choice tabulation. The parser was tested with the 2026 primary CSV. The linked general-election CSV returned 404 during validation. |
 | Texas | GitHub Actions | Parses the official statewide U.S. Senate table and the reported percentage of polling locations. Blank counts remain blank. |
-| Other five states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
+| Maine | GitHub Actions | Looks for the official general-election U.S. Senate workbook and reads its statewide totals. The 2020 and 2024 archives passed validation. The 2026 workbook was not listed at verification. |
+| Other four states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
 
-The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs Ohio, Alaska, and Texas separately, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Ohio, Alaska, and Texas collection runs on GitHub's runner, including when nobody has the page open.
+The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs Ohio, Alaska, Texas, and Maine separately, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Ohio, Alaska, Texas, and Maine collection runs on GitHub's runner, including when nobody has the page open.
 
 The browser checks `results.json` on page load and about every 30 seconds while open. Failed checks preserve the last accepted data in the tab. The calculator counts only published certified results with a known caucus affiliation.
 

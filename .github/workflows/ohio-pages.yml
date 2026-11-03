@@ -39,6 +39,9 @@ jobs:
       - name: Collect Texas results
         continue-on-error: true
         run: python3 collectors/texas.py
+      - name: Collect Maine results
+        continue-on-error: true
+        run: python3 collectors/maine.py
       - name: Save updated snapshot
         run: |
           if git diff --quiet -- frontend/results.json; then
