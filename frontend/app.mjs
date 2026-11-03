@@ -13,7 +13,7 @@ const time = new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeStyle: 
 const partyClass = { D: 'dem', R: 'rep' };
 const statuses = {
   reporting: 'Reporting', leading: 'Leading', unresolved: 'Unresolved',
-  runoff_required: 'Runoff required', ranked_choice_pending: 'Ranked-choice tabulation pending',
+  runoff_required: 'Runoff required', ranked_choice_pending: 'First-choice totals · Ranked-choice tabulation pending',
   final_unofficial: 'Final unofficial', certified: 'Certified',
 };
 

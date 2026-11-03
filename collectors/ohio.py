@@ -1,17 +1,15 @@
 """Refresh the Ohio record in the static Pages snapshot."""
 import argparse
 from datetime import datetime, timezone
-import json
-from pathlib import Path
 import re
 import subprocess
 import xml.etree.ElementTree as ET
 
+from snapshot import DATE, save_record
+
 FEED = "https://liveresults.ohiosos.gov/Api/v1/download?filename=VSSC1622XmlFileBlob"
-DATE = "2026-11-03"
 NS = "{http://grouper.ieee.org/groups/1622/groups/2/V1/1622_2-election_results_reporting.xsd}"
 LIMIT = 32 * 1024 * 1024
-SNAPSHOT = Path(__file__).resolve().parents[1] / "frontend" / "results.json"
 
 
 def elements(parent, name):
@@ -107,23 +105,7 @@ def main():
     if args.check:
         print(f"Validated Ohio feed with {len(record['candidates'])} candidates.")
         return
-    snapshot = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
-    if snapshot["electionDate"] != DATE:
-        raise ValueError("Unexpected snapshot election date")
-    previous = snapshot["records"].get("OH", {})
-    previous_time = previous.get("sourceUpdatedAt")
-    if (previous.get("status") == "certified"
-            or (previous_time and datetime.fromisoformat(previous_time) >
-                datetime.fromisoformat(record["sourceUpdatedAt"]))
-            or (record["status"] == "unresolved" and previous.get("status") == "reporting")
-            or record == previous):
-        print("Kept the existing Ohio snapshot.")
-        return
-    snapshot["records"]["OH"] = record
-    temporary = SNAPSHOT.with_suffix(".tmp")
-    temporary.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    temporary.replace(SNAPSHOT)
-    print(f"Updated Ohio snapshot with {len(record['candidates'])} candidates.")
+    save_record("OH", record)
 
 
 if __name__ == "__main__":
