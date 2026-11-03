@@ -26,6 +26,49 @@
         }
       ],
       "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+    },
+    "TX": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "KEN PAXTON",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "JAMES TALARICO",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "TED BROWN",
+          "party": "LIBERTARIAN",
+          "votes": null
+        },
+        {
+          "name": "AVERY AYERS",
+          "party": "WRITE-IN",
+          "votes": null
+        },
+        {
+          "name": "BRADFORD 'BRAD' HALL",
+          "party": "WRITE-IN",
+          "votes": null
+        },
+        {
+          "name": "ZUL MOHAMED",
+          "party": "WRITE-IN",
+          "votes": null
+        },
+        {
+          "name": "JADE SIMMONS",
+          "party": "WRITE-IN",
+          "votes": null
+        }
+      ],
+      "reportingPercent": 0.0,
+      "sourceUpdatedAt": "2026-10-14T12:34:00Z",
+      "sourceUrl": "https://electionresults.sos.state.tx.us/results.html"
     }
   }
 }
