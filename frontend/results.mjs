@@ -1,8 +1,7 @@
-import { races } from './elections.mjs';
+import { races, dreamingRaces } from './elections.mjs';
 
 const interval = 30_000;
-const validStates = new Set(races.map(({ state }) => state));
-const feedOnlyStates = new Set(['FL', 'SC']);
+const validStates = new Set([...races, ...dreamingRaces].map(({ state }) => state));
 const validStatuses = new Set([
   'reporting', 'leading', 'unresolved', 'runoff_required',
   'ranked_choice_pending', 'final_unofficial', 'certified',
@@ -15,7 +14,7 @@ export function validateSnapshot(snapshot) {
     throw new Error('Invalid election snapshot');
   }
   for (const [state, record] of Object.entries(snapshot.records)) {
-    if ((!validStates.has(state) && !feedOnlyStates.has(state)) || !validStatuses.has(record?.status) ||
+    if (!validStates.has(state) || !validStatuses.has(record?.status) ||
         record.synthetic || !Array.isArray(record.candidates) ||
         record.candidates.some(candidate => !candidate ||
           typeof candidate.name !== 'string' || !candidate.name.trim() ||
@@ -42,8 +41,7 @@ export async function pollResults(onResults, onError) {
       signal: AbortSignal.timeout(10_000),
     });
     if (!response.ok) throw new Error('Results request failed');
-    const records = validateSnapshot(await response.json());
-    onResults(Object.fromEntries(Object.entries(records).filter(([state]) => validStates.has(state))));
+    onResults(validateSnapshot(await response.json()));
   } catch {
     onError();
   } finally {

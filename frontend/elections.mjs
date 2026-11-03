@@ -10,6 +10,13 @@ export const races = [
   ['KS', 'Kansas', 'Kansas Secretary of State', 'https://www.sos.ks.gov/elections/election-results.html', 'R'],
 ].map(([state, name, authority, url, incumbent]) => ({ state, name, authority, url, incumbent }));
 
+export const dreamingRaces = [
+  { state: 'FL', name: 'Florida', authority: 'Florida Division of Elections',
+    url: 'https://floridaelectionwatch.gov/', election: 'Special election' },
+  { state: 'SC', name: 'South Carolina', authority: 'South Carolina Election Commission',
+    url: 'https://scvotes.gov/elections-statistics/election-results/' },
+];
+
 export const defaults = Object.fromEntries(races.map(({ state }) => [state, ['MI', 'GA', 'NC'].includes(state)]));
 export const additional = races.slice(3);
 

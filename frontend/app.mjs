@@ -2,7 +2,7 @@ import { fetchNorthCarolina } from './north-carolina.mjs';
 import { ohioFeed, parseOhio } from './ohio.mjs';
 import { pollResults } from './results.mjs';
 import { houseFeed, houseSeats, tallyHouse } from './house.mjs';
-import { races, defaults, additional, scenario, balance, summarize, resolvedParty, testRecords } from './elections.mjs';
+import { races, dreamingRaces, defaults, additional, scenario, balance, summarize, resolvedParty, testRecords } from './elections.mjs';
 
 const byId = id => document.getElementById(id);
 let officialRecords = {};
@@ -94,14 +94,15 @@ function renderBalance() {
 
 function renderFeed() {
   const demo = byId('demo').checked;
-  const records = Object.values(demo ? testRecords : officialRecords);
+  const source = demo ? testRecords : officialRecords;
+  const records = races.map(({ state }) => source[state]).filter(Boolean);
   const latest = Math.max(...records.map(record => Date.parse(record.sourceUpdatedAt ?? '') || -Infinity));
   const timestamp = Number.isFinite(latest) ? time.format(latest) : 'unavailable';
   const reporting = records.filter(record => record.candidates.some(candidate => candidate.votes !== null)).length;
   const status = demo
     ? `TEST DATA · ${records.length} simulated returns · Sample update ${timestamp}`
     : `${refreshFailed ? 'Refresh failed' : reporting ? 'Published official returns' : 'Awaiting official returns'} · ` +
-      `${reporting} of 9 reporting · ` +
+      `${reporting} of ${races.length} reporting · ` +
       `Latest source update ${timestamp}`;
   const feed = byId('feed-status');
   if (feed.textContent !== status) feed.textContent = status;
@@ -109,10 +110,15 @@ function renderFeed() {
 
 function renderRaces() {
   const demo = byId('demo').checked;
+  renderRaceGrid(byId('race-grid'), races, demo);
+  renderRaceGrid(byId('dreaming-grid'), dreamingRaces, demo);
+  renderFeed();
+}
+
+function renderRaceGrid(grid, raceList, demo) {
   const records = demo ? testRecords : officialRecords;
-  const grid = byId('race-grid');
   const open = new Set([...grid.querySelectorAll('details[open]')].map(node => node.id));
-  const items = races.map(race => {
+  const items = raceList.map(race => {
     const record = records[race.state];
     return { race, record, totals: summarize(record?.candidates ?? []) };
   });
@@ -123,12 +129,11 @@ function renderRaces() {
   if (sort === 'margin') items.sort((a, b) => (a.totals.points ?? Infinity) - (b.totals.points ?? Infinity));
   if (sort === 'progress') items.sort((a, b) => progress(b.record) - progress(a.record));
   if (sort === 'updated') items.sort((a, b) => (b.record?.sourceUpdatedAt ?? '').localeCompare(a.record?.sourceUpdatedAt ?? ''));
-  renderFeed();
   grid.replaceChildren(...items.map(({ race, record, totals }) => {
     const card = element('article', undefined, 'race');
     const heading = element('div', undefined, 'race-heading');
     heading.append(element('span', race.state, 'badge'), element('h3', race.name));
-    card.append(heading, element('p', 'U.S. Senate · General election', 'note'));
+    card.append(heading, element('p', `U.S. Senate · ${race.election ?? 'General election'}`, 'note'));
     const status = statuses[record?.status] ?? 'Awaiting results';
     card.append(element('p', (demo ? 'TEST MODE · ' : '') + status, 'status'));
     if (totals.ranked.length) {

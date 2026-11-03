@@ -60,7 +60,7 @@ h3 { font-size: 1.28rem; }
 .seat-chart .secured { background: repeating-linear-gradient(135deg, currentColor 0 4px, var(--surface) 4px 7px); }
 .bar-caption { margin: .5rem 0 0; text-align: center; font-size: .8rem; color: var(--muted); }
 .note { font-size: .9rem; color: var(--muted); }
-#races, .scenario, .method { margin-top: 2.7rem; }
+#races, .scenario, #just-dreaming, .method { margin-top: 2.7rem; }
 .section-head { display: flex; flex-wrap: wrap; gap: .8rem; justify-content: space-between; align-items: end; margin-bottom: 1rem; }
 .section-head label { font-size: .88rem; color: var(--muted); }
 .race-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: .85rem; align-items: start; }
