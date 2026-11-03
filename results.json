@@ -1,0 +1,31 @@
+{
+  "electionDate": "2026-11-03",
+  "records": {
+    "NC": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Michael Dublin",
+          "party": "GRE",
+          "votes": null
+        },
+        {
+          "name": "Michael Whatley",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": null
+        }
+      ],
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+    }
+  }
+}

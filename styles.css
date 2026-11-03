@@ -1,0 +1,93 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b1120; --surface: #111b2c; --inset: #0d1525; --text: #f0f4fd;
+  --muted: #aab9d1; --line: #30405a; --blue: #86b3ff; --red: #ff9b9c;
+  --neutral: #bec7d9; --accent: #7cddcc; --focus: #f7c86a;
+}
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f0f4fa; --surface: #fff; --inset: #edf2f9; --text: #131e32;
+  --muted: #485a75; --line: #bdcbe0; --blue: #2059ae; --red: #ac3542;
+  --neutral: #526581; --accent: #08675b; --focus: #855900;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 1rem; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 1rem/1.55 system-ui, sans-serif; }
+.wrap { width: min(1140px, calc(100% - 2rem)); margin-inline: auto; }
+.masthead, footer { border-block-end: 1px solid var(--line); }
+.mast-inner, footer .wrap { min-height: 68px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .7rem 1rem; padding-block: .65rem; }
+.brand { color: var(--text); font-size: .84rem; font-weight: 800; letter-spacing: .12em; text-decoration: none; white-space: nowrap; }
+.brand span, .badge { display: inline-grid; place-items: center; padding: .3rem .5rem; border: 1px solid var(--line); border-radius: .4rem; color: var(--accent); background: var(--inset); }
+nav { display: flex; gap: clamp(.7rem, 3vw, 2rem); font-size: .9rem; }
+nav a { color: var(--muted); text-decoration: none; }
+a { color: var(--blue); }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+.skip { position: absolute; inset: 0 auto auto 1rem; transform: translateY(-150%); background: var(--surface); padding: .5rem; }
+.skip:focus { transform: none; }
+button, select { font: inherit; font-size: .88rem; color: var(--text); background: var(--inset); border: 1px solid var(--line); border-radius: .45rem; padding: .5rem .7rem; }
+button, select, input, summary { cursor: pointer; }
+button:hover { border-color: var(--accent); }
+input { accent-color: var(--accent); }
+.hero { padding: clamp(2rem, 6vw, 4.7rem) 0 1.7rem; }
+.eyebrow { margin: 0 0 .4rem; color: var(--accent); font: 700 .75rem/1.4 ui-monospace, monospace; letter-spacing: .12em; }
+.dot { display: inline-block; background: currentColor; border-radius: 50%; width: .55rem; height: .55rem; margin-right: .35rem; }
+.divider { color: var(--muted); margin-inline: .25rem; }
+h1, h2, h3 { margin: 0; line-height: 1.12; }
+h1 { max-width: 18ch; font-size: clamp(2.35rem, 7vw, 5rem); letter-spacing: -.055em; }
+h2 { font-size: clamp(1.5rem, 3.4vw, 2.2rem); letter-spacing: -.035em; }
+h3 { font-size: 1.28rem; }
+.lede { color: var(--muted); font-size: clamp(1rem, 2.4vw, 1.16rem); }
+.feed { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .25rem 1rem; border-top: 1px solid var(--line); margin-top: 1.65rem; padding-top: .65rem; font-size: .88rem; color: var(--muted); }
+.feed p { margin: 0; }
+.feed label { color: var(--text); }
+.panel, .race { border: 1px solid var(--line); background: var(--surface); border-radius: .9rem; }
+.panel { padding: clamp(1rem, 3vw, 1.8rem); }
+.scores { display: flex; flex-wrap: wrap; gap: .8rem 2.5rem; margin: 1.25rem 0; }
+.score { display: grid; align-content: start; color: var(--neutral); }
+.score strong { font: 750 clamp(1.9rem, 6vw, 3.3rem)/1.1 system-ui, sans-serif; letter-spacing: -.05em; }
+.score span { color: var(--muted); font-size: .88rem; }
+.dem { color: var(--blue); } .rep { color: var(--red); }
+.seat-chart { display: flex; height: .8rem; position: relative; border-radius: .3rem; background: var(--inset); }
+.seat-chart::after { content: ''; position: absolute; left: 51%; top: -.3rem; bottom: -.3rem; width: 2px; background: var(--text); }
+.seat-chart span, .vote-fill { background: currentColor; }
+.seat-chart span:first-child { border-radius: .3rem 0 0 .3rem; }
+.seat-chart span:last-child { border-radius: 0 .3rem .3rem 0; }
+.seat-chart .pending { color: var(--neutral); }
+.seat-chart .secured { background: repeating-linear-gradient(135deg, currentColor 0 4px, var(--surface) 4px 7px); }
+.bar-caption { margin: .5rem 0 0; text-align: center; font-size: .8rem; color: var(--muted); }
+.note { font-size: .9rem; color: var(--muted); }
+#races, .scenario, .method { margin-top: 2.7rem; }
+.section-head { display: flex; flex-wrap: wrap; gap: .8rem; justify-content: space-between; align-items: end; margin-bottom: 1rem; }
+.section-head label { font-size: .88rem; color: var(--muted); }
+.race-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: .85rem; align-items: start; }
+.race { padding: 1rem; }
+.race-heading { display: flex; gap: .65rem; align-items: center; }
+.badge { min-width: 2.45rem; font: 700 .85rem ui-monospace, monospace; padding-block: .62rem; }
+.status { margin: .9rem 0; color: var(--accent); font-size: .84rem; font-weight: 650; }
+.race .note { margin-block: .5rem; }
+.candidates { list-style: none; padding: 0; margin: .7rem 0; }
+.candidates li { margin-block: .6rem; }
+.candidate-row { display: flex; justify-content: space-between; gap: .6rem; font-size: .88rem; }
+.candidate-row span:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.vote-track { display: block; margin-top: .3rem; height: .3rem; border-radius: 1rem; background: var(--line); }
+.vote-fill { display: block; height: 100%; border-radius: inherit; }
+details { border-top: 1px solid var(--line); margin-top: .8rem; padding-top: .65rem; }
+summary, .official { font-size: .86rem; }
+.official { display: inline-block; margin-top: .7rem; }
+.scenario-layout { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1rem; align-items: start; }
+fieldset { border: 1px solid var(--line); border-radius: .55rem; margin: 0 0 .7rem; padding: .6rem .8rem; }
+legend { padding-inline: .3rem; font-weight: 650; }
+.options { display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
+.options label { white-space: nowrap; }
+.scenario-output { background: var(--inset); border: 1px solid var(--line); padding: 0 1rem; border-radius: .65rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.method { max-width: 75ch; margin-bottom: 2.7rem; color: var(--muted); }
+.method h2 { color: var(--text); }
+footer { border-block: 1px solid var(--line) 0; color: var(--muted); font-size: .85rem; }
+@media (max-width: 850px) { .race-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 560px) {
+  .race-grid, .scenario-layout { grid-template-columns: 1fr; }
+  nav { order: 3; flex-basis: 100%; }
+  .scores { gap: .8rem 1.1rem; }
+}
