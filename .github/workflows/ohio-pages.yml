@@ -45,15 +45,27 @@ jobs:
       - name: Set up canvass PDF extraction
         continue-on-error: true
         run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - name: Set up election browser
+        id: election-browser
+        continue-on-error: true
+        run: |
+          python3 -m venv "$RUNNER_TEMP/election-browser"
+          "$RUNNER_TEMP/election-browser/bin/python" -m pip install 'playwright==1.56.0'
+          "$RUNNER_TEMP/election-browser/bin/python" -m playwright install --with-deps chromium
       - name: Collect Iowa statewide Senate results
         continue-on-error: true
         env:
           IOWA_CANVASS_URL: ${{ vars.IOWA_CANVASS_URL }}
         run: |
-          python3 -m venv "$RUNNER_TEMP/iowa-browser"
-          "$RUNNER_TEMP/iowa-browser/bin/python" -m pip install 'playwright==1.56.0'
-          "$RUNNER_TEMP/iowa-browser/bin/python" -m playwright install --with-deps chromium
-          "$RUNNER_TEMP/iowa-browser/bin/python" -B collectors/iowa.py
+          if [ "${{ steps.election-browser.outcome }}" = success ]; then
+            "$RUNNER_TEMP/election-browser/bin/python" -B collectors/iowa.py
+          else
+            python3 -B collectors/iowa.py
+          fi
+      - name: Collect Michigan statewide Senate results
+        if: steps.election-browser.outcome == 'success'
+        continue-on-error: true
+        run: '"$RUNNER_TEMP/election-browser/bin/python" -B collectors/michigan.py'
       - name: Collect Kansas canvass
         continue-on-error: true
         run: python3 collectors/kansas.py

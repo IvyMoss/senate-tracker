@@ -25,7 +25,8 @@ Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the fil
 | Maine | GitHub Actions | Looks for the official general-election U.S. Senate workbook and reads its statewide totals. The 2020 and 2024 archives passed validation. The 2026 workbook was not listed at verification. |
 | Iowa | GitHub Actions | Reads the rendered statewide Senate table from the official election-night page using headless Chromium on the runner. |
 | Kansas | GitHub Actions | Checks the official archive for a 2026 general-election statewide vote totals PDF. |
-| Other two states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
+| Michigan | GitHub Actions | Reads the statewide U.S. Senate totals from Michigan’s results portal. The 2026 page showed no results at verification. |
+| Georgia | Awaiting integration | Race cards include source links and display published snapshot data if available. |
 
 The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs each collector in a separate step, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Scheduled collection runs on GitHub's runner, including when nobody has the page open.
 

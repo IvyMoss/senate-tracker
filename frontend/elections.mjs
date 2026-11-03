@@ -1,5 +1,5 @@
 export const races = [
-  ['MI', 'Michigan', 'Michigan Secretary of State', 'https://www.michigan.gov/sos/elections/election-results-and-data', 'D'],
+  ['MI', 'Michigan', 'Michigan Secretary of State', 'https://mvic.sos.state.mi.us/votehistory/Index?electionDate=11-3-2026&type=C', 'D'],
   ['GA', 'Georgia', 'Georgia Secretary of State', 'https://sos.ga.gov/page/georgia-election-results', 'D'],
   ['NC', 'North Carolina', 'North Carolina State Board of Elections', 'https://er.ncsbe.gov/', 'R'],
   ['ME', 'Maine', 'Maine Secretary of State', 'https://www.maine.gov/sos/elections-voting/election-results-data', 'R'],
