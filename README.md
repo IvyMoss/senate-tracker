@@ -23,9 +23,11 @@ Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the fil
 | Alaska | GitHub Actions | Parses the official CSV for statewide first-choice totals. The seat remains unresolved pending ranked-choice tabulation. The parser was tested with the 2026 primary CSV. The linked general-election CSV returned 404 during validation. |
 | Texas | GitHub Actions | Parses the official statewide U.S. Senate table and the reported percentage of polling locations. Blank counts remain blank. |
 | Maine | GitHub Actions | Looks for the official general-election U.S. Senate workbook and reads its statewide totals. The 2020 and 2024 archives passed validation. The 2026 workbook was not listed at verification. |
-| Other four states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
+| Iowa | GitHub Actions | Reads an official statewide canvass PDF once the repository variable `IOWA_CANVASS_URL` points to the 2026 general-election report. |
+| Kansas | GitHub Actions | Checks the official archive for a 2026 general-election statewide vote totals PDF. |
+| Other two states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
 
-The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs Ohio, Alaska, Texas, and Maine separately, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Ohio, Alaska, Texas, and Maine collection runs on GitHub's runner, including when nobody has the page open.
+The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs each collector in a separate step, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Scheduled collection runs on GitHub's runner, including when nobody has the page open.
 
 The browser checks `results.json` on page load and about every 30 seconds while open. Failed checks preserve the last accepted data in the tab. The calculator counts only published certified results with a known caucus affiliation.
 
@@ -41,3 +43,5 @@ python3 -B collectors/ohio.py --check
 ```
 
 Node.js is used for the JavaScript tests and the optional North Carolina snapshot publisher, which also uses `unzip`. The site and its normal collection paths require no Node.js. The Ohio check uses Python and `curl` and leaves the local snapshot untouched.
+
+Iowa and Kansas currently use canvass reports. Their election-night portals returned HTTP 403 during verification. To enable Iowa after the official PDF is published, set `IOWA_CANVASS_URL` under **Settings → Secrets and variables → Actions → Variables**. Kansas checks its archive automatically. Both parsers use `pdftotext` on the GitHub runner.

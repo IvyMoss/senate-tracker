@@ -42,6 +42,17 @@ jobs:
       - name: Collect Maine results
         continue-on-error: true
         run: python3 collectors/maine.py
+      - name: Set up canvass PDF extraction
+        continue-on-error: true
+        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - name: Collect Iowa canvass
+        continue-on-error: true
+        env:
+          IOWA_CANVASS_URL: ${{ vars.IOWA_CANVASS_URL }}
+        run: python3 collectors/iowa.py
+      - name: Collect Kansas canvass
+        continue-on-error: true
+        run: python3 collectors/kansas.py
       - name: Save updated snapshot
         run: |
           if git diff --quiet -- frontend/results.json; then
