@@ -54,6 +54,9 @@ h3 { font-size: 1.28rem; }
 .seat-chart span:first-child { border-radius: .3rem 0 0 .3rem; }
 .seat-chart span:last-child { border-radius: 0 .3rem .3rem 0; }
 .seat-chart .pending { color: var(--neutral); }
+.house { margin-top: 1rem; }
+.house .seat-chart::after { left: calc(218 / 435 * 100%); }
+.house .seat-chart .other { color: var(--accent); }
 .seat-chart .secured { background: repeating-linear-gradient(135deg, currentColor 0 4px, var(--surface) 4px 7px); }
 .bar-caption { margin: .5rem 0 0; text-align: center; font-size: .8rem; color: var(--muted); }
 .note { font-size: .9rem; color: var(--muted); }

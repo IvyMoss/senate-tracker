@@ -1,6 +1,7 @@
 import { fetchNorthCarolina } from './north-carolina.mjs';
 import { ohioFeed, parseOhio } from './ohio.mjs';
 import { pollResults } from './results.mjs';
+import { houseFeed, houseSeats, tallyHouse } from './house.mjs';
 import { races, defaults, additional, scenario, balance, summarize, resolvedParty, testRecords } from './elections.mjs';
 
 const byId = id => document.getElementById(id);
@@ -28,6 +29,46 @@ function score(label, value, className) {
   const node = element('div', undefined, 'score ' + (className ?? ''));
   node.append(element('strong', value), element('span', label));
   return node;
+}
+
+let lastHouseUpdate = null;
+
+async function refreshHouse() {
+  const status = byId('house-status');
+  try {
+    const response = await fetch(houseFeed, {
+      credentials: 'omit',
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!response.ok) throw new Error('House results request failed');
+    const { seats, updated } = tallyHouse(await response.json());
+    if (lastHouseUpdate !== null && updated < lastHouseUpdate) {
+      throw new Error('Older House results received');
+    }
+
+    const groups = [
+      ['Democratic', seats.democratic, 'dem'],
+      ['Uncalled', seats.uncalled, 'pending'],
+      ['Other', seats.other, 'other'],
+      ['Republican', seats.republican, 'rep'],
+    ].filter(([label, count]) => label !== 'Other' || count > 0);
+    byId('house-scores').replaceChildren(...groups.map(([label, count, color]) => score(label, count, color)));
+    byId('house-chart').replaceChildren(...groups.filter(([, count]) => count > 0).map(([, count, color]) => {
+      const segment = element('span', undefined, color);
+      segment.style.width = count / houseSeats * 100 + '%';
+      return segment;
+    }));
+    lastHouseUpdate = updated;
+    const message = 'Source updated ' + time.format(updated);
+    if (status.textContent !== message) status.textContent = message;
+  } catch (error) {
+    console.warn('House results refresh failed', error);
+    status.textContent = lastHouseUpdate === null
+      ? 'House results unavailable. Retrying in about a minute.'
+      : 'House refresh failed. Showing results from ' + time.format(lastHouseUpdate) + '.';
+  } finally {
+    setTimeout(refreshHouse, 60_000);
+  }
 }
 
 function renderBalance() {
@@ -278,3 +319,4 @@ byId('ohio-import').addEventListener('change', async event => {
 });
 
 refreshNorthCarolina();
+refreshHouse();
