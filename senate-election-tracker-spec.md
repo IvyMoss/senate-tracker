@@ -872,6 +872,8 @@ GitHub Actions logs show the status of scheduled collectors and Pages deployment
 
 ## 15. Published Snapshot
 
+The workflow compares direct state records with civicAPI for all nine races and Open America for five. For comparable preliminary records, the highest sum of candidate votes wins. A newer race-specific update breaks ties. A direct state record wins an exact tie when available. Verified certification takes precedence. The dashboard attributes the selected feed and keeps candidates from the same record together.
+
 The public data interface is the static `results.json` file served beside `index.html`. It contains the election date and a `records` object keyed by state code. See the README and `frontend/results.mjs` for the runtime contract. The site computes vote shares, margins, and Senate arithmetic in the browser. A public API and historical endpoints remain possible future additions.
 
 ---

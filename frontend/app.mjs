@@ -132,8 +132,11 @@ function renderRaces() {
         record?.sourceUpdatedAt ? 'Source update · ' + time.format(new Date(record.sourceUpdatedAt)) :
         'Official source timestamp unavailable', 'note'),
       element('p', 'County breakdowns and history unavailable', 'note'));
-    const source = element('a', 'Official election source', 'official');
-    source.href = race.url;
+    const source = element('a', record?.sourceName ?? 'Official election source', 'official');
+    source.href = {
+      civicAPI: 'https://civicapi.org/',
+      'State election office via Open America': 'https://openamerica.io/elections/api/',
+    }[record?.sourceName] ?? race.url;
     card.append(details, source);
     return card;
   }));
@@ -204,8 +207,12 @@ function updateRecords() {
   for (const [state, record] of Object.entries(browserRecords)) {
     const published = records[state];
     if (published?.status === 'certified') continue;
-    if (published?.sourceUpdatedAt && published.sourceUpdatedAt > (record.sourceUpdatedAt ?? '')) continue;
-    if (record.status === 'unresolved' && published?.candidates.some(candidate => candidate.votes !== null)) continue;
+    const browserTotal = summarize(record.candidates).total ?? -1;
+    const publishedTotal = summarize(published?.candidates ?? []).total ?? -1;
+    if (publishedTotal > browserTotal) continue;
+    const browserTime = Date.parse(record.sourceUpdatedAt ?? '') || -Infinity;
+    const publishedTime = Date.parse(published?.sourceUpdatedAt ?? '') || -Infinity;
+    if (publishedTotal === browserTotal && publishedTime > browserTime) continue;
     records[state] = record;
   }
   const changed = JSON.stringify(records) !== JSON.stringify(officialRecords);
@@ -251,15 +258,17 @@ byId('ohio-import').addEventListener('change', async event => {
   try {
     if (file.size > 32 * 1024 * 1024) throw new Error('Ohio XML file is too large');
     const record = parseOhio(await file.text());
-    const previous = officialRecords.OH;
-    if (previous?.status === 'certified' ||
+    const previous = browserRecords.OH;
+    if (publishedRecords.OH?.status === 'certified' ||
         (previous?.sourceUpdatedAt && previous.sourceUpdatedAt > record.sourceUpdatedAt) ||
         (record.status === 'unresolved' && previous?.status === 'reporting')) {
       throw new Error('Kept the Ohio result already displayed');
     }
     browserRecords.OH = record;
     updateRecords();
-    status.textContent = 'Ohio report loaded for this session.';
+    status.textContent = officialRecords.OH === record
+      ? 'Ohio report loaded for this session.'
+      : 'Ohio report loaded. The dashboard is displaying the preferred feed.';
   } catch (error) {
     status.textContent = error.message;
   } finally {

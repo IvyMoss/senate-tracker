@@ -46,3 +46,9 @@ python3 -B collectors/ohio.py --check
 Node.js is used for the JavaScript tests and the optional North Carolina snapshot publisher, which also uses `unzip`. The site and its normal collection paths require no Node.js. The Ohio check uses Python and `curl` and leaves the local snapshot untouched.
 
 Iowa uses the [official statewide Senate page](https://electionresults.iowa.gov/IA/127077/web.345435/#/detail/1000). Direct HTTP requests returned 403 during verification, while the page rendered in the browser. The scheduled job uses Python Playwright and Chromium. If live collection fails, `IOWA_CANVASS_URL` can supply an official Iowa PDF as a fallback. Kansas checks its official archive automatically. The PDF paths use `pdftotext`.
+
+## Comparing sources
+
+The workflow checks [civicAPI](https://civicapi.org/api-documentation) for all nine states and [Open America](https://openamerica.io/elections/api/) for Georgia, Iowa, Michigan, North Carolina, and Texas. Open America relays state data. civicAPI aggregates returns and also publishes race calls, which the tracker ignores. The tracker excludes civicAPI test data and counts after round one. The browser compares North Carolina's direct ZIP and any manually imported Ohio XML with the published snapshot.
+
+Each race displays a single feed's complete candidate record. The highest reported candidate-vote total wins. A newer race-specific timestamp breaks a tie, followed by the direct state source if both still tie. A feed-wide timestamp is not used as a race timestamp. Verified certification takes precedence over preliminary counts. The last accepted record for each scheduled source is retained so one feed outage does not erase results. The source shown on each card identifies the feed selected for that race.
