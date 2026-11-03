@@ -76,7 +76,8 @@ function renderRaces() {
     return { race, record, totals: summarize(record?.candidates ?? []) };
   });
   const sort = byId('sort').value;
-  const progress = record => record?.reportingTotal > 0 ? record.reporting / record.reportingTotal : -1;
+  const progress = record => record?.reportingPercent != null ? record.reportingPercent / 100
+    : record?.reportingTotal > 0 ? record.reporting / record.reportingTotal : -1;
   if (sort === 'state') items.sort((a, b) => a.race.name.localeCompare(b.race.name));
   if (sort === 'margin') items.sort((a, b) => (a.totals.points ?? Infinity) - (b.totals.points ?? Infinity));
   if (sort === 'progress') items.sort((a, b) => progress(b.record) - progress(a.record));
@@ -116,7 +117,9 @@ function renderRaces() {
     } else {
       card.append(element('p', 'Candidate totals unavailable', 'note'));
     }
-    card.append(element('p', progress(record) >= 0
+    card.append(element('p', record?.reportingPercent != null
+      ? `${number.format(record.reportingPercent)}% of polling locations reporting`
+      : progress(record) >= 0
       ? `${record.reporting} of ${record.reportingTotal} ${record.reportingUnit} reporting`
       : 'Reporting progress unavailable', 'note'));
     const details = element('details');

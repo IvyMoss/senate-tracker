@@ -1,43 +1,42 @@
 # 2026 Senate Election Tracker
 
-Local Phase 1 dashboard for nine U.S. Senate races. The default view shows awaiting-results placeholders with links to the state election authorities listed in the spec. Enable **Show test data** to preview synthetic returns, margins, and reporting progress. The results-based tally is separate from the scenario calculator.
+The tracker is a static website built with **plain HTML, CSS, and vanilla JavaScript**. GitHub Pages serves the files in `frontend/` directly. Visitors need only a modern browser. There is no framework, bundler, npm install, Node.js runtime, or application server for the deployed site.
+
+The dashboard covers nine Senate races and includes a separate scenario calculator. **Show test data** previews synthetic returns without changing the results-based tally. See the [project specification](senate-election-tracker-spec.md) for requirements and implementation status.
 
 ## Run locally
+
+Use Python's built-in static server for a local preview. This command works from any folder.
 
 ```sh
 python3 -m http.server 8766 --bind 127.0.0.1 --directory "/Users/michaelreno/Documents/Senate Tracker/frontend"
 ```
 
-Keep the terminal running and open http://127.0.0.1:8766/ in a browser. The command works from any folder. Check **Show test data** to populate six race cards, starting with Michigan.
+Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the files during local preview. The dashboard logic runs in the browser.
 
-## Check calculations
+## How results reach the site
+
+| State or source | Where collection runs | Current behavior |
+| --- | --- | --- |
+| North Carolina | Visitor's browser | Downloads the official ZIP on page load and checks again about every five minutes. The browser decompresses and parses the file. An all-zero archive supplies the roster with blank vote counts. |
+| Ohio | GitHub Actions | Downloads official XML with `curl`, uses Python to extract statewide Senate totals, and skips reports marked as tests. The site also offers an XML import for the current browser tab. |
+| Alaska | GitHub Actions | Parses the official CSV for statewide first-choice totals. The seat remains unresolved pending ranked-choice tabulation. The parser was tested with the 2026 primary CSV. The linked general-election CSV returned 404 during validation. |
+| Texas | GitHub Actions | Parses the official statewide U.S. Senate table and the reported percentage of polling locations. Blank counts remain blank. |
+| Other five states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
+
+The **Ohio results and Pages** workflow is configured to run about every five minutes, on relevant pushes to `main`, and on manual dispatch. It runs Ohio, Alaska, and Texas separately, commits changed results to `frontend/results.json`, and deploys `frontend/`. GitHub can delay scheduled runs. Ohio, Alaska, and Texas collection runs on GitHub's runner, including when nobody has the page open.
+
+The browser checks `results.json` on page load and about every 30 seconds while open. Failed checks preserve the last accepted data in the tab. The calculator counts only published certified results with a known caucus affiliation.
+
+## Publish changes
+
+Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Push changes to `main` and check **Actions → Ohio results and Pages**. Use **Run workflow** there for a manual run. If the collector has committed a snapshot to `main` since your last pull, sync your local branch before pushing.
+
+## Developer checks
 
 ```sh
 node --test tests/*.test.mjs
+python3 -B collectors/ohio.py --check
 ```
 
-The starting alignment assigns 45 Democratic caucus seats and 46 Republican seats outside the nine tracked races. Certified tracked outcomes with a known caucus affiliation add to those figures. The scenario calculator starts with Democratic holds in Michigan and Georgia and a pickup in North Carolina, for 48 seats.
-
-## Publish results on a static host
-
-Deploy the contents of `frontend/`, including `results.json` and `results.mjs`. The browser checks the snapshot on load and every 30 seconds after each request completes. It keeps the last accepted snapshot in memory if a refresh fails.
-
-A results publisher should replace `results.json` with a complete snapshot for the election date. Use a `records` object keyed by state abbreviation. Each record supplies `status` and a `candidates` array with `name`, `party`, and `votes` (an integer or null). Include `sourceUpdatedAt` as an ISO timestamp when available. For reporting progress, provide `reporting`, `reportingTotal`, and `reportingUnit`. Set `status` to `certified` and `winnerCaucus` to `D` or `R` only for verified certified outcomes with a known caucus affiliation.
-
-## Collect North Carolina results
-
-Run from the project root with Node.js and the `unzip` command installed.
-
-```sh
-node collectors/update-results.mjs
-```
-
-The job downloads the [official NCSBE results archive](https://www.ncsbe.gov/results-data/election-results/historical-election-results-data), sums the Senate contest across precincts and administrative reporting units, and updates `frontend/results.json` atomically. An archive with only zeroes supplies the candidate roster with blank vote totals until voting returns appear. The archive does not provide reporting progress or establish certification, so the job leaves both out.
-
-This command runs once. For automatic public updates, schedule it on a host that can reach the state archive and publish the updated static files. North Carolina's [election night dashboard](https://www.ncsbe.gov/results-data/election-results/about-election-results-dashboard) has a documented refresh cadence. The archive's publication cadence still needs verification. Ohio, Alaska, and Texas remain the next planned adapters.
-
-## Collect results in the browser
-
-The static dashboard checks North Carolina's official ZIP on load and every five minutes while open. It uses browser-native raw DEFLATE decompression. The command above is an optional snapshot publisher. The dashboard itself requires no Node.js or build step.
-
-Ohio's XML endpoint does not grant cross-origin access to the static dashboard. Under **State results**, open **Load an Ohio results file**, download the official XML, then select the downloaded file. Imports last for the current tab session. The adapter accepts statewide totals for the November 2026 general election, rejects reports marked as tests, and leaves certification to a verified published snapshot.
+Node.js is used for the JavaScript tests and the optional North Carolina snapshot publisher, which also uses `unzip`. The site and its normal collection paths require no Node.js. The Ohio check uses Python and `curl` and leaves the local snapshot untouched.

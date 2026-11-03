@@ -22,6 +22,8 @@ export function validateSnapshot(snapshot) {
           (candidate.votes !== null && !isCount(candidate.votes))) ||
         (record.sourceUpdatedAt != null && (typeof record.sourceUpdatedAt !== 'string' ||
           !Number.isFinite(Date.parse(record.sourceUpdatedAt)))) ||
+        (record.reportingPercent != null && (!Number.isFinite(record.reportingPercent) ||
+          record.reportingPercent < 0 || record.reportingPercent > 100)) ||
         (record.reporting != null || record.reportingTotal != null) &&
           (!isCount(record.reporting) || !isCount(record.reportingTotal) ||
             record.reportingTotal === 0 || record.reporting > record.reportingTotal ||

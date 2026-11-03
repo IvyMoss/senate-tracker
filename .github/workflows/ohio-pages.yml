@@ -36,6 +36,9 @@ jobs:
       - name: Collect Alaska first-choice results
         continue-on-error: true
         run: python3 collectors/alaska.py
+      - name: Collect Texas results
+        continue-on-error: true
+        run: python3 collectors/texas.py
       - name: Save updated snapshot
         run: |
           if git diff --quiet -- frontend/results.json; then
