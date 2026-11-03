@@ -1,4 +1,4 @@
-"""Read the nine statewide Senate races from civicAPI's public race endpoint."""
+"""Read statewide Senate races from civicAPI's public race endpoint."""
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import json
@@ -7,8 +7,9 @@ import subprocess
 from snapshot import DATE, save_record
 
 RACES = {
-    "AK": 86916, "GA": 87087, "IA": 87151, "KS": 87162, "ME": 87188,
-    "MI": 87214, "NC": 87346, "OH": 87527, "TX": 87438,
+    "AK": 86916, "FL": 87068, "GA": 87087, "IA": 87151, "KS": 87162,
+    "ME": 87188, "MI": 87214, "NC": 87346, "OH": 87527, "SC": 87409,
+    "TX": 87438,
 }
 
 

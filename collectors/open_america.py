@@ -6,7 +6,8 @@ import subprocess
 from snapshot import save_record
 
 URL = "https://openamerica.io/elections/results.json?year=2026&office=Senate"
-STATES = {"GA", "IA", "MI", "NC", "TX"}
+RACES = {"FL-special": "FL", "GA": "GA", "IA": "IA", "MI": "MI",
+         "NC": "NC", "SC": "SC", "TX": "TX"}
 
 
 def parse_feed(payload, year=2026):
@@ -16,8 +17,9 @@ def parse_feed(payload, year=2026):
     expected_source = "state" if year == 2026 else f"state-{year}"
     if races and payload.get("source") != expected_source:
         raise ValueError("Unexpected Open America provenance")
-    for state in sorted(STATES & races.keys()):
-        race = races[state]
+    for key in sorted(RACES.keys() & races.keys()):
+        state = RACES[key]
+        race = races[key]
         try:
             candidates = []
             names = set()
