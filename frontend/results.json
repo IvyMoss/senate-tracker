@@ -277,6 +277,62 @@
       "sourceUpdatedAt": "2026-10-19T22:51:08.970000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
+    },
+    "FL": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Ashley Moody",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Angie Nixon",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Neil J. Gillespie",
+          "party": "Independent",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-11-03T04:46:23.487000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+    },
+    "SC": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Darline Graham",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Annie Andrews",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Kasie Whitener",
+          "party": "Libertarian",
+          "votes": null
+        },
+        {
+          "name": "Mark Hackett",
+          "party": "Constitution",
+          "votes": null
+        },
+        {
+          "name": "Write-in",
+          "party": "Nonpartisan",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-10-31T01:55:22.860000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
   },
   "sourceRecords": {
@@ -642,6 +698,66 @@
         "sourceUpdatedAt": "2026-10-26T23:10:50.289000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
+      }
+    },
+    "FL": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Ashley Moody",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Angie Nixon",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Neil J. Gillespie",
+            "party": "Independent",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-11-03T04:46:23.487000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      }
+    },
+    "SC": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Darline Graham",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Annie Andrews",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Kasie Whitener",
+            "party": "Libertarian",
+            "votes": null
+          },
+          {
+            "name": "Mark Hackett",
+            "party": "Constitution",
+            "votes": null
+          },
+          {
+            "name": "Write-in",
+            "party": "Nonpartisan",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-31T01:55:22.860000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       }
     }
   }
