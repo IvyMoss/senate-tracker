@@ -66,6 +66,10 @@ jobs:
         if: steps.election-browser.outcome == 'success'
         continue-on-error: true
         run: '"$RUNNER_TEMP/election-browser/bin/python" -B collectors/michigan.py'
+      - name: Collect Georgia statewide Senate results
+        if: steps.election-browser.outcome == 'success'
+        continue-on-error: true
+        run: '"$RUNNER_TEMP/election-browser/bin/python" -B collectors/georgia.py'
       - name: Collect Kansas canvass
         continue-on-error: true
         run: python3 collectors/kansas.py

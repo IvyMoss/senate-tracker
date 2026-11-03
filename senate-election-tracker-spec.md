@@ -897,6 +897,7 @@ collectors/
   iowa.py                    Iowa election-night page collector with canvass fallback
   kansas.py                  Kansas canvass PDF discovery and collection
   michigan.py                Michigan statewide results portal collector
+  georgia.py                 Georgia statewide general-election results collector
   canvass.py                 Shared official PDF download and extraction
   snapshot.py                Shared static snapshot writer
   update-results.mjs         Optional North Carolina snapshot publisher
@@ -914,7 +915,7 @@ The optional publisher and JavaScript tests use Node.js. They run outside the de
 
 ## 17. Development Phases
 
-The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. The Maine adapter was verified with the 2020 and 2024 statewide workbooks. The 2026 general-election workbook was not listed during verification. Iowa collects the statewide Senate table from the rendered election-night page in GitHub Actions. An official Iowa canvass PDF can be configured as a fallback with `IOWA_CANVASS_URL`. Kansas discovers its official canvass report from the archive. Michigan reads the statewide Senate totals from the official results portal. The 2026 page showed no results at verification. Georgia still needs an adapter.
+The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. The Maine adapter was verified with the 2020 and 2024 statewide workbooks. The 2026 general-election workbook was not listed during verification. Iowa collects the statewide Senate table from the rendered election-night page in GitHub Actions. An official Iowa canvass PDF can be configured as a fallback with `IOWA_CANVASS_URL`. Kansas discovers its official canvass report from the archive. Michigan reads the statewide Senate totals from the official results portal. The 2026 page showed no results at verification. Georgia reads statewide U.S. Senate general-election totals from the official election-night portal. Runoff collection and certification remain future work.
 
 
 ### Phase 1 — Frontend and calculations
