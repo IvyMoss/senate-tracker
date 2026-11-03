@@ -5,7 +5,7 @@ export const races = [
   ['ME', 'Maine', 'Maine Secretary of State', 'https://www.maine.gov/sos/elections-voting/election-results-data', 'R'],
   ['OH', 'Ohio', 'Ohio Secretary of State', 'https://liveresults.ohiosos.gov/', 'R'],
   ['AK', 'Alaska', 'Alaska Division of Elections', 'https://www.elections.alaska.gov/election-results/', 'R'],
-  ['IA', 'Iowa', 'Iowa Secretary of State', 'https://electionresults.iowa.gov/', 'R'],
+  ['IA', 'Iowa', 'Iowa Secretary of State', 'https://electionresults.iowa.gov/IA/127077/web.345435/#/detail/1000', 'R'],
   ['TX', 'Texas', 'Texas Secretary of State', 'https://electionresults.sos.state.tx.us/results.html', 'R'],
   ['KS', 'Kansas', 'Kansas Secretary of State', 'https://www.sos.ks.gov/elections/election-results.html', 'R'],
 ].map(([state, name, authority, url, incumbent]) => ({ state, name, authority, url, incumbent }));

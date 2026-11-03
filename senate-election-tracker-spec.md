@@ -366,7 +366,7 @@ Initial first-choice results must not be treated as the final ranked-choice outc
 
 Official sources:
 
-https://electionresults.iowa.gov/
+https://electionresults.iowa.gov/IA/127077/web.345435/#/detail/1000
 
 https://sos.iowa.gov/iowans/election-results-statistics
 
@@ -894,7 +894,7 @@ collectors/
   alaska.py                  Scheduled Alaska first-choice CSV collector
   texas.py                   Scheduled Texas results page collector
   maine.py                   Scheduled Maine workbook discovery and collection
-  iowa.py                    Iowa canvass PDF collector
+  iowa.py                    Iowa election-night page collector with canvass fallback
   kansas.py                  Kansas canvass PDF discovery and collection
   canvass.py                 Shared official PDF download and extraction
   snapshot.py                Shared static snapshot writer
@@ -913,7 +913,7 @@ The optional publisher and JavaScript tests use Node.js. They run outside the de
 
 ## 17. Development Phases
 
-The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. The Maine adapter was verified with the 2020 and 2024 statewide workbooks. The 2026 general-election workbook was not listed during verification. Iowa and Kansas have official canvass PDF adapters. The election-night portals returned HTTP 403 during verification. Kansas discovers its report from the archive, and Iowa requires the official PDF URL in the repository variable `IOWA_CANVASS_URL`. Michigan and Georgia still need adapters.
+The milestones below describe project scope. The static dashboard and snapshot refresh are implemented. North Carolina's browser collector was verified against the official general-election archive. Ohio's scheduled workflow reached the official feed and correctly skipped a test report. Alaska's parser was exercised against the archived primary export. The linked 2026 general-election CSV returned 404 during adapter testing, so that file remains unverified. The Texas adapter was verified against the official 2026 general-election page with blank vote totals. The Maine adapter was verified with the 2020 and 2024 statewide workbooks. The 2026 general-election workbook was not listed during verification. Iowa collects the statewide Senate table from the rendered election-night page in GitHub Actions. An official Iowa canvass PDF can be configured as a fallback with `IOWA_CANVASS_URL`. Kansas discovers its official canvass report from the archive. Michigan and Georgia still need adapters.
 
 
 ### Phase 1 — Frontend and calculations

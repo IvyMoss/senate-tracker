@@ -23,7 +23,7 @@ Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the fil
 | Alaska | GitHub Actions | Parses the official CSV for statewide first-choice totals. The seat remains unresolved pending ranked-choice tabulation. The parser was tested with the 2026 primary CSV. The linked general-election CSV returned 404 during validation. |
 | Texas | GitHub Actions | Parses the official statewide U.S. Senate table and the reported percentage of polling locations. Blank counts remain blank. |
 | Maine | GitHub Actions | Looks for the official general-election U.S. Senate workbook and reads its statewide totals. The 2020 and 2024 archives passed validation. The 2026 workbook was not listed at verification. |
-| Iowa | GitHub Actions | Reads an official statewide canvass PDF once the repository variable `IOWA_CANVASS_URL` points to the 2026 general-election report. |
+| Iowa | GitHub Actions | Reads the rendered statewide Senate table from the official election-night page using headless Chromium on the runner. |
 | Kansas | GitHub Actions | Checks the official archive for a 2026 general-election statewide vote totals PDF. |
 | Other two states | Awaiting integration | Race cards include source links and display published snapshot data if available. |
 
@@ -44,4 +44,4 @@ python3 -B collectors/ohio.py --check
 
 Node.js is used for the JavaScript tests and the optional North Carolina snapshot publisher, which also uses `unzip`. The site and its normal collection paths require no Node.js. The Ohio check uses Python and `curl` and leaves the local snapshot untouched.
 
-Iowa and Kansas currently use canvass reports. Their election-night portals returned HTTP 403 during verification. To enable Iowa after the official PDF is published, set `IOWA_CANVASS_URL` under **Settings → Secrets and variables → Actions → Variables**. Kansas checks its archive automatically. Both parsers use `pdftotext` on the GitHub runner.
+Iowa uses the [official statewide Senate page](https://electionresults.iowa.gov/IA/127077/web.345435/#/detail/1000). Direct HTTP requests returned 403 during verification, while the page rendered in the browser. The scheduled job uses Python Playwright and Chromium. If live collection fails, `IOWA_CANVASS_URL` can supply an official Iowa PDF as a fallback. Kansas checks its official archive automatically. The PDF paths use `pdftotext`.
