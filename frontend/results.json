@@ -5,11 +5,6 @@
       "status": "unresolved",
       "candidates": [
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": null
-        },
-        {
           "name": "Michael Whatley",
           "party": "R",
           "votes": null
@@ -20,55 +15,634 @@
           "votes": null
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
+          "name": "Michael Dublin",
+          "party": "Green",
+          "votes": null
+        },
+        {
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": null
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceUpdatedAt": "2026-10-15T15:58:44.244000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "unresolved",
       "candidates": [
         {
-          "name": "KEN PAXTON",
-          "party": "R",
-          "votes": null
-        },
-        {
-          "name": "JAMES TALARICO",
+          "name": "James Talarico",
           "party": "D",
           "votes": null
         },
         {
-          "name": "TED BROWN",
-          "party": "LIBERTARIAN",
+          "name": "Ken Paxton",
+          "party": "R",
           "votes": null
         },
         {
-          "name": "AVERY AYERS",
-          "party": "WRITE-IN",
-          "votes": null
-        },
-        {
-          "name": "BRADFORD 'BRAD' HALL",
-          "party": "WRITE-IN",
-          "votes": null
-        },
-        {
-          "name": "ZUL MOHAMED",
-          "party": "WRITE-IN",
-          "votes": null
-        },
-        {
-          "name": "JADE SIMMONS",
-          "party": "WRITE-IN",
+          "name": "Ted Brown",
+          "party": "Libertarian",
           "votes": null
         }
       ],
-      "reportingPercent": 0.0,
-      "sourceUpdatedAt": "2026-10-14T12:34:00Z",
-      "sourceUrl": "https://electionresults.sos.state.tx.us/results.html"
+      "sourceUpdatedAt": "2026-10-26T23:10:50.289000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87438"
+    },
+    "AK": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Mary Peltola",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
+          "votes": null
+        },
+        {
+          "name": "Dan Sullivan",
+          "party": "R",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-11-03T06:22:31.339000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
+    },
+    "GA": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Mike Collins",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-11-03T17:06:02.864000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+    },
+    "IA": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Ashley Hinson",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Josh Turek",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Thomas Laehn",
+          "party": "Libertarian",
+          "votes": null
+        },
+        {
+          "name": "Write-in",
+          "party": "Nonpartisan",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-11-01T23:37:00.076000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87151"
+    },
+    "KS": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Adam Hamilton",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Roger Marshall",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "David C Graham",
+          "party": "Libertarian",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-10-29T23:58:55.420000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87162"
+    },
+    "ME": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Troy Jackson",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Susan Collins",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Write-in",
+          "party": "Nonpartisan",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-10-30T23:08:25.898000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87188"
+    },
+    "MI": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Abdul El-Sayed",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Mike Rogers",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Lydia Christensen",
+          "party": "Libertarian",
+          "votes": null
+        },
+        {
+          "name": "Tim Long",
+          "party": "U.S. Taxpayers",
+          "votes": null
+        },
+        {
+          "name": "Douglas P. Marsh",
+          "party": "Green",
+          "votes": null
+        },
+        {
+          "name": "Walter P. Kristy",
+          "party": "Natural Law",
+          "votes": null
+        },
+        {
+          "name": "Write-in",
+          "party": "Nonpartisan",
+          "votes": null
+        },
+        {
+          "name": "Robert Trevor-Blair Davis",
+          "party": "Write-In",
+          "votes": null
+        },
+        {
+          "name": "George Earnest Huffman",
+          "party": "Write-In",
+          "votes": null
+        },
+        {
+          "name": "Craig Henley Johnson II",
+          "party": "Write-In",
+          "votes": null
+        },
+        {
+          "name": "Daniel Varney Tamba Pawa",
+          "party": "Write-In",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-11-03T03:44:10.357000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87214"
+    },
+    "OH": {
+      "status": "unresolved",
+      "candidates": [
+        {
+          "name": "Sherrod Brown",
+          "party": "D",
+          "votes": null
+        },
+        {
+          "name": "Stephen Faris",
+          "party": "Write-In",
+          "votes": null
+        },
+        {
+          "name": "Anthony Holliman",
+          "party": "Write-In",
+          "votes": null
+        },
+        {
+          "name": "Jon Husted",
+          "party": "R",
+          "votes": null
+        },
+        {
+          "name": "Greg Levy",
+          "party": "Other Party",
+          "votes": null
+        },
+        {
+          "name": "William B. Redpath",
+          "party": "Libertarian",
+          "votes": null
+        },
+        {
+          "name": "Timothy Telymonde",
+          "party": "Write-In",
+          "votes": null
+        }
+      ],
+      "sourceUpdatedAt": "2026-10-19T22:51:08.970000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87527"
+    }
+  },
+  "sourceRecords": {
+    "AK": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Gerald L. Heikes",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Mary Peltola",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Daniel J. Jr. Sullivan",
+            "party": "Nonpartisan",
+            "votes": null
+          },
+          {
+            "name": "Dan Sullivan",
+            "party": "R",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-11-03T06:22:31.339000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/86916"
+      }
+    },
+    "GA": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Mike Collins",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Jon Ossoff",
+            "party": "D",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-11-03T17:06:02.864000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      }
+    },
+    "IA": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Ashley Hinson",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Josh Turek",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Thomas Laehn",
+            "party": "Libertarian",
+            "votes": null
+          },
+          {
+            "name": "Write-in",
+            "party": "Nonpartisan",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-11-01T23:37:00.076000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87151"
+      }
+    },
+    "KS": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Adam Hamilton",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Roger Marshall",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "David C Graham",
+            "party": "Libertarian",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-29T23:58:55.420000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87162"
+      }
+    },
+    "ME": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Troy Jackson",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Susan Collins",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Write-in",
+            "party": "Nonpartisan",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-30T23:08:25.898000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87188"
+      }
+    },
+    "MI": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Abdul El-Sayed",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Mike Rogers",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Lydia Christensen",
+            "party": "Libertarian",
+            "votes": null
+          },
+          {
+            "name": "Tim Long",
+            "party": "U.S. Taxpayers",
+            "votes": null
+          },
+          {
+            "name": "Douglas P. Marsh",
+            "party": "Green",
+            "votes": null
+          },
+          {
+            "name": "Walter P. Kristy",
+            "party": "Natural Law",
+            "votes": null
+          },
+          {
+            "name": "Write-in",
+            "party": "Nonpartisan",
+            "votes": null
+          },
+          {
+            "name": "Robert Trevor-Blair Davis",
+            "party": "Write-In",
+            "votes": null
+          },
+          {
+            "name": "George Earnest Huffman",
+            "party": "Write-In",
+            "votes": null
+          },
+          {
+            "name": "Craig Henley Johnson II",
+            "party": "Write-In",
+            "votes": null
+          },
+          {
+            "name": "Daniel Varney Tamba Pawa",
+            "party": "Write-In",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-11-03T03:44:10.357000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87214"
+      }
+    },
+    "NC": {
+      "official": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": null
+          },
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": null
+          }
+        ],
+        "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      },
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Michael Dublin",
+            "party": "Green",
+            "votes": null
+          },
+          {
+            "name": "Shannon Bray",
+            "party": "Libertarian",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-15T15:58:44.244000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      }
+    },
+    "OH": {
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "Sherrod Brown",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Stephen Faris",
+            "party": "Write-In",
+            "votes": null
+          },
+          {
+            "name": "Anthony Holliman",
+            "party": "Write-In",
+            "votes": null
+          },
+          {
+            "name": "Jon Husted",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Greg Levy",
+            "party": "Other Party",
+            "votes": null
+          },
+          {
+            "name": "William B. Redpath",
+            "party": "Libertarian",
+            "votes": null
+          },
+          {
+            "name": "Timothy Telymonde",
+            "party": "Write-In",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-19T22:51:08.970000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87527"
+      }
+    },
+    "TX": {
+      "official": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "KEN PAXTON",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "JAMES TALARICO",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "TED BROWN",
+            "party": "LIBERTARIAN",
+            "votes": null
+          },
+          {
+            "name": "AVERY AYERS",
+            "party": "WRITE-IN",
+            "votes": null
+          },
+          {
+            "name": "BRADFORD 'BRAD' HALL",
+            "party": "WRITE-IN",
+            "votes": null
+          },
+          {
+            "name": "ZUL MOHAMED",
+            "party": "WRITE-IN",
+            "votes": null
+          },
+          {
+            "name": "JADE SIMMONS",
+            "party": "WRITE-IN",
+            "votes": null
+          }
+        ],
+        "reportingPercent": 0.0,
+        "sourceUpdatedAt": "2026-10-14T12:34:00Z",
+        "sourceUrl": "https://electionresults.sos.state.tx.us/results.html"
+      },
+      "civicapi": {
+        "status": "unresolved",
+        "candidates": [
+          {
+            "name": "James Talarico",
+            "party": "D",
+            "votes": null
+          },
+          {
+            "name": "Ken Paxton",
+            "party": "R",
+            "votes": null
+          },
+          {
+            "name": "Ted Brown",
+            "party": "Libertarian",
+            "votes": null
+          }
+        ],
+        "sourceUpdatedAt": "2026-10-26T23:10:50.289000+00:00",
+        "sourceName": "civicAPI",
+        "sourceUrl": "https://civicapi.org/api/v2/race/87438"
+      }
     }
   }
 }
