@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T19:53:02+00:00"
+      "sourceUpdatedAt": "2026-11-04T19:57:09+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T19:53:15.201000+00:00",
+      "sourceUpdatedAt": "2026-11-04T19:57:23.597000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -331,7 +331,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T19:53:11+00:00"
+      "sourceUpdatedAt": "2026-11-04T19:57:07+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -393,7 +393,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T19:53:15.201000+00:00",
+        "sourceUpdatedAt": "2026-11-04T19:57:23.597000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T19:51:47.786000+00:00",
+        "sourceUpdatedAt": "2026-11-04T19:54:20.561000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T19:53:02+00:00"
+        "sourceUpdatedAt": "2026-11-04T19:57:09+00:00"
       }
     },
     "OH": {
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T19:53:11+00:00"
+        "sourceUpdatedAt": "2026-11-04T19:57:07+00:00"
       }
     },
     "SC": {
