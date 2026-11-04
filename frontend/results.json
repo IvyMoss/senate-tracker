@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:38:10+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:42:06+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "AVERY AYERS",
           "party": "Write-in",
-          "votes": 2223
+          "votes": 2230
         },
         {
           "name": "TED BROWN",
           "party": "LIB",
-          "votes": 120624
+          "votes": 121604
         },
         {
           "name": "BRADFORD \"BRAD\" HALL",
           "party": "Write-in",
-          "votes": 604
+          "votes": 610
         },
         {
           "name": "ZUL MOHAMED",
@@ -55,17 +55,17 @@
         {
           "name": "KEN PAXTON",
           "party": "R",
-          "votes": 3154817
+          "votes": 3171101
         },
         {
           "name": "JADE SIMMONS",
           "party": "Write-in",
-          "votes": 720
+          "votes": 725
         },
         {
           "name": "JAMES TALARICO",
           "party": "D",
-          "votes": 3822435
+          "votes": 3832483
         }
       ],
       "sourceName": "Texas Secretary of State",
@@ -325,7 +325,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:38:08+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:42:04+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -707,7 +707,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:38:10+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:42:06+00:00"
       }
     },
     "OH": {
@@ -828,17 +828,17 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2223
+            "votes": 2230
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 120624
+            "votes": 121604
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 604
+            "votes": 610
           },
           {
             "name": "ZUL MOHAMED",
@@ -848,17 +848,17 @@
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 3154817
+            "votes": 3171101
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 720
+            "votes": 725
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 3822435
+            "votes": 3832483
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -955,7 +955,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:38:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:42:04+00:00"
       }
     },
     "SC": {
