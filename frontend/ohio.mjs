@@ -25,7 +25,8 @@ export function parseOhio(xml) {
   const state = only(elements(report, 'GpUnit').filter(node => node.getAttribute('Type') === 'State'), 'statewide unit');
   const stateId = state.getAttribute('ObjectId');
   const contest = only(elements(election, 'Contest').filter(node =>
-    node.getAttribute('Name') === 'U.S. Senator' &&
+    ['U.S. Senator', 'U.S. Senator - Unexpired Term Ending 01/03/2029']
+      .includes(node.getAttribute('Name')) &&
     elements(node, 'JurisdictionalScopeId').some(scope => scope.textContent.trim() === stateId)), 'statewide U.S. Senate contest');
   const candidates = elements(election, 'Candidate');
   const parties = elements(report, 'Party');

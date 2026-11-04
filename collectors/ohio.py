@@ -50,7 +50,8 @@ def parse_report(xml):
                   if node.get("Type") == "State"), "statewide reporting unit")
     state_id = state.attrib["ObjectId"]
     contest = only((node for node in elements(election, "Contest")
-                    if node.get("Name") == "U.S. Senator"
+                    if node.get("Name") in {"U.S. Senator",
+                                            "U.S. Senator - Unexpired Term Ending 01/03/2029"}
                     and node.findtext(f"{NS}JurisdictionalScopeId", "").strip() == state_id),
                    "statewide U.S. Senate contest")
     timestamp = datetime.fromisoformat(report.attrib["GeneratedDate"])

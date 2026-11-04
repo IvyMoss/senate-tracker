@@ -5,7 +5,7 @@ import re
 import subprocess
 from zoneinfo import ZoneInfo
 
-from snapshot import save_record
+from snapshot import DATE, save_record
 
 FEED = "https://electionresults.sos.state.tx.us/results.html"
 
@@ -99,12 +99,21 @@ def parse_texas(payload):
 
 
 def main():
+    cache_key = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
     result = subprocess.run(
         ["curl", "--fail", "--silent", "--show-error", "--max-time", "30",
-         "--max-filesize", str(8 * 1024 * 1024), FEED],
+         "--max-filesize", str(8 * 1024 * 1024), f"{FEED}?refresh={cache_key}"],
         check=True, stdout=subprocess.PIPE, timeout=35,
     )
-    save_record("TX", parse_texas(result.stdout))
+    record = parse_texas(result.stdout)
+    updated = datetime.fromisoformat(record["sourceUpdatedAt"]).astimezone(ZoneInfo("America/Chicago"))
+    if updated.date().isoformat() < DATE:
+        print(f"Texas served a pre-election page dated {updated.date()}. Kept the last snapshot.")
+        return
+    if record["status"] == "unresolved":
+        print("Texas has not posted Senate vote counts on this page. Kept the last snapshot.")
+        return
+    save_record("TX", record)
 
 
 if __name__ == "__main__":
