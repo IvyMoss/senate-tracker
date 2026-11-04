@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T05:06:04+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:10:02+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,37 +35,37 @@
         {
           "name": "AVERY AYERS",
           "party": "Write-in",
-          "votes": 2372
+          "votes": 2395
         },
         {
           "name": "TED BROWN",
           "party": "LIB",
-          "votes": 131981
+          "votes": 134151
         },
         {
           "name": "BRADFORD \"BRAD\" HALL",
           "party": "Write-in",
-          "votes": 726
+          "votes": 739
         },
         {
           "name": "ZUL MOHAMED",
           "party": "Write-in",
-          "votes": 114
+          "votes": 117
         },
         {
           "name": "KEN PAXTON",
           "party": "R",
-          "votes": 3354660
+          "votes": 3408122
         },
         {
           "name": "JADE SIMMONS",
           "party": "Write-in",
-          "votes": 807
+          "votes": 813
         },
         {
           "name": "JAMES TALARICO",
           "party": "D",
-          "votes": 4098000
+          "votes": 4124209
         }
       ],
       "sourceName": "Texas Secretary of State",
@@ -323,7 +323,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T05:06:09+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:10:10+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -705,7 +705,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:06:04+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:10:02+00:00"
       }
     },
     "OH": {
@@ -826,37 +826,37 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2372
+            "votes": 2395
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 131981
+            "votes": 134151
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 726
+            "votes": 739
           },
           {
             "name": "ZUL MOHAMED",
             "party": "Write-in",
-            "votes": 114
+            "votes": 117
           },
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 3354660
+            "votes": 3408122
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 807
+            "votes": 813
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 4098000
+            "votes": 4124209
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -868,22 +868,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4077156
+            "votes": 4118329
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3336680
+            "votes": 3394378
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 130842
+            "votes": 133471
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:03:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:07:00+00:00"
       }
     },
     "FL": {
@@ -953,7 +953,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:06:09+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:10:10+00:00"
       }
     },
     "SC": {
