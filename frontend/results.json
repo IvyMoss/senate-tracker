@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T05:52:02+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:55:09+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 4721505
+          "votes": 4739936
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 3495805
+          "votes": 3541726
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 147441
+          "votes": 149388
         },
         {
           "name": "Avery Ayers",
@@ -73,35 +73,37 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:52:24.682000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:56:21.821000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
     "AK": {
       "status": "ranked_choice_pending",
-      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Heikes, Gerald L.",
-          "party": "R",
-          "votes": 843
-        },
-        {
-          "name": "Peltola, Mary",
+          "name": "Mary Peltola",
           "party": "D",
           "votes": 35324
         },
         {
-          "name": "Sullivan, Daniel J. Jr.",
-          "party": "Other",
+          "name": "Dan Sullivan",
+          "party": "R",
+          "votes": 27940
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
           "votes": 1005
         },
         {
-          "name": "Sullivan, Dan S.",
+          "name": "Gerald L. Heikes",
           "party": "R",
-          "votes": 27940
+          "votes": 843
         }
-      ]
+      ],
+      "sourceUpdatedAt": "2026-11-04T05:55:46.269000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
       "status": "reporting",
@@ -117,7 +119,7 @@
           "votes": 1709237
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:52:10.374000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:56:11.593000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -145,7 +147,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:51:52.531000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:56:28.029000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -155,20 +157,20 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 555178
+          "votes": 555243
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 497526
+          "votes": 497752
         },
         {
           "name": "David C Graham",
           "party": "Libertarian",
-          "votes": 35522
+          "votes": 35533
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:52:23.672000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:56:04.876000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -191,7 +193,7 @@
           "votes": 759
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:51:44.049000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:55:15.794000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -302,7 +304,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:51:36.203000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:55:55.649000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -321,13 +323,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
+          "party": "I",
           "votes": 94501
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:52:19.113000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T05:55:07+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -358,7 +360,7 @@
           "votes": 4877
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:52:11.646000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:55:46.432000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -366,30 +368,30 @@
   "sourceRecords": {
     "AK": {
       "civicapi": {
-        "status": "unresolved",
+        "status": "ranked_choice_pending",
         "candidates": [
-          {
-            "name": "Gerald L. Heikes",
-            "party": "R",
-            "votes": null
-          },
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": null
-          },
-          {
-            "name": "Daniel J. Jr. Sullivan",
-            "party": "Nonpartisan",
-            "votes": null
+            "votes": 35324
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": null
+            "votes": 27940
+          },
+          {
+            "name": "Daniel J. Jr. Sullivan",
+            "party": "Nonpartisan",
+            "votes": 1005
+          },
+          {
+            "name": "Gerald L. Heikes",
+            "party": "R",
+            "votes": 843
           }
         ],
-        "sourceUpdatedAt": "2026-11-03T06:22:31.339000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:55:46.269000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -435,7 +437,7 @@
             "votes": 1709237
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:52:10.374000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:56:11.593000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -503,7 +505,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:51:52.531000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:56:28.029000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -515,20 +517,20 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 555178
+            "votes": 555243
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 497526
+            "votes": 497752
           },
           {
             "name": "David C Graham",
             "party": "Libertarian",
-            "votes": 35522
+            "votes": 35533
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:52:23.672000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:56:04.876000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -553,7 +555,7 @@
             "votes": 759
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:51:44.049000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:55:15.794000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -679,7 +681,7 @@
             "votes": 36424
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:50:50.830000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:55:06.990000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -709,7 +711,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:52:02+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:55:09+00:00"
       }
     },
     "OH": {
@@ -752,7 +754,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:51:36.203000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:55:55.649000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -807,17 +809,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4721505
+            "votes": 4739936
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3495805
+            "votes": 3541726
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 147441
+            "votes": 149388
           },
           {
             "name": "Avery Ayers",
@@ -845,7 +847,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:52:24.682000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:56:21.821000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -855,17 +857,17 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 1172
+            "votes": 1179
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 143891
+            "votes": 144909
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 809
+            "votes": 817
           },
           {
             "name": "ZUL MOHAMED",
@@ -875,17 +877,17 @@
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 3578061
+            "votes": 3597235
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 910
+            "votes": 911
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 4554138
+            "votes": 4569648
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -935,7 +937,7 @@
             "votes": 94501
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:52:19.113000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:54:59.577000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -982,7 +984,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:52:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:55:07+00:00"
       }
     },
     "SC": {
@@ -1015,7 +1017,7 @@
             "votes": 4877
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:52:11.646000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:55:46.432000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
