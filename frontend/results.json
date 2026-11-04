@@ -86,18 +86,18 @@
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 693917
+          "votes": 831312
         },
         {
           "name": "Jon Ossoff (I)",
           "party": "D",
-          "votes": 1121624
+          "votes": 1328794
         }
       ],
-      "reporting": 93,
+      "reporting": 107,
       "reportingTotal": 159,
       "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-04T06:00:05Z",
+      "sourceUpdatedAt": "2026-11-04T06:10:39Z",
       "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
@@ -281,27 +281,26 @@
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
     "FL": {
-      "status": "unresolved",
+      "status": "reporting",
       "candidates": [
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": null
+          "votes": 3618332
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": null
+          "votes": 3550983
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
-          "votes": null
+          "party": "NPA",
+          "votes": 80772
         }
       ],
-      "sourceUpdatedAt": "2026-11-03T04:46:23.487000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "Florida Division of Elections",
+      "sourceUrl": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt"
     },
     "SC": {
       "status": "unresolved",
@@ -393,12 +392,12 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 1064105
+            "votes": 1309246
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 634319
+            "votes": 808813
           }
         ],
         "sourceName": "State election office via Open America",
@@ -410,18 +409,18 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 693917
+            "votes": 831312
           },
           {
             "name": "Jon Ossoff (I)",
             "party": "D",
-            "votes": 1121624
+            "votes": 1328794
           }
         ],
-        "reporting": 93,
+        "reporting": 107,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-04T06:00:05Z",
+        "sourceUpdatedAt": "2026-11-04T06:10:39Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -762,6 +761,28 @@
         "sourceUpdatedAt": "2026-11-03T04:46:23.487000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      },
+      "official": {
+        "status": "reporting",
+        "candidates": [
+          {
+            "name": "Ashley Moody",
+            "party": "R",
+            "votes": 3618332
+          },
+          {
+            "name": "Angie Nixon",
+            "party": "D",
+            "votes": 3550983
+          },
+          {
+            "name": "Neil J. Gillespie",
+            "party": "NPA",
+            "votes": 80772
+          }
+        ],
+        "sourceName": "Florida Division of Elections",
+        "sourceUrl": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt"
       }
     },
     "SC": {
