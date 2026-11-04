@@ -60,11 +60,12 @@ def main():
          "--max-filesize", str(4 * 1024 * 1024), "--user-agent", "SenateTracker/1.0 (IvyMoss/senate-tracker)", URL],
         check=True, stdout=subprocess.PIPE, timeout=25,
     )
-    count = 0
+    collected = set()
     for state, record in parse_feed(json.loads(response.stdout)):
         save_record(state, record, source="open-america")
-        count += 1
-    print(f"Open America returned {count} usable tracked races.")
+        collected.add(state)
+    print("Open America usable returns:", ", ".join(sorted(collected)) or "none")
+    print("Open America no usable returns:", ", ".join(sorted(set(RACES.values()) - collected)) or "none")
 
 
 if __name__ == "__main__":

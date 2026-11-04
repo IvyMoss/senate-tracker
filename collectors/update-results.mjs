@@ -3,6 +3,13 @@ import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { validateSnapshot } from '../frontend/results.mjs';
 import { collectNorthCarolina } from './north-carolina.mjs';
 
+if (process.argv.includes('--print-nc')) {
+  const record = await collectNorthCarolina();
+  validateSnapshot({ electionDate: '2026-11-03', records: { NC: record } });
+  console.log(JSON.stringify(record));
+  process.exit(0);
+}
+
 const output = new URL('../frontend/results.json', import.meta.url);
 const snapshot = JSON.parse(await readFile(output, 'utf8'));
 validateSnapshot(snapshot);

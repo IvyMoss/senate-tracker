@@ -18,7 +18,7 @@ Keep the terminal open and visit <http://127.0.0.1:8766/>. Python serves the fil
 
 | State or source | Where collection runs | Current behavior |
 | --- | --- | --- |
-| North Carolina | Visitor's browser | Downloads the official ZIP on page load and checks again about every five minutes. The browser decompresses and parses the file. An all-zero archive supplies the roster with blank vote counts. |
+| North Carolina | GitHub Actions and visitor's browser | The workflow publishes the official ZIP results. The browser also downloads the official ZIP on page load and checks again about every five minutes. The browser decompresses and parses the file. An all-zero archive supplies the roster with blank vote counts. |
 | Ohio | GitHub Actions | Downloads official XML with `curl`, uses Python to extract statewide Senate totals, and skips reports marked as tests. The site also offers an XML import for the current browser tab. |
 | Alaska | GitHub Actions | Parses the official CSV for statewide first-choice totals. The seat remains unresolved pending ranked-choice tabulation. The parser was tested with the 2026 primary CSV. The linked general-election CSV returned 404 during validation. |
 | Texas | GitHub Actions | Parses the official statewide U.S. Senate table and the reported percentage of polling locations. Blank counts remain blank. |
@@ -49,6 +49,6 @@ Iowa uses the [official statewide Senate page](https://electionresults.iowa.gov/
 
 ## Comparing sources
 
-The workflow checks [civicAPI](https://civicapi.org/api-documentation) for all nine states and [Open America](https://openamerica.io/elections/api/) for Georgia, Iowa, Michigan, North Carolina, and Texas. Open America relays state data. civicAPI aggregates returns and also publishes race calls, which the tracker ignores. The tracker excludes civicAPI test data and counts after round one. The browser compares North Carolina's direct ZIP and any manually imported Ohio XML with the published snapshot.
+The workflow checks [civicAPI](https://civicapi.org/api-documentation) for all eleven displayed races and [Open America](https://openamerica.io/elections/api/) for Florida’s special election, Georgia, Iowa, Michigan, North Carolina, South Carolina, and Texas. Florida and South Carolina use Open America as their automated alternative to civicAPI. Kansas and Maine use state archives and can wait for those publications. Open America relays state data. civicAPI aggregates returns and also publishes race calls, which the tracker ignores. The tracker excludes civicAPI test data and counts after round one. The browser compares North Carolina's direct ZIP and any manually imported Ohio XML with the published snapshot.
 
 Each race displays a single feed's complete candidate record. The highest reported candidate-vote total wins. A newer race-specific timestamp breaks a tie, followed by the direct state source if both still tie. A feed-wide timestamp is not used as a race timestamp. Verified certification takes precedence over preliminary counts. The last accepted record for each scheduled source is retained so one feed outage does not erase results. The source shown on each card identifies the feed selected for that race.

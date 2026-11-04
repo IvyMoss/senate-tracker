@@ -6,6 +6,7 @@ on:
     paths:
       - 'frontend/**'
       - 'collectors/*.py'
+      - 'collectors/*.mjs'
       - '.github/workflows/ohio-pages.yml'
   workflow_dispatch:
   schedule:
@@ -73,12 +74,33 @@ jobs:
       - name: Collect Kansas canvass
         continue-on-error: true
         run: python3 collectors/kansas.py
+      - name: Collect North Carolina statewide Senate results
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          node collectors/update-results.mjs --print-nc |
+            PYTHONPATH=collectors python3 -B -c 'import json, sys; from snapshot import save_record; save_record("NC", json.load(sys.stdin))'
       - name: Compare civicAPI statewide Senate results
         continue-on-error: true
         run: python3 -B collectors/civic_api.py
       - name: Compare Open America statewide Senate results
         continue-on-error: true
         run: python3 -B collectors/open_america.py
+      - name: Summarize Senate results
+        run: |
+          python3 - <<'PYTHON' >> "$GITHUB_STEP_SUMMARY"
+          import json
+
+          with open("frontend/results.json", encoding="utf-8") as file:
+              snapshot = json.load(file)
+          print("| State | Selected source | Total votes |")
+          print("| --- | --- | ---: |")
+          for state in "AK FL GA IA KS ME MI NC OH SC TX".split():
+              record = snapshot["records"].get(state, {})
+              counts = [row["votes"] for row in record.get("candidates", [])]
+              total = f"{sum(counts):,}" if counts and all(v is not None for v in counts) else "Unavailable"
+              print(f"| {state} | {record.get('sourceName', '—')} | {total} |")
+          PYTHON
       - name: Save updated snapshot
         run: |
           if git diff --quiet -- frontend/results.json; then
