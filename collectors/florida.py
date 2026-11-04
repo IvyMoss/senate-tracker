@@ -1,5 +1,6 @@
 """Collect Florida's statewide Senate special election from the state TSV."""
 import csv
+from datetime import datetime, timezone
 import io
 import subprocess
 
@@ -34,8 +35,11 @@ def parse_florida(payload):
 
 
 def main():
+    # The unversioned URL can serve a cached pre-election file.
+    cache_key = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    download_url = f"{URL}?refresh={cache_key}"
     payload = subprocess.check_output(
-        ["curl", "-fsS", "--max-time", "20", "--max-filesize", str(16 * 1024 * 1024), URL],
+        ["curl", "-fsS", "--max-time", "20", "--max-filesize", str(16 * 1024 * 1024), download_url],
         timeout=25,
     )
     candidates = parse_florida(payload)
