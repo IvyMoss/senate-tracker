@@ -25,7 +25,7 @@
           "votes": 36424
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:41:03.899000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:55.551000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -33,43 +33,49 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "AVERY AYERS",
-          "party": "Write-in",
-          "votes": 1162
-        },
-        {
-          "name": "TED BROWN",
-          "party": "LIB",
-          "votes": 143283
-        },
-        {
-          "name": "BRADFORD \"BRAD\" HALL",
-          "party": "Write-in",
-          "votes": 803
-        },
-        {
-          "name": "ZUL MOHAMED",
-          "party": "Write-in",
-          "votes": 142
-        },
-        {
-          "name": "KEN PAXTON",
-          "party": "R",
-          "votes": 3567899
-        },
-        {
-          "name": "JADE SIMMONS",
-          "party": "Write-in",
-          "votes": 906
-        },
-        {
-          "name": "JAMES TALARICO",
+          "name": "James Talarico",
           "party": "D",
-          "votes": 4546036
+          "votes": 4695616
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "votes": 3442628
+        },
+        {
+          "name": "Ted Brown",
+          "party": "Libertarian",
+          "votes": 145524
+        },
+        {
+          "name": "Avery Ayers",
+          "party": "Write-In",
+          "votes": 0
+        },
+        {
+          "name": "Bradford \"Brad\" Hall",
+          "party": "Write-In",
+          "votes": 0
+        },
+        {
+          "name": "Zul Mohamed",
+          "party": "Write-In",
+          "votes": 0
+        },
+        {
+          "name": "Jade Simmons",
+          "party": "Write-In",
+          "votes": 0
+        },
+        {
+          "name": "Write-in",
+          "party": "Nonpartisan",
+          "votes": 0
         }
       ],
-      "sourceName": "Texas Secretary of State",
-      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
+      "sourceUpdatedAt": "2026-11-04T05:44:17.627000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
     "AK": {
       "status": "ranked_choice_pending",
@@ -111,7 +117,7 @@
           "votes": 1709237
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:43.544000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:43:54.502000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -139,7 +145,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:47.503000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:43:52.287000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -162,7 +168,7 @@
           "votes": 35440
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:45.854000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:34.874000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -172,20 +178,20 @@
         {
           "name": "Troy Jackson",
           "party": "D",
-          "votes": 282161
+          "votes": 289326
         },
         {
           "name": "Susan Collins",
           "party": "R",
-          "votes": 246634
+          "votes": 250506
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 748
+          "votes": 749
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:37:45.722000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:15.813000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -195,37 +201,37 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 1510882
+          "votes": 1521340
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 1415317
+          "votes": 1424121
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 30691
+          "votes": 30883
         },
         {
           "name": "Tim Long",
           "party": "U.S. Taxpayers",
-          "votes": 15768
+          "votes": 15886
         },
         {
           "name": "Douglas P. Marsh",
           "party": "Green",
-          "votes": 7531
+          "votes": 7597
         },
         {
           "name": "Walter P. Kristy",
           "party": "Natural Law",
-          "votes": 4368
+          "votes": 4394
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 1848
+          "votes": 1854
         },
         {
           "name": "Craig HenleyJohnson",
@@ -253,7 +259,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:06.422000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:19.920000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -263,22 +269,22 @@
         {
           "name": "Sherrod Brown",
           "party": "D",
-          "votes": 2073249
+          "votes": 2091424
         },
         {
           "name": "Jon Husted",
           "party": "R",
-          "votes": 1967321
+          "votes": 1976763
         },
         {
           "name": "William B. Redpath",
           "party": "Libertarian",
-          "votes": 120342
+          "votes": 120865
         },
         {
           "name": "Greg Levy",
           "party": "Other Party",
-          "votes": 86597
+          "votes": 87136
         },
         {
           "name": "Stephen Faris",
@@ -296,7 +302,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:46.187000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:46.848000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -306,22 +312,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4205353
+          "votes": 4207173
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3964852
+          "votes": 3967674
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
-          "votes": 94433
+          "party": "Independent",
+          "votes": 94501
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T05:40:05+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:44:05.031000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -352,7 +358,7 @@
           "votes": 4877
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:40:09.979000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:44:51.559000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -429,7 +435,7 @@
             "votes": 1709237
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:43.544000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:43:54.502000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -497,7 +503,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:47.503000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:43:52.287000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -522,7 +528,7 @@
             "votes": 35440
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:45.854000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:34.874000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -534,20 +540,20 @@
           {
             "name": "Troy Jackson",
             "party": "D",
-            "votes": 282161
+            "votes": 289326
           },
           {
             "name": "Susan Collins",
             "party": "R",
-            "votes": 246634
+            "votes": 250506
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 748
+            "votes": 749
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:37:45.722000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:15.813000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -559,37 +565,37 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 1510882
+            "votes": 1521340
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 1415317
+            "votes": 1424121
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 30691
+            "votes": 30883
           },
           {
             "name": "Tim Long",
             "party": "U.S. Taxpayers",
-            "votes": 15768
+            "votes": 15886
           },
           {
             "name": "Douglas P. Marsh",
             "party": "Green",
-            "votes": 7531
+            "votes": 7597
           },
           {
             "name": "Walter P. Kristy",
             "party": "Natural Law",
-            "votes": 4368
+            "votes": 4394
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 1848
+            "votes": 1854
           },
           {
             "name": "Craig HenleyJohnson",
@@ -617,7 +623,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:06.422000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:19.920000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -673,7 +679,7 @@
             "votes": 36424
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:41:03.899000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:55.551000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -703,7 +709,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:40:06+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:44:05+00:00"
       }
     },
     "OH": {
@@ -713,22 +719,22 @@
           {
             "name": "Sherrod Brown",
             "party": "D",
-            "votes": 2073249
+            "votes": 2091424
           },
           {
             "name": "Jon Husted",
             "party": "R",
-            "votes": 1967321
+            "votes": 1976763
           },
           {
             "name": "William B. Redpath",
             "party": "Libertarian",
-            "votes": 120342
+            "votes": 120865
           },
           {
             "name": "Greg Levy",
             "party": "Other Party",
-            "votes": 86597
+            "votes": 87136
           },
           {
             "name": "Stephen Faris",
@@ -746,7 +752,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:46.187000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:46.848000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -801,17 +807,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4660489
+            "votes": 4695616
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3416909
+            "votes": 3442628
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 143530
+            "votes": 145524
           },
           {
             "name": "Avery Ayers",
@@ -839,7 +845,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:41:13.439000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:17.627000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -891,22 +897,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4528483
+            "votes": 4546036
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3541624
+            "votes": 3567899
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 141886
+            "votes": 143283
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:35:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:40:00+00:00"
       }
     },
     "FL": {
@@ -916,20 +922,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4205353
+            "votes": 4207173
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3964852
+            "votes": 3967674
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94433
+            "votes": 94501
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:39:16.614000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:05.031000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -939,17 +945,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4205353
+            "votes": 4207173
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3964852
+            "votes": 3967674
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94433
+            "votes": 94501
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -961,22 +967,22 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4205353
+            "votes": 4207173
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3964852
+            "votes": 3967674
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 94433
+            "votes": 94501
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:40:05+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:44:03+00:00"
       }
     },
     "SC": {
@@ -1009,7 +1015,7 @@
             "votes": 4877
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:40:09.979000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:44:51.559000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
