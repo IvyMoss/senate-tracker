@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
+      actions: write
       contents: write
       pages: write
       id-token: write
@@ -123,3 +124,18 @@ jobs:
           path: frontend
       - uses: actions/deploy-pages@v4
         id: deployment
+      # GitHub fires the cron above rarely under load, and snapshot commits made
+      # with GITHUB_TOKEN never start a run, so each run queues the next one.
+      # The concurrency group keeps at most one run waiting. Set the repository
+      # variable PAUSE_REFRESH to true to stop the chain.
+      - name: Queue the next refresh
+        if: always() && github.ref == 'refs/heads/main' && vars.PAUSE_REFRESH != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%Y%m%d)" -gt 20261117 ]; then
+            echo "Past the election-night refresh window. Not queueing another run."
+            exit 0
+          fi
+          sleep 120
+          gh workflow run ohio-pages.yml --repo "$GITHUB_REPOSITORY" --ref main
