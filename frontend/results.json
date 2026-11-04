@@ -15,19 +15,19 @@
           "votes": 1643088
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 55726
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36404
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:48:33.791000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T16:17:08+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -73,7 +73,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:48:30.546000+00:00",
+      "sourceUpdatedAt": "2026-11-04T15:49:53.701000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:49:04.752000+00:00",
+      "sourceUpdatedAt": "2026-11-04T16:17:27.463000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -119,7 +119,7 @@
           "votes": 1711322
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:48:18.456000+00:00",
+      "sourceUpdatedAt": "2026-11-04T15:49:46.958000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -147,7 +147,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:47:36.735000+00:00",
+      "sourceUpdatedAt": "2026-11-04T15:50:02.126000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -323,13 +323,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
+          "party": "I",
           "votes": 94534
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:48:40.249000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T16:17:06+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -391,7 +391,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:49:04.752000+00:00",
+        "sourceUpdatedAt": "2026-11-04T16:17:27.463000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -437,7 +437,7 @@
             "votes": 1711322
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:48:18.456000+00:00",
+        "sourceUpdatedAt": "2026-11-04T15:49:46.958000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -505,7 +505,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:47:36.735000+00:00",
+        "sourceUpdatedAt": "2026-11-04T15:50:02.126000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -711,7 +711,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T15:48:04+00:00"
+        "sourceUpdatedAt": "2026-11-04T16:17:08+00:00"
       }
     },
     "OH": {
@@ -847,7 +847,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:48:30.546000+00:00",
+        "sourceUpdatedAt": "2026-11-04T15:49:53.701000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -857,17 +857,17 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 1870
+            "votes": 1872
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 188747
+            "votes": 188815
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 1238
+            "votes": 1239
           },
           {
             "name": "ZUL MOHAMED",
@@ -877,17 +877,17 @@
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 4227281
+            "votes": 4228924
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 1678
+            "votes": 1683
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 5405050
+            "votes": 5410057
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -899,22 +899,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5405050
+            "votes": 5410057
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4227281
+            "votes": 4228924
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 188747
+            "votes": 188815
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T15:25:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T16:02:00+00:00"
       }
     },
     "FL": {
@@ -984,7 +984,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T15:48:10+00:00"
+        "sourceUpdatedAt": "2026-11-04T16:17:06+00:00"
       }
     },
     "SC": {
