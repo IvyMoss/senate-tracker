@@ -5,24 +5,24 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 32255
-        },
-        {
           "name": "Shannon W. Bray",
           "party": "LIB",
-          "votes": 49383
+          "votes": 50944
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1514575
+          "votes": 1543124
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "GRE",
+          "votes": 33079
         },
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2237795
+          "votes": 2279473
         }
       ],
       "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -31,43 +31,23 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "AVERY AYERS",
-          "party": "Write-in",
-          "votes": 1991
-        },
-        {
-          "name": "TED BROWN",
-          "party": "LIB",
-          "votes": 99331
-        },
-        {
-          "name": "BRADFORD \"BRAD\" HALL",
-          "party": "Write-in",
-          "votes": 398
-        },
-        {
-          "name": "ZUL MOHAMED",
-          "party": "Write-in",
-          "votes": 41
-        },
-        {
-          "name": "KEN PAXTON",
-          "party": "R",
-          "votes": 2621558
-        },
-        {
-          "name": "JADE SIMMONS",
-          "party": "Write-in",
-          "votes": 520
-        },
-        {
-          "name": "JAMES TALARICO",
+          "name": "James Talarico",
           "party": "D",
-          "votes": 3438824
+          "votes": 3440676
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "votes": 2628183
+        },
+        {
+          "name": "Ted Brown",
+          "party": "L",
+          "votes": 99656
         }
       ],
-      "sourceName": "Texas Secretary of State",
-      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/"
     },
     "AK": {
       "status": "unresolved",
@@ -103,18 +83,18 @@
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1500178
+          "votes": 1518176
         },
         {
           "name": "Jon Ossoff (I)",
           "party": "D",
-          "votes": 2164970
+          "votes": 2182677
         }
       ],
-      "reporting": 155,
+      "reporting": 156,
       "reportingTotal": 159,
       "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-04T03:06:49Z",
+      "sourceUpdatedAt": "2026-11-04T03:12:31Z",
       "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
@@ -435,12 +415,12 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2164970
+            "votes": 2182677
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1500178
+            "votes": 1518176
           }
         ],
         "sourceName": "State election office via Open America",
@@ -452,18 +432,18 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1500178
+            "votes": 1518176
           },
           {
             "name": "Jon Ossoff (I)",
             "party": "D",
-            "votes": 2164970
+            "votes": 2182677
           }
         ],
-        "reporting": 155,
+        "reporting": 156,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-04T03:06:49Z",
+        "sourceUpdatedAt": "2026-11-04T03:12:31Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -617,24 +597,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 32255
-          },
-          {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 49383
+            "votes": 50944
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1514575
+            "votes": 1543124
+          },
+          {
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 33079
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2237795
+            "votes": 2279473
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -673,22 +653,22 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2237795
+            "votes": 2279473
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1514575
+            "votes": 1543124
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 49383
+            "votes": 50944
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 32255
+            "votes": 33079
           }
         ],
         "sourceName": "State election office via Open America",
@@ -855,17 +835,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3438406
+            "votes": 3440676
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 2620787
+            "votes": 2628183
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 99291
+            "votes": 99656
           }
         ],
         "sourceName": "State election office via Open America",
