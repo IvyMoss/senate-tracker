@@ -25,7 +25,7 @@
           "votes": 36404
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:18:48.005000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:26.432000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -73,7 +73,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:17:56.094000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:33.975000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:18:22.181000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:57.763000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -119,7 +119,7 @@
           "votes": 1711322
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:17:39.186000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:43.926000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -147,7 +147,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:16:58.804000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:19.826000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -170,7 +170,7 @@
           "votes": 35746
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:18:19.110000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:22:11.308000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -193,7 +193,7 @@
           "votes": 846
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:12:42.877000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:19:48.818000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -261,7 +261,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:17:47.794000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:22:00.945000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -304,7 +304,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:17:11.453000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:20:58.118000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -327,7 +327,7 @@
           "votes": 94529
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:17:12.733000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:21:36.459000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -360,7 +360,7 @@
           "votes": 4895
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T14:18:32.436000+00:00",
+      "sourceUpdatedAt": "2026-11-04T14:22:05.666000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -391,7 +391,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:18:22.181000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:57.763000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -437,7 +437,7 @@
             "votes": 1711322
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:17:39.186000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:43.926000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -505,7 +505,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:16:58.804000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:19.826000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -530,7 +530,7 @@
             "votes": 35746
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:18:19.110000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:22:11.308000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -555,7 +555,7 @@
             "votes": 846
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:12:42.877000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:19:48.818000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -625,7 +625,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:17:47.794000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:22:00.945000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -681,7 +681,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:18:48.005000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:26.432000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -711,7 +711,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T14:17:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T14:21:07+00:00"
       }
     },
     "OH": {
@@ -754,7 +754,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:17:11.453000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:20:58.118000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -847,7 +847,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:17:56.094000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:33.975000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -899,22 +899,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5360196
+            "votes": 5362606
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4166380
+            "votes": 4167586
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 186410
+            "votes": 186558
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T14:03:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T14:17:00+00:00"
       }
     },
     "FL": {
@@ -937,7 +937,7 @@
             "votes": 94529
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:17:12.733000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:21:36.459000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -984,7 +984,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T14:17:06+00:00"
+        "sourceUpdatedAt": "2026-11-04T14:21:06+00:00"
       }
     },
     "SC": {
@@ -1017,7 +1017,7 @@
             "votes": 4895
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T14:18:32.436000+00:00",
+        "sourceUpdatedAt": "2026-11-04T14:22:05.666000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
