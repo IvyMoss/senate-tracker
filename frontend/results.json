@@ -27,49 +27,30 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:04:05+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:09:03+00:00"
     },
     "TX": {
       "status": "reporting",
       "candidates": [
         {
-          "name": "AVERY AYERS",
-          "party": "Write-in",
-          "votes": 2077
-        },
-        {
-          "name": "TED BROWN",
-          "party": "LIB",
-          "votes": 111969
-        },
-        {
-          "name": "BRADFORD \"BRAD\" HALL",
-          "party": "Write-in",
-          "votes": 520
-        },
-        {
-          "name": "ZUL MOHAMED",
-          "party": "Write-in",
-          "votes": 48
-        },
-        {
-          "name": "KEN PAXTON",
-          "party": "R",
-          "votes": 2947775
-        },
-        {
-          "name": "JADE SIMMONS",
-          "party": "Write-in",
-          "votes": 641
-        },
-        {
-          "name": "JAMES TALARICO",
+          "name": "James Talarico",
           "party": "D",
-          "votes": 3597914
+          "votes": 3601911
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "votes": 2959129
+        },
+        {
+          "name": "Ted Brown",
+          "party": "L",
+          "votes": 112378
         }
       ],
-      "sourceName": "Texas Secretary of State",
-      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T04:06:00+00:00"
     },
     "AK": {
       "status": "unresolved",
@@ -153,20 +134,20 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 481606
+          "votes": 535353
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 378569
+          "votes": 454827
         },
         {
           "name": "David C Graham",
           "party": "Libertarian",
-          "votes": 27559
+          "votes": 32680
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T03:36:19.862000+00:00",
+      "sourceUpdatedAt": "2026-11-04T04:09:00.193000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -310,22 +291,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4198635
+          "votes": 4198976
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3955021
+          "votes": 3955355
         },
         {
           "name": "Neil J. Gillespie",
           "party": "I",
-          "votes": 94170
+          "votes": 94178
         }
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:04:03+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:09:08+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -513,20 +494,20 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 481606
+            "votes": 535353
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 378569
+            "votes": 454827
           },
           {
             "name": "David C Graham",
             "party": "Libertarian",
-            "votes": 27559
+            "votes": 32680
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T03:36:19.862000+00:00",
+        "sourceUpdatedAt": "2026-11-04T04:09:00.193000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -707,7 +688,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:04:05+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:09:03+00:00"
       }
     },
     "OH": {
@@ -870,22 +851,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3592172
+            "votes": 3601911
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 2936822
+            "votes": 2959129
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 111425
+            "votes": 112378
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:00:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:06:00+00:00"
       }
     },
     "FL": {
@@ -918,17 +899,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4198635
+            "votes": 4198976
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3955021
+            "votes": 3955355
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94170
+            "votes": 94178
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -940,22 +921,22 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4198635
+            "votes": 4198976
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3955021
+            "votes": 3955355
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 94170
+            "votes": 94178
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:04:03+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:09:08+00:00"
       }
     },
     "SC": {
