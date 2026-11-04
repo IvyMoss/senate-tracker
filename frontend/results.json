@@ -7,50 +7,69 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2394248
+          "votes": 2425551
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1605291
+          "votes": 1620824
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 54073
+          "votes": 54753
         },
         {
           "name": "Michael Dublin",
           "party": "G",
-          "votes": 35201
+          "votes": 35724
         }
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:13:09+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:16:09+00:00"
     },
     "TX": {
       "status": "reporting",
       "candidates": [
         {
-          "name": "James Talarico",
-          "party": "D",
-          "votes": 3610230
+          "name": "AVERY AYERS",
+          "party": "Write-in",
+          "votes": 2106
         },
         {
-          "name": "Ken Paxton",
+          "name": "TED BROWN",
+          "party": "LIB",
+          "votes": 113543
+        },
+        {
+          "name": "BRADFORD \"BRAD\" HALL",
+          "party": "Write-in",
+          "votes": 545
+        },
+        {
+          "name": "ZUL MOHAMED",
+          "party": "Write-in",
+          "votes": 51
+        },
+        {
+          "name": "KEN PAXTON",
           "party": "R",
-          "votes": 2979949
+          "votes": 2991935
         },
         {
-          "name": "Ted Brown",
-          "party": "L",
-          "votes": 112934
+          "name": "JADE SIMMONS",
+          "party": "Write-in",
+          "votes": 652
+        },
+        {
+          "name": "JAMES TALARICO",
+          "party": "D",
+          "votes": 3617711
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:10:00+00:00"
+      "sourceName": "Texas Secretary of State",
+      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
     },
     "AK": {
       "status": "unresolved",
@@ -84,21 +103,19 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "votes": 2370291
+        },
+        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1654533
-        },
-        {
-          "name": "Jon Ossoff (I)",
-          "party": "D",
-          "votes": 2370291
         }
       ],
-      "reporting": 159,
-      "reportingTotal": 159,
-      "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-04T04:10:18Z",
-      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
+      "sourceUpdatedAt": "2026-11-04T04:17:44.581000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
     "IA": {
       "status": "reporting",
@@ -291,22 +308,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4198976
+          "votes": 4199328
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3955355
+          "votes": 3955594
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
-          "votes": 94178
+          "party": "Independent",
+          "votes": 94223
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:13:07+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:17:40.173000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -401,20 +418,20 @@
     },
     "GA": {
       "civicapi": {
-        "status": "unresolved",
+        "status": "reporting",
         "candidates": [
-          {
-            "name": "Mike Collins",
-            "party": "R",
-            "votes": null
-          },
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": null
+            "votes": 2370291
+          },
+          {
+            "name": "Mike Collins",
+            "party": "R",
+            "votes": 1654533
           }
         ],
-        "sourceUpdatedAt": "2026-11-03T17:06:02.864000+00:00",
+        "sourceUpdatedAt": "2026-11-04T04:17:44.581000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -424,17 +441,17 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2356327
+            "votes": 2370291
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1640277
+            "votes": 1654533
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:01:27+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:10:18+00:00"
       },
       "official": {
         "status": "reporting",
@@ -612,24 +629,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 54073
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 35201
-          },
-          {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2394248
+            "votes": 35724
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1605291
+            "votes": 1620824
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 54753
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2425551
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,27 +685,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2394248
+            "votes": 2425551
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1605291
+            "votes": 1620824
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 54073
+            "votes": 54753
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 35201
+            "votes": 35724
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:13:09+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:16:09+00:00"
       }
     },
     "OH": {
@@ -809,17 +826,17 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2094
+            "votes": 2106
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 112724
+            "votes": 113543
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 533
+            "votes": 545
           },
           {
             "name": "ZUL MOHAMED",
@@ -829,17 +846,17 @@
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 2972646
+            "votes": 2991935
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 642
+            "votes": 652
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 3607870
+            "votes": 3617711
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -851,22 +868,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3610230
+            "votes": 3616360
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 2979949
+            "votes": 2988481
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 112934
+            "votes": 113401
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:10:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:13:00+00:00"
       }
     },
     "FL": {
@@ -876,20 +893,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4192569
+            "votes": 4199328
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3946021
+            "votes": 3955594
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 93970
+            "votes": 94223
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T03:36:04.378000+00:00",
+        "sourceUpdatedAt": "2026-11-04T04:17:40.173000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -899,17 +916,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4198976
+            "votes": 4199078
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3955355
+            "votes": 3955419
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94178
+            "votes": 94180
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -921,22 +938,22 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4198976
+            "votes": 4199078
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3955355
+            "votes": 3955419
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 94178
+            "votes": 94180
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:13:07+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:16:07+00:00"
       }
     },
     "SC": {
