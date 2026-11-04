@@ -2,6 +2,7 @@
 import io
 import re
 import subprocess
+import time
 import xml.etree.ElementTree as ET
 from zipfile import ZipFile
 
@@ -9,12 +10,32 @@ from snapshot import save_record
 
 BASE = "https://www.enr-scvotes.org/SC/127300/"
 LIMIT = 32 * 1024 * 1024
+USER_AGENT = "SenateTracker/1.0 (IvyMoss/senate-tracker)"
 
 
 def download(url):
+    # The ENR host returns 502s and empty bodies under election-night load.
     return subprocess.check_output(
-        ["curl", "-fsS", "--max-time", "20", "--max-filesize", str(LIMIT), url], timeout=25,
+        ["curl", "-fsS", "--max-time", "20", "--retry", "3", "--retry-all-errors", "--retry-delay", "3",
+         "--retry-max-time", "60", "--max-filesize", str(LIMIT), "--user-agent", USER_AGENT, url],
+        timeout=90,
     )
+
+
+def current_version():
+    for attempt in range(3):
+        if attempt:
+            time.sleep(5)
+        try:
+            version = download(BASE + "current_ver.txt").removeprefix(b"\xef\xbb\xbf").strip()
+        except subprocess.CalledProcessError:
+            if attempt == 2:
+                raise SystemExit("South Carolina's report version endpoint is unavailable. Kept the last snapshot.")
+            continue
+        if re.fullmatch(rb"[0-9]+", version):
+            return version.decode("ascii")
+    kind = "an HTML page" if version.startswith(b"<") else "an empty response" if not version else "a nonnumeric response"
+    raise SystemExit(f"South Carolina's report version endpoint returned {kind}. Kept the last snapshot.")
 
 
 def parse_report(payload):
@@ -48,13 +69,7 @@ def parse_report(payload):
 
 
 def main():
-    response = download(BASE + "current_ver.txt")
-    version = response.removeprefix(b"\xef\xbb\xbf").strip()
-    if not re.fullmatch(rb"[0-9]+", version):
-        kind = "an HTML page" if version.startswith(b"<") else "an empty response" if not version else "a nonnumeric response"
-        raise SystemExit(f"South Carolina's report version endpoint returned {kind}. Kept the last snapshot.")
-    version = version.decode("ascii")
-    url = BASE + version + "/reports/detailxml.zip"
+    url = BASE + current_version() + "/reports/detailxml.zip"
     candidates = parse_report(download(url))
     if not any(row["votes"] for row in candidates):
         print("South Carolina state report has no reported Senate votes yet.")
