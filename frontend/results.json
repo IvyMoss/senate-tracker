@@ -15,67 +15,61 @@
           "votes": 1643088
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55726
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36404
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T22:01:06+00:00"
+      "sourceUpdatedAt": "2026-11-04T22:06:12.153000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
       "candidates": [
         {
-          "name": "James Talarico",
-          "party": "D",
-          "votes": 5408693
+          "name": "AVERY AYERS",
+          "party": "Write-in",
+          "votes": 1925
         },
         {
-          "name": "Ken Paxton",
+          "name": "TED BROWN",
+          "party": "LIB",
+          "votes": 190237
+        },
+        {
+          "name": "BRADFORD \"BRAD\" HALL",
+          "party": "Write-in",
+          "votes": 1263
+        },
+        {
+          "name": "ZUL MOHAMED",
+          "party": "Write-in",
+          "votes": 186
+        },
+        {
+          "name": "KEN PAXTON",
           "party": "R",
-          "votes": 4417403
+          "votes": 4249373
         },
         {
-          "name": "Ted Brown",
-          "party": "Libertarian",
-          "votes": 188786
+          "name": "JADE SIMMONS",
+          "party": "Write-in",
+          "votes": 1738
         },
         {
-          "name": "Avery Ayers",
-          "party": "Write-In",
-          "votes": 0
-        },
-        {
-          "name": "Bradford \"Brad\" Hall",
-          "party": "Write-In",
-          "votes": 0
-        },
-        {
-          "name": "Zul Mohamed",
-          "party": "Write-In",
-          "votes": 0
-        },
-        {
-          "name": "Jade Simmons",
-          "party": "Write-In",
-          "votes": 0
-        },
-        {
-          "name": "Write-in",
-          "party": "Nonpartisan",
-          "votes": 0
+          "name": "JAMES TALARICO",
+          "party": "D",
+          "votes": 5622041
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:49:53.701000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87438"
+      "sourceName": "Texas Secretary of State",
+      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
     },
     "AK": {
       "status": "ranked_choice_pending",
@@ -101,7 +95,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T22:01:43.714000+00:00",
+      "sourceUpdatedAt": "2026-11-04T22:06:41.400000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -172,7 +166,7 @@
           "votes": 32946
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T22:00:26.832000+00:00",
+      "sourceUpdatedAt": "2026-11-04T22:06:13.807000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -325,13 +319,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
+          "party": "I",
           "votes": 94538
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T22:01:53.002000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T22:06:11+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -393,7 +387,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T22:01:43.714000+00:00",
+        "sourceUpdatedAt": "2026-11-04T22:06:41.400000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -532,7 +526,7 @@
             "votes": 32946
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T22:00:26.832000+00:00",
+        "sourceUpdatedAt": "2026-11-04T22:06:13.807000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +677,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T21:51:43.782000+00:00",
+        "sourceUpdatedAt": "2026-11-04T22:06:12.153000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +707,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T22:01:06+00:00"
+        "sourceUpdatedAt": "2026-11-04T22:06:04+00:00"
       }
     },
     "OH": {
@@ -859,37 +853,37 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 1872
+            "votes": 1925
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 188815
+            "votes": 190237
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 1239
+            "votes": 1263
           },
           {
             "name": "ZUL MOHAMED",
             "party": "Write-in",
-            "votes": 175
+            "votes": 186
           },
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 4228924
+            "votes": 4249373
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 1683
+            "votes": 1738
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 5410057
+            "votes": 5622041
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -926,20 +920,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4208004
+            "votes": 4203901
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969271
+            "votes": 3967398
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94538
+            "votes": 94434
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T22:01:53.002000+00:00",
+        "sourceUpdatedAt": "2026-11-04T22:05:11.491000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +980,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T22:01:04+00:00"
+        "sourceUpdatedAt": "2026-11-04T22:06:11+00:00"
       }
     },
     "SC": {
