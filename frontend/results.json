@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T17:19:08+00:00"
+      "sourceUpdatedAt": "2026-11-04T17:41:08+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T17:19:37.031000+00:00",
+      "sourceUpdatedAt": "2026-11-04T17:41:40.124000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -314,22 +314,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4207947
+          "votes": 4208004
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3969186
+          "votes": 3969271
         },
         {
           "name": "Neil J. Gillespie",
           "party": "I",
-          "votes": 94534
+          "votes": 94538
         }
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T17:19:05+00:00"
+      "sourceUpdatedAt": "2026-11-04T17:41:05+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -391,7 +391,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T17:19:37.031000+00:00",
+        "sourceUpdatedAt": "2026-11-04T17:41:40.124000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -711,7 +711,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T17:19:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T17:41:08+00:00"
       }
     },
     "OH": {
@@ -914,7 +914,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T16:53:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T17:29:00+00:00"
       }
     },
     "FL": {
@@ -947,17 +947,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4207947
+            "votes": 4208004
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969186
+            "votes": 3969271
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94534
+            "votes": 94538
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -969,22 +969,22 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4207947
+            "votes": 4208004
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969186
+            "votes": 3969271
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 94534
+            "votes": 94538
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T17:19:05+00:00"
+        "sourceUpdatedAt": "2026-11-04T17:41:05+00:00"
       }
     },
     "SC": {
