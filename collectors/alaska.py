@@ -2,13 +2,22 @@
 from collections import defaultdict
 import csv
 import io
+import json
+from pathlib import Path
 import re
+import ssl
 import subprocess
+import tempfile
 
 from snapshot import save_record
 
-FEED = "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State%20of%20Alaska.csv"
+RESULTS = "https://www.elections.alaska.gov/enr/26GENR/results/"
+FEED = RESULTS + "GA_ENR_Precinct_State_of_Alaska.csv"
 LIMIT = 16 * 1024 * 1024
+# The state's server omits the intermediate that issued its certificate.
+# Browsers fetch it from the certificate's AIA link; curl needs it supplied.
+INTERMEDIATE = Path(__file__).resolve().parent / "certs" / "globalsign-gcc-r46-ov-tls-ca-2025.pem"
+SYSTEM_BUNDLES = ("/etc/ssl/certs/ca-certificates.crt", "/etc/ssl/cert.pem")
 
 
 def parse_alaska(payload):
@@ -60,18 +69,49 @@ def parse_alaska(payload):
     }
 
 
-def main():
-    url = FEED
-    curl = ["curl", "--silent", "--show-error", "--max-time", "30",
-            "--max-filesize", str(LIMIT), "--write-out", "\n%{http_code}"]
-    download = subprocess.run(curl + [url], stdout=subprocess.PIPE, timeout=35)
-    if download.returncode == 60:
-        print("Alaska's www host failed certificate verification. Trying the state domain without www.")
-        url = FEED.replace("https://www.", "https://", 1)
-        download = subprocess.run(curl + [url], stdout=subprocess.PIPE, timeout=35)
+def ca_bundle():
+    defaults = ssl.get_default_verify_paths()
+    system = next((path for path in (defaults.cafile, *SYSTEM_BUNDLES) if path and Path(path).is_file()), None)
+    if system is None:
+        raise SystemExit("No system CA bundle found for the Alaska download.")
+    bundle = tempfile.NamedTemporaryFile("wb", suffix=".pem", delete=False)
+    with bundle:
+        bundle.write(Path(system).read_bytes() + b"\n" + INTERMEDIATE.read_bytes())
+    return bundle.name
+
+
+def fetch(url, bundle):
+    download = subprocess.run(
+        ["curl", "--silent", "--show-error", "--max-time", "30", "--cacert", bundle,
+         "--max-filesize", str(LIMIT), "--write-out", "\n%{http_code}", url],
+        stdout=subprocess.PIPE, timeout=35,
+    )
     if download.returncode:
-        raise SystemExit(f"Alaska CSV download failed (curl exit {download.returncode}). Kept the last snapshot.")
+        raise SystemExit(f"Alaska download failed (curl exit {download.returncode}). Kept the last snapshot.")
     payload, _, code = download.stdout.rpartition(b"\n")
+    return payload, code
+
+
+def precinct_report_url(bundle):
+    """Use the CSV link the state's results page publishes, which has been renamed before."""
+    payload, code = fetch(RESULTS + "statewide.js", bundle)
+    try:
+        url = json.loads(payload)["precinctReportUrl"] if code == b"200" else None
+    except (KeyError, TypeError, ValueError):
+        url = None
+    if isinstance(url, str) and url.startswith(RESULTS) and url.lower().endswith(".csv"):
+        return url
+    print("Alaska's results page did not list a precinct CSV. Trying the last known link.")
+    return FEED
+
+
+def main():
+    bundle = ca_bundle()
+    try:
+        url = precinct_report_url(bundle)
+        payload, code = fetch(url, bundle)
+    finally:
+        Path(bundle).unlink()
     if code == b"404":
         print("Alaska has not published the linked CSV. Kept the last snapshot.")
         return

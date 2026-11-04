@@ -6,7 +6,7 @@ import subprocess
 from snapshot import save_record
 
 URL = "https://openamerica.io/elections/results.json?year=2026&office=Senate"
-RACES = {"FL-special": "FL", "GA": "GA", "IA": "IA", "MI": "MI",
+RACES = {"FL": "FL", "FL-special": "FL", "GA": "GA", "IA": "IA", "MI": "MI",
          "NC": "NC", "SC": "SC", "TX": "TX"}
 
 

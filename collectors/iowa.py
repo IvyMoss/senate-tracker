@@ -130,7 +130,18 @@ def read_browser(sync_playwright):
         response = page.goto(LIVE_URL, wait_until="domcontentloaded")
         if response is None or not response.ok or page.url != LIVE_URL:
             raise ValueError("Official Iowa page unavailable or redirected")
-        page.get_by_role("heading", name="2026 General Election", exact=True).wait_for()
+        # The page shows only this banner while the state publishes a new batch.
+        election = page.get_by_role("heading", name="2026 General Election", exact=True)
+        processing = page.get_by_text("Currently Processing New Results", exact=True)
+        for attempt in range(3):
+            election.or_(processing).first.wait_for()
+            if election.is_visible():
+                break
+            if attempt == 2:
+                raise ValueError("Iowa is still processing new results")
+            page.wait_for_timeout(15_000)
+            page.reload(wait_until="domcontentloaded")
+        election.wait_for()
         page.get_by_role("heading", name="United States Senator", exact=True).wait_for()
         page.get_by_text("November 3, 2026", exact=True).wait_for()
         table = page.get_by_role("tabpanel", name="Results", exact=True).locator("table")
