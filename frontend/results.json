@@ -86,12 +86,12 @@
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": 665831
+          "votes": 911149
         },
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 294813
+          "votes": 503994
         }
       ],
       "sourceName": "State election office via Open America",
@@ -390,12 +390,12 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 665831
+            "votes": 911149
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 294813
+            "votes": 503994
           }
         ],
         "sourceName": "State election office via Open America",
