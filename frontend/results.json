@@ -81,22 +81,21 @@
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
-      "status": "unresolved",
+      "status": "reporting",
       "candidates": [
-        {
-          "name": "Mike Collins",
-          "party": "R",
-          "votes": null
-        },
         {
           "name": "Jon Ossoff",
           "party": "D",
-          "votes": null
+          "votes": 665831
+        },
+        {
+          "name": "Mike Collins",
+          "party": "R",
+          "votes": 294813
         }
       ],
-      "sourceUpdatedAt": "2026-11-03T17:06:02.864000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/"
     },
     "IA": {
       "status": "unresolved",
@@ -384,6 +383,23 @@
         "sourceUpdatedAt": "2026-11-03T17:06:02.864000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      },
+      "open-america": {
+        "status": "reporting",
+        "candidates": [
+          {
+            "name": "Jon Ossoff",
+            "party": "D",
+            "votes": 665831
+          },
+          {
+            "name": "Mike Collins",
+            "party": "R",
+            "votes": 294813
+          }
+        ],
+        "sourceName": "State election office via Open America",
+        "sourceUrl": "https://openamerica.io/elections/api/"
       }
     },
     "IA": {
