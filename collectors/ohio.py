@@ -99,11 +99,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Validate the feed without changing the snapshot")
     args = parser.parse_args()
-    download = subprocess.run(
-        ["curl", "--fail", "--silent", "--show-error", "--max-time", "30",
-         "--max-filesize", str(LIMIT), FEED],
-        check=True, stdout=subprocess.PIPE, timeout=35,
-    )
+    try:
+        download = subprocess.run(
+            ["curl", "--fail", "--silent", "--show-error", "--max-time", "12",
+             "--retry", "2", "--retry-max-time", "25",
+             "--max-filesize", str(LIMIT), FEED],
+            check=True, stdout=subprocess.PIPE, timeout=40,
+        )
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as error:
+        raise SystemExit(
+            f"Ohio XML download failed. Kept the last snapshot. "
+            f"See the curl error above and the official outage page: "
+            f"https://maintenance.ohiosos.gov/home/electionoutage ({type(error).__name__})"
+        ) from None
     record = parse_report(download.stdout)
     if record is None:
         print("Ohio marked the feed as a test. Kept the last snapshot.")

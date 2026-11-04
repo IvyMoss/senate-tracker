@@ -61,18 +61,25 @@ def parse_alaska(payload):
 
 
 def main():
-    download = subprocess.run(
-        ["curl", "--silent", "--show-error", "--max-time", "30", "--max-filesize", str(LIMIT),
-         "--write-out", "\n%{http_code}", FEED],
-        check=True, stdout=subprocess.PIPE, timeout=35,
-    )
+    url = FEED
+    curl = ["curl", "--silent", "--show-error", "--max-time", "30",
+            "--max-filesize", str(LIMIT), "--write-out", "\n%{http_code}"]
+    download = subprocess.run(curl + [url], stdout=subprocess.PIPE, timeout=35)
+    if download.returncode == 60:
+        print("Alaska's www host failed certificate verification. Trying the state domain without www.")
+        url = FEED.replace("https://www.", "https://", 1)
+        download = subprocess.run(curl + [url], stdout=subprocess.PIPE, timeout=35)
+    if download.returncode:
+        raise SystemExit(f"Alaska CSV download failed (curl exit {download.returncode}). Kept the last snapshot.")
     payload, _, code = download.stdout.rpartition(b"\n")
     if code == b"404":
         print("Alaska has not published the linked CSV. Kept the last snapshot.")
         return
     if code != b"200":
         raise ValueError(f"Alaska download returned HTTP {code.decode('ascii')}")
-    save_record("AK", parse_alaska(payload))
+    record = parse_alaska(payload)
+    record["sourceUrl"] = url
+    save_record("AK", record)
 
 
 if __name__ == "__main__":
