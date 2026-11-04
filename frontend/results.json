@@ -31,43 +31,23 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "AVERY AYERS",
-          "party": "Write-in",
-          "votes": 2004
-        },
-        {
-          "name": "TED BROWN",
-          "party": "LIB",
-          "votes": 100596
-        },
-        {
-          "name": "BRADFORD \"BRAD\" HALL",
-          "party": "Write-in",
-          "votes": 419
-        },
-        {
-          "name": "ZUL MOHAMED",
-          "party": "Write-in",
-          "votes": 42
-        },
-        {
-          "name": "KEN PAXTON",
-          "party": "R",
-          "votes": 2653160
-        },
-        {
-          "name": "JADE SIMMONS",
-          "party": "Write-in",
-          "votes": 526
-        },
-        {
-          "name": "JAMES TALARICO",
+          "name": "James Talarico",
           "party": "D",
-          "votes": 3447231
+          "votes": 3458237
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "votes": 2678773
+        },
+        {
+          "name": "Ted Brown",
+          "party": "L",
+          "votes": 101443
         }
       ],
-      "sourceName": "Texas Secretary of State",
-      "sourceUrl": "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/"
     },
     "AK": {
       "status": "unresolved",
@@ -303,17 +283,17 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4192030
+          "votes": 4192128
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3944550
+          "votes": 3944649
         },
         {
           "name": "Neil J. Gillespie",
           "party": "NPA",
-          "votes": 93948
+          "votes": 93950
         }
       ],
       "sourceName": "Florida Division of Elections",
@@ -855,17 +835,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3440676
+            "votes": 3458237
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 2628183
+            "votes": 2678773
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 99656
+            "votes": 101443
           }
         ],
         "sourceName": "State election office via Open America",
@@ -902,17 +882,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4192030
+            "votes": 4192128
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3944550
+            "votes": 3944649
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 93948
+            "votes": 93950
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -924,17 +904,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4192030
+            "votes": 4192128
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3944550
+            "votes": 3944649
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 93948
+            "votes": 93950
           }
         ],
         "sourceName": "State election office via Open America",
