@@ -5,27 +5,29 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
-          "votes": 52680
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 34165
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2330003
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1579316
+          "votes": 1579360
         },
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2329803
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 52683
+        },
+        {
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 34168
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T03:41:06+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -33,17 +35,17 @@
         {
           "name": "AVERY AYERS",
           "party": "Write-in",
-          "votes": 2035
+          "votes": 2004
         },
         {
           "name": "TED BROWN",
           "party": "LIB",
-          "votes": 104278
+          "votes": 106313
         },
         {
           "name": "BRADFORD \"BRAD\" HALL",
           "party": "Write-in",
-          "votes": 450
+          "votes": 470
         },
         {
           "name": "ZUL MOHAMED",
@@ -53,17 +55,17 @@
         {
           "name": "KEN PAXTON",
           "party": "R",
-          "votes": 2758066
+          "votes": 2809867
         },
         {
           "name": "JADE SIMMONS",
           "party": "Write-in",
-          "votes": 602
+          "votes": 610
         },
         {
           "name": "JAMES TALARICO",
           "party": "D",
-          "votes": 3493376
+          "votes": 3521706
         }
       ],
       "sourceName": "Texas Secretary of State",
@@ -123,17 +125,17 @@
         {
           "name": "Josh Turek",
           "party": "D",
-          "votes": 358332
+          "votes": 367834
         },
         {
           "name": "Ashley Hinson",
           "party": "R",
-          "votes": 297281
+          "votes": 311362
         },
         {
           "name": "Thomas Laehn",
           "party": "Libertarian",
-          "votes": 18856
+          "votes": 20341
         },
         {
           "name": "Write-in",
@@ -141,7 +143,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T03:36:39.186000+00:00",
+      "sourceUpdatedAt": "2026-11-04T03:40:48.858000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -436,16 +438,17 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2226360
+            "votes": 2248614
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1558801
+            "votes": 1572488
           }
         ],
         "sourceName": "State election office via Open America",
-        "sourceUrl": "https://openamerica.io/elections/api/"
+        "sourceUrl": "https://openamerica.io/elections/api/",
+        "sourceUpdatedAt": "2026-11-04T03:32:27+00:00"
       },
       "official": {
         "status": "reporting",
@@ -475,17 +478,17 @@
           {
             "name": "Josh Turek",
             "party": "D",
-            "votes": 358332
+            "votes": 367834
           },
           {
             "name": "Ashley Hinson",
             "party": "R",
-            "votes": 297281
+            "votes": 311362
           },
           {
             "name": "Thomas Laehn",
             "party": "Libertarian",
-            "votes": 18856
+            "votes": 20341
           },
           {
             "name": "Write-in",
@@ -493,7 +496,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T03:36:39.186000+00:00",
+        "sourceUpdatedAt": "2026-11-04T03:40:48.858000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -618,24 +621,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 52680
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 34165
+            "votes": 34168
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1579316
+            "votes": 1579360
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2329803
+            "votes": 2330003
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 52683
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -674,26 +677,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2329803
+            "votes": 2330003
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1579316
+            "votes": 1579360
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 52680
+            "votes": 52683
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 34165
+            "votes": 34168
           }
         ],
         "sourceName": "State election office via Open America",
-        "sourceUrl": "https://openamerica.io/elections/api/"
+        "sourceUrl": "https://openamerica.io/elections/api/",
+        "sourceUpdatedAt": "2026-11-04T03:41:06+00:00"
       }
     },
     "OH": {
@@ -814,17 +818,17 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2035
+            "votes": 2004
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 104278
+            "votes": 106313
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 450
+            "votes": 470
           },
           {
             "name": "ZUL MOHAMED",
@@ -834,17 +838,17 @@
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 2758066
+            "votes": 2809867
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 602
+            "votes": 610
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 3493376
+            "votes": 3521706
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -856,21 +860,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3492893
+            "votes": 3521706
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 2756636
+            "votes": 2809867
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 104188
+            "votes": 106313
           }
         ],
         "sourceName": "State election office via Open America",
-        "sourceUrl": "https://openamerica.io/elections/api/"
+        "sourceUrl": "https://openamerica.io/elections/api/",
+        "sourceUpdatedAt": "2026-11-04T03:39:00+00:00"
       }
     },
     "FL": {
@@ -939,7 +944,8 @@
           }
         ],
         "sourceName": "State election office via Open America",
-        "sourceUrl": "https://openamerica.io/elections/api/"
+        "sourceUrl": "https://openamerica.io/elections/api/",
+        "sourceUpdatedAt": "2026-11-04T03:41:04+00:00"
       }
     },
     "SC": {
