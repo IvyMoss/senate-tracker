@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:46:05+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:50:03+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,37 +35,37 @@
         {
           "name": "AVERY AYERS",
           "party": "Write-in",
-          "votes": 2248
+          "votes": 2279
         },
         {
           "name": "TED BROWN",
           "party": "LIB",
-          "votes": 123928
+          "votes": 125721
         },
         {
           "name": "BRADFORD \"BRAD\" HALL",
           "party": "Write-in",
-          "votes": 620
+          "votes": 667
         },
         {
           "name": "ZUL MOHAMED",
           "party": "Write-in",
-          "votes": 62
+          "votes": 70
         },
         {
           "name": "KEN PAXTON",
           "party": "R",
-          "votes": 3212392
+          "votes": 3247386
         },
         {
           "name": "JADE SIMMONS",
           "party": "Write-in",
-          "votes": 734
+          "votes": 767
         },
         {
           "name": "JAMES TALARICO",
           "party": "D",
-          "votes": 3953313
+          "votes": 3972726
         }
       ],
       "sourceName": "Texas Secretary of State",
@@ -105,18 +105,18 @@
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1682564
+          "votes": 1697747
         },
         {
           "name": "Jon Ossoff (I)",
           "party": "D",
-          "votes": 2403619
+          "votes": 2445285
         }
       ],
       "reporting": 159,
       "reportingTotal": 159,
       "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-04T04:29:56Z",
+      "sourceUpdatedAt": "2026-11-04T04:44:35Z",
       "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
@@ -153,20 +153,20 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 541015
+          "votes": 548947
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 465142
+          "votes": 482437
         },
         {
           "name": "David C Graham",
           "party": "Libertarian",
-          "votes": 33507
+          "votes": 34613
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T04:25:21.915000+00:00",
+      "sourceUpdatedAt": "2026-11-04T04:50:08.788000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -325,7 +325,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:46:02+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:50:09+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -443,17 +443,17 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2403619
+            "votes": 2445285
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1682564
+            "votes": 1697747
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:29:56+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:44:35+00:00"
       },
       "official": {
         "status": "reporting",
@@ -461,18 +461,18 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1682564
+            "votes": 1697747
           },
           {
             "name": "Jon Ossoff (I)",
             "party": "D",
-            "votes": 2403619
+            "votes": 2445285
           }
         ],
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-04T04:29:56Z",
+        "sourceUpdatedAt": "2026-11-04T04:44:35Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -513,20 +513,20 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 541015
+            "votes": 548947
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 465142
+            "votes": 482437
           },
           {
             "name": "David C Graham",
             "party": "Libertarian",
-            "votes": 33507
+            "votes": 34613
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T04:25:21.915000+00:00",
+        "sourceUpdatedAt": "2026-11-04T04:50:08.788000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -707,7 +707,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:46:05+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:50:03+00:00"
       }
     },
     "OH": {
@@ -828,37 +828,37 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2248
+            "votes": 2279
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 123928
+            "votes": 125721
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 620
+            "votes": 667
           },
           {
             "name": "ZUL MOHAMED",
             "party": "Write-in",
-            "votes": 62
+            "votes": 70
           },
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 3212392
+            "votes": 3247386
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 734
+            "votes": 767
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 3953313
+            "votes": 3972726
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -870,22 +870,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3953175
+            "votes": 3964533
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3212000
+            "votes": 3234546
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 123916
+            "votes": 124885
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:42:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:48:00+00:00"
       }
     },
     "FL": {
@@ -955,7 +955,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:46:02+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:50:09+00:00"
       }
     },
     "SC": {
