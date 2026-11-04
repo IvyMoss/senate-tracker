@@ -15,19 +15,19 @@
           "votes": 1643088
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55726
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36404
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T20:37:08+00:00"
+      "sourceUpdatedAt": "2026-11-04T20:40:41.288000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T20:37:29.636000+00:00",
+      "sourceUpdatedAt": "2026-11-04T20:41:20.129000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -329,7 +329,7 @@
           "votes": 94538
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T20:36:50.856000+00:00",
+      "sourceUpdatedAt": "2026-11-04T20:39:36.542000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -393,7 +393,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T20:37:29.636000+00:00",
+        "sourceUpdatedAt": "2026-11-04T20:41:20.129000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T20:36:21.085000+00:00",
+        "sourceUpdatedAt": "2026-11-04T20:40:41.288000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T20:37:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T20:40:08+00:00"
       }
     },
     "OH": {
@@ -939,7 +939,7 @@
             "votes": 94538
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T20:36:50.856000+00:00",
+        "sourceUpdatedAt": "2026-11-04T20:39:36.542000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T20:37:06+00:00"
+        "sourceUpdatedAt": "2026-11-04T20:40:05+00:00"
       }
     },
     "SC": {
