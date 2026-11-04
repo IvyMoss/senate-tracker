@@ -48,7 +48,7 @@ def main():
         page.set_default_timeout(20_000)
         response = page.goto(SOURCE, wait_until="domcontentloaded", timeout=30_000)
         if response is None or not response.ok or page.url != SOURCE:
-            raise ValueError("Official Michigan results page unavailable or redirected")
+            raise ValueError(f"Official Michigan results page returned HTTP {response.status if response else 'unknown'} at {page.url}")
         empty = page.get_by_role("heading", name="No election results for selected election date", exact=True)
         panel = page.locator("#tab-target-voteResults")
         empty.or_(panel).first.wait_for(state="attached")

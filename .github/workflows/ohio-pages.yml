@@ -80,6 +80,12 @@ jobs:
           set -o pipefail
           node collectors/update-results.mjs --print-nc |
             PYTHONPATH=collectors python3 -B -c 'import json, sys; from snapshot import save_record; save_record("NC", json.load(sys.stdin))'
+      - name: Collect Florida statewide Senate results
+        continue-on-error: true
+        run: python3 -B collectors/florida.py
+      - name: Collect South Carolina statewide Senate results
+        continue-on-error: true
+        run: python3 -B collectors/south_carolina.py
       - name: Compare civicAPI statewide Senate results
         continue-on-error: true
         run: python3 -B collectors/civic_api.py
