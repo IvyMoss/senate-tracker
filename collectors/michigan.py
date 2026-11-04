@@ -47,6 +47,9 @@ def main():
         page = browser.new_page()
         page.set_default_timeout(20_000)
         response = page.goto(SOURCE, wait_until="domcontentloaded", timeout=30_000)
+        if response is not None and response.status == 403:
+            raise SystemExit("Michigan's official results portal returned HTTP 403. "
+                             "Kept the last snapshot. The Open America collector runs separately.")
         if response is None or not response.ok or page.url != SOURCE:
             raise ValueError(f"Official Michigan results page returned HTTP {response.status if response else 'unknown'} at {page.url}")
         empty = page.get_by_role("heading", name="No election results for selected election date", exact=True)

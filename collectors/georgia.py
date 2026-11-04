@@ -60,7 +60,7 @@ def main():
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch()
-        page = browser.new_page()
+        page = browser.new_page(timezone_id="America/New_York")
         page.set_default_timeout(20_000)
         response = page.goto(SOURCE, wait_until="domcontentloaded", timeout=30_000)
         if response is None or not response.ok or page.url != SOURCE:
@@ -79,7 +79,10 @@ def main():
         )
         coverage = contest.locator(".units-reporting + span").inner_text()
         updated = page.get_by_text("Last Updated", exact=True).locator("..").inner_text()
-        save_record("GA", parse_georgia(rows, coverage.strip(), updated))
+        record = parse_georgia(rows, coverage.strip(), updated)
+        if datetime.fromisoformat(record["sourceUpdatedAt"]) > datetime.now(timezone.utc):
+            raise ValueError("Georgia portal returned a future update timestamp")
+        save_record("GA", record)
 
 
 if __name__ == "__main__":

@@ -37,7 +37,13 @@ def save_record(state, record, source="official"):
     if not sources and state in records:
         sources["official"] = records[state]
     previous = sources.get(source)
-    if previous and (previous["status"] == "certified" or source_time(previous) > source_time(record)
+    # Recover from a saved timestamp that was ahead of the clock, provided the
+    # replacement is dated and has at least as many votes.
+    now = datetime.now(timezone.utc)
+    older = previous and source_time(previous) > source_time(record)
+    correcting_clock = (older and UNKNOWN_TIME < source_time(record) <= now < source_time(previous)
+                        and vote_total(record) >= vote_total(previous))
+    if previous and (previous["status"] == "certified" or (older and not correcting_clock)
                      or (record["status"] == "unresolved" and vote_total(previous) >= 0)
                      or previous == record):
         return
