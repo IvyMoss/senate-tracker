@@ -2,9 +2,11 @@
 from datetime import datetime, timezone
 import os
 import re
+import subprocess
 from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
+import clarity
 from canvass import party_code, pdf_text
 from snapshot import save_record
 
@@ -65,7 +67,8 @@ def parse_iowa(text, year=2026):
 
 
 
-LIVE_URL = "https://electionresults.iowa.gov/IA/127077/web.345435/#/detail/1000"
+REPORT_BASE = "https://electionresults.iowa.gov/IA/127077/"
+LIVE_URL = REPORT_BASE + "web.345435/#/detail/1000"
 COUNT = r"(?:[0-9]+|[0-9]{1,3}(?:,[0-9]{3})+)"
 
 
@@ -154,7 +157,26 @@ def read_browser(sync_playwright):
         return parse_live(rows, reporting, " ".join(timestamps))
 
 
+def collect_report():
+    """Read the state's detail report directly; the browser page depends on the same host."""
+    try:
+        record = clarity.collect(REPORT_BASE, "Iowa")
+    except (clarity.Unavailable, subprocess.SubprocessError, ValueError, KeyError) as error:
+        print(f"Iowa detail report unavailable: {error}. Trying the results page.", flush=True)
+        return None
+    if record is None:
+        print("Iowa detail report has no reported Senate votes yet. Trying the results page.", flush=True)
+        return None
+    for row in record["candidates"]:
+        row["party"] = "Write-in" if row["name"].casefold() == "write-in" else party_code(row["party"])
+    return record
+
+
 def main():
+    record = collect_report()
+    if record is not None:
+        save_record("IA", record)
+        return
     try:
         record = collect_live()
     except (ImportError, ValueError, RuntimeError) as error:
