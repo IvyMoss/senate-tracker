@@ -84,18 +84,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 911149
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 503994
+          "votes": 543974
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 937010
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/"
+      "reporting": 73,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-04T05:48:12Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "unresolved",
@@ -390,16 +393,36 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 911149
+            "votes": 937010
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 503994
+            "votes": 543974
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/"
+      },
+      "official": {
+        "status": "reporting",
+        "candidates": [
+          {
+            "name": "Mike Collins",
+            "party": "R",
+            "votes": 543974
+          },
+          {
+            "name": "Jon Ossoff (I)",
+            "party": "D",
+            "votes": 937010
+          }
+        ],
+        "reporting": 73,
+        "reportingTotal": 159,
+        "reportingUnit": "counties",
+        "sourceUpdatedAt": "2026-11-04T05:48:12Z",
+        "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
     "IA": {
