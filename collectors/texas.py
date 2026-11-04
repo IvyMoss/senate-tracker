@@ -1,6 +1,8 @@
 """Collect statewide Texas Senate results from the Secretary of State."""
+from base64 import b64decode
 from datetime import datetime, timezone
 from html.parser import HTMLParser
+import json
 import re
 import subprocess
 from zoneinfo import ZoneInfo
@@ -8,6 +10,35 @@ from zoneinfo import ZoneInfo
 from snapshot import DATE, save_record
 
 FEED = "https://electionresults.sos.state.tx.us/results.html"
+
+
+PORTAL = "https://goelect.txelections.civixapps.com/ivis-enr-ui/races"
+PORTAL_FEED = "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/election/53815"
+
+
+def parse_portal(payload):
+    report = json.loads(payload)
+    home = json.loads(b64decode(report["Home"], validate=True))
+    if home["ElecDate"] != "11032026" or not re.fullmatch(r"enr/53815/[0-9]+/", report["Version"]):
+        raise ValueError("Unexpected Texas portal election")
+    federal = json.loads(b64decode(report["Federal"], validate=True))
+    senate, = (race for race in federal["Races"] if race["id"] == 5075
+               and race["N"].strip() == "U. S. SENATOR")
+    candidates = []
+    for row in senate["Candidates"]:
+        name, party, votes = row["N"].strip(), row["P"].strip(), row["V"]
+        if not name or not party or type(votes) is not int or not 0 <= votes <= 2**53 - 1:
+            raise ValueError("Invalid Texas portal candidate row")
+        candidates.append({"name": name, "party": {"REP": "R", "DEM": "D", "W": "Write-in"}.get(party, party),
+                           "votes": votes})
+    total = senate["T"]
+    if (len(candidates) < 2 or len({row["name"] for row in candidates}) != len(candidates)
+            or type(total) is not int or sum(row["votes"] for row in candidates) != total):
+        raise ValueError("Texas portal Senate counts do not reconcile")
+    if not total:
+        return None
+    return {"status": "reporting", "candidates": candidates,
+            "sourceName": "Texas Secretary of State", "sourceUrl": PORTAL}
 
 
 class ResultsPage(HTMLParser):
@@ -98,14 +129,27 @@ def parse_texas(payload):
     }
 
 
-def main():
-    cache_key = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
-    result = subprocess.run(
-        ["curl", "--fail", "--silent", "--show-error", "--max-time", "30",
-         "--max-filesize", str(8 * 1024 * 1024), f"{FEED}?refresh={cache_key}"],
-        check=True, stdout=subprocess.PIPE, timeout=35,
+def download(url):
+    return subprocess.check_output(
+        ["curl", "--fail", "--silent", "--show-error", "--max-time", "20",
+         "--max-filesize", str(8 * 1024 * 1024), url],
+        timeout=25,
     )
-    record = parse_texas(result.stdout)
+
+
+def main():
+    try:
+        record = parse_portal(download(PORTAL_FEED))
+    except (subprocess.SubprocessError, ValueError, KeyError, TypeError, AttributeError) as error:
+        print(f"Texas portal results unavailable: {error}. Checking the legacy state page.")
+    else:
+        if record is not None:
+            save_record("TX", record, source="official-portal")
+            return
+        print("Texas portal has no reported Senate votes. Checking the legacy state page.")
+
+    cache_key = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    record = parse_texas(download(f"{FEED}?refresh={cache_key}"))
     updated = datetime.fromisoformat(record["sourceUpdatedAt"]).astimezone(ZoneInfo("America/Chicago"))
     if updated.date().isoformat() < DATE:
         print(f"Texas served a pre-election page dated {updated.date()}. Kept the last snapshot.")

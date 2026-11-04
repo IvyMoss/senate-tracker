@@ -48,9 +48,12 @@ def parse_report(payload):
 
 
 def main():
-    version = download(BASE + "current_ver.txt").decode("ascii").strip()
-    if not re.fullmatch(r"[0-9]+", version):
-        raise ValueError("Unexpected South Carolina report version")
+    response = download(BASE + "current_ver.txt")
+    version = response.removeprefix(b"\xef\xbb\xbf").strip()
+    if not re.fullmatch(rb"[0-9]+", version):
+        kind = "an HTML page" if version.startswith(b"<") else "an empty response" if not version else "a nonnumeric response"
+        raise SystemExit(f"South Carolina's report version endpoint returned {kind}. Kept the last snapshot.")
+    version = version.decode("ascii")
     url = BASE + version + "/reports/detailxml.zip"
     candidates = parse_report(download(url))
     if not any(row["votes"] for row in candidates):
