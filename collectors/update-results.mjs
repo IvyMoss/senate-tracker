@@ -6,7 +6,13 @@ import { collectNorthCarolina } from './north-carolina.mjs';
 if (process.argv.includes('--print-nc')) {
   const record = await collectNorthCarolina();
   validateSnapshot({ electionDate: '2026-11-03', records: { NC: record } });
-  console.log(JSON.stringify(record));
+  const votes = record.candidates.reduce((total, candidate) => total + (candidate.votes ?? 0), 0);
+  console.error(record.status === 'reporting'
+    ? `North Carolina archive contains ${votes.toLocaleString('en-US')} Senate votes.`
+    : `North Carolina archive contains ${record.candidates.length} Senate candidates and no reported votes.`);
+  await new Promise((resolve, reject) => {
+    process.stdout.write(JSON.stringify(record) + '\n', error => error ? reject(error) : resolve());
+  });
   process.exit(0);
 }
 

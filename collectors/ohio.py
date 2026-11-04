@@ -33,10 +33,16 @@ def parse_report(xml):
     report = ET.fromstring(xml)
     if report.tag != f"{NS}ElectionReport" or report.get("IssuerAbbreviation") != "OH":
         raise ValueError("Expected an Ohio election report")
-    if report.get("IsTest") in {"true", "1"}:
+    test_flags = [node.text or "" for node in report.findall(f"{NS}IsTest")]
+    if "IsTest" in report.attrib:
+        test_flags.append(report.attrib["IsTest"])
+    test_flags = {flag.strip() for flag in test_flags}
+    if test_flags - {"true", "1", "false", "0"}:
+        raise ValueError("Invalid Ohio test flag")
+    # The election reporting format allows IsTest to be omitted.
+    status = report.get("Status", report.findtext(f"{NS}Status", ""))
+    if test_flags & {"true", "1"} or status.strip().casefold() in {"test", "test-mode"}:
         return None
-    if report.get("IsTest") not in {"false", "0"}:
-        raise ValueError("Missing or invalid Ohio test flag")
     election = only((node for node in elements(report, "Election")
                      if node.get("Date") == DATE and node.get("Type") == "General"),
                     "2026 general election")
