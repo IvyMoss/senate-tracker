@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:54:10+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:57:10+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -325,7 +325,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:54:08+00:00"
+      "sourceUpdatedAt": "2026-11-04T04:57:07+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -707,7 +707,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:54:10+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:57:10+00:00"
       }
     },
     "OH": {
@@ -870,22 +870,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 3964533
+            "votes": 4040102
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3234546
+            "votes": 3298485
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 124885
+            "votes": 128289
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:48:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:54:00+00:00"
       }
     },
     "FL": {
@@ -955,7 +955,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:54:08+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:57:07+00:00"
       }
     },
     "SC": {
