@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:57:10+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:01:05+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,37 +35,37 @@
         {
           "name": "AVERY AYERS",
           "party": "Write-in",
-          "votes": 2289
+          "votes": 2315
         },
         {
           "name": "TED BROWN",
           "party": "LIB",
-          "votes": 128288
+          "votes": 129868
         },
         {
           "name": "BRADFORD \"BRAD\" HALL",
           "party": "Write-in",
-          "votes": 673
+          "votes": 692
         },
         {
           "name": "ZUL MOHAMED",
           "party": "Write-in",
-          "votes": 70
+          "votes": 72
         },
         {
           "name": "KEN PAXTON",
           "party": "R",
-          "votes": 3298390
+          "votes": 3321942
         },
         {
           "name": "JADE SIMMONS",
           "party": "Write-in",
-          "votes": 773
+          "votes": 801
         },
         {
           "name": "JAMES TALARICO",
           "party": "D",
-          "votes": 4040036
+          "votes": 4066693
         }
       ],
       "sourceName": "Texas Secretary of State",
@@ -310,22 +310,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4201529
+          "votes": 4201943
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3959304
+          "votes": 3959883
         },
         {
           "name": "Neil J. Gillespie",
           "party": "I",
-          "votes": 94301
+          "votes": 94322
         }
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T04:57:07+00:00"
+      "sourceUpdatedAt": "2026-11-04T05:01:03+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -707,7 +707,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:57:10+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:01:05+00:00"
       }
     },
     "OH": {
@@ -828,37 +828,37 @@
           {
             "name": "AVERY AYERS",
             "party": "Write-in",
-            "votes": 2289
+            "votes": 2315
           },
           {
             "name": "TED BROWN",
             "party": "LIB",
-            "votes": 128288
+            "votes": 129868
           },
           {
             "name": "BRADFORD \"BRAD\" HALL",
             "party": "Write-in",
-            "votes": 673
+            "votes": 692
           },
           {
             "name": "ZUL MOHAMED",
             "party": "Write-in",
-            "votes": 70
+            "votes": 72
           },
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": 3298390
+            "votes": 3321942
           },
           {
             "name": "JADE SIMMONS",
             "party": "Write-in",
-            "votes": 773
+            "votes": 801
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": 4040036
+            "votes": 4066693
           }
         ],
         "sourceName": "Texas Secretary of State",
@@ -870,22 +870,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4040102
+            "votes": 4064158
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3298485
+            "votes": 3319203
           },
           {
             "name": "Ted Brown",
             "party": "L",
-            "votes": 128289
+            "votes": 129722
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:54:00+00:00"
+        "sourceUpdatedAt": "2026-11-04T04:56:00+00:00"
       }
     },
     "FL": {
@@ -918,17 +918,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4201529
+            "votes": 4201943
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3959304
+            "votes": 3959883
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94301
+            "votes": 94322
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -940,22 +940,22 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4201529
+            "votes": 4201943
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3959304
+            "votes": 3959883
           },
           {
             "name": "Neil J. Gillespie",
             "party": "I",
-            "votes": 94301
+            "votes": 94322
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T04:57:07+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:01:03+00:00"
       }
     },
     "SC": {
