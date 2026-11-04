@@ -25,7 +25,7 @@
           "votes": 36424
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:54.885000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:33:28.444000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -113,7 +113,7 @@
           "votes": 1709237
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:47.775000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:33:50.362000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -141,7 +141,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:38.471000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:32:16.800000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -164,7 +164,7 @@
           "votes": 35438
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:16.955000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:32:45.794000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -174,20 +174,20 @@
         {
           "name": "Troy Jackson",
           "party": "D",
-          "votes": 278750
+          "votes": 279757
         },
         {
           "name": "Susan Collins",
           "party": "R",
-          "votes": 241676
+          "votes": 243187
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 740
+          "votes": 746
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:23.812000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:32:32.773000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -298,7 +298,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:34.466000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:33:10.763000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -317,13 +317,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
+          "party": "I",
           "votes": 94426
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:18.260000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-04T05:33:08+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -354,7 +354,7 @@
           "votes": 4877
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T05:29:33.141000+00:00",
+      "sourceUpdatedAt": "2026-11-04T05:33:01.570000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -431,7 +431,7 @@
             "votes": 1709237
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:47.775000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:33:50.362000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -499,7 +499,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:38.471000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:32:16.800000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -524,7 +524,7 @@
             "votes": 35438
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:16.955000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:32:45.794000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -536,20 +536,20 @@
           {
             "name": "Troy Jackson",
             "party": "D",
-            "votes": 278750
+            "votes": 279757
           },
           {
             "name": "Susan Collins",
             "party": "R",
-            "votes": 241676
+            "votes": 243187
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 740
+            "votes": 746
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:23.812000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:32:32.773000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -675,7 +675,7 @@
             "votes": 36424
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:54.885000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:33:28.444000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -705,7 +705,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:29:04+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:33:10+00:00"
       }
     },
     "OH": {
@@ -748,7 +748,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:34.466000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:33:10.763000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -803,17 +803,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 4576335
+            "votes": 4634948
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 3344507
+            "votes": 3381583
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 139087
+            "votes": 141834
           },
           {
             "name": "Avery Ayers",
@@ -841,7 +841,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:52.165000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:33:36.178000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -931,7 +931,7 @@
             "votes": 94426
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:18.260000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:31:54.983000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -978,7 +978,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T05:29:11+00:00"
+        "sourceUpdatedAt": "2026-11-04T05:33:08+00:00"
       }
     },
     "SC": {
@@ -1011,7 +1011,7 @@
             "votes": 4877
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T05:29:33.141000+00:00",
+        "sourceUpdatedAt": "2026-11-04T05:33:01.570000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
