@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T07:25:14+00:00"
+      "sourceUpdatedAt": "2026-11-05T07:30:32+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -331,7 +331,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T07:25:12+00:00"
+      "sourceUpdatedAt": "2026-11-05T07:30:40+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T07:25:14+00:00"
+        "sourceUpdatedAt": "2026-11-05T07:30:32+00:00"
       }
     },
     "OH": {
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T07:25:12+00:00"
+        "sourceUpdatedAt": "2026-11-05T07:30:40+00:00"
       }
     },
     "SC": {
