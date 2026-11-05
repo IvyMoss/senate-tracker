@@ -25,7 +25,7 @@
           "votes": 36404
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T23:57:32.257000+00:00",
+      "sourceUpdatedAt": "2026-11-05T00:01:24.817000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -101,7 +101,7 @@
           "votes": 3590
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T23:57:17.075000+00:00",
+      "sourceUpdatedAt": "2026-11-05T00:00:40.416000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -159,20 +159,20 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 558796
+          "votes": 559722
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 504575
+          "votes": 504855
         },
         {
           "name": "David C Graham",
           "party": "Libertarian",
-          "votes": 33060
+          "votes": 33105
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T23:56:30.100000+00:00",
+      "sourceUpdatedAt": "2026-11-05T00:01:26.944000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -331,7 +331,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-04T23:56:07+00:00"
+      "sourceUpdatedAt": "2026-11-05T00:00:07+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -393,7 +393,7 @@
             "votes": 3590
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T23:57:17.075000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:00:40.416000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -519,20 +519,20 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 558796
+            "votes": 559722
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 504575
+            "votes": 504855
           },
           {
             "name": "David C Graham",
             "party": "Libertarian",
-            "votes": 33060
+            "votes": 33105
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T23:56:30.100000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:01:26.944000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T23:57:32.257000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:01:24.817000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T23:56:09+00:00"
+        "sourceUpdatedAt": "2026-11-05T00:00:09+00:00"
       }
     },
     "OH": {
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4203314
+            "votes": 4206282
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3965657
+            "votes": 3967352
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94340
+            "votes": 94466
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T23:53:16.590000+00:00",
+        "sourceUpdatedAt": "2026-11-04T23:59:51.055000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-04T23:56:07+00:00"
+        "sourceUpdatedAt": "2026-11-05T00:00:07+00:00"
       }
     },
     "SC": {
