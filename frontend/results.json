@@ -25,7 +25,7 @@
           "votes": 36404
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T05:05:46.559000+00:00",
+      "sourceUpdatedAt": "2026-11-05T05:07:39.508000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T05:06:18.703000+00:00",
+      "sourceUpdatedAt": "2026-11-05T05:09:44.625000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -172,7 +172,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T05:05:26.755000+00:00",
+      "sourceUpdatedAt": "2026-11-05T05:08:46.552000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -393,7 +393,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:06:18.703000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:09:44.625000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -532,7 +532,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:05:26.755000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:08:46.552000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:05:46.559000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:07:39.508000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4207774
+            "votes": 4202771
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3968811
+            "votes": 3960174
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94529
+            "votes": 94343
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:04:37.086000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:07:49.896000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
