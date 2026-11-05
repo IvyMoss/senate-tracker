@@ -25,7 +25,7 @@
           "votes": 36404
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T17:47:01.336000+00:00",
+      "sourceUpdatedAt": "2026-11-05T18:02:41.961000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T17:47:18.686000+00:00",
+      "sourceUpdatedAt": "2026-11-05T18:03:48.234000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -111,18 +111,18 @@
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1711635
+          "votes": 1711636
         },
         {
           "name": "Jon Ossoff (I)",
           "party": "D",
-          "votes": 2463160
+          "votes": 2463162
         }
       ],
       "reporting": 159,
       "reportingTotal": 159,
       "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-05T13:07:45Z",
+      "sourceUpdatedAt": "2026-11-05T17:29:04Z",
       "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
@@ -172,7 +172,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T17:47:52.958000+00:00",
+      "sourceUpdatedAt": "2026-11-05T18:03:17.451000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -316,20 +316,20 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4208081
+          "votes": 4208004
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3969396
+          "votes": 3969271
         },
         {
           "name": "Neil J. Gillespie",
           "party": "Independent",
-          "votes": 94541
+          "votes": 94538
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T17:46:10.051000+00:00",
+      "sourceUpdatedAt": "2026-11-05T18:02:26.653000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -393,7 +393,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T17:47:18.686000+00:00",
+        "sourceUpdatedAt": "2026-11-05T18:03:48.234000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -467,18 +467,18 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1711635
+            "votes": 1711636
           },
           {
             "name": "Jon Ossoff (I)",
             "party": "D",
-            "votes": 2463160
+            "votes": 2463162
           }
         ],
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-05T13:07:45Z",
+        "sourceUpdatedAt": "2026-11-05T17:29:04Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -532,7 +532,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T17:47:52.958000+00:00",
+        "sourceUpdatedAt": "2026-11-05T18:03:17.451000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T17:47:01.336000+00:00",
+        "sourceUpdatedAt": "2026-11-05T18:02:41.961000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T17:45:25+00:00"
+        "sourceUpdatedAt": "2026-11-05T18:00:15+00:00"
       }
     },
     "OH": {
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4208081
+            "votes": 4208004
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969396
+            "votes": 3969271
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94541
+            "votes": 94538
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T17:46:10.051000+00:00",
+        "sourceUpdatedAt": "2026-11-05T18:02:26.653000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T17:45:22+00:00"
+        "sourceUpdatedAt": "2026-11-05T18:00:12+00:00"
       }
     },
     "SC": {
