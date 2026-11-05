@@ -15,19 +15,19 @@
           "votes": 1643088
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55726
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36404
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T20:15:39+00:00"
+      "sourceUpdatedAt": "2026-11-05T20:18:59.796000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5445000
+          "votes": 5445156
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4249741
+          "votes": 4249762
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190253
+          "votes": 190259
         },
         {
           "name": "Write-in",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T19:48:44.751000+00:00",
+      "sourceUpdatedAt": "2026-11-05T20:17:54.721000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -124,7 +124,7 @@
           "votes": 1711636
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T20:10:05.207000+00:00",
+      "sourceUpdatedAt": "2026-11-05T20:17:35.064000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -208,32 +208,32 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2497852
+          "votes": 2504591
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2162890
+          "votes": 2169405
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49309
+          "votes": 49434
         },
         {
           "name": "Tim Long",
           "party": "U.S. Taxpayers",
-          "votes": 26319
+          "votes": 26374
         },
         {
           "name": "Douglas P. Marsh",
           "party": "Green",
-          "votes": 12455
+          "votes": 12493
         },
         {
           "name": "Walter P. Kristy",
           "party": "Natural Law",
-          "votes": 7195
+          "votes": 7216
         },
         {
           "name": "Write-in",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:46:24.895000+00:00",
+      "sourceUpdatedAt": "2026-11-05T20:18:01.606000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T19:46:30.847000+00:00",
+      "sourceUpdatedAt": "2026-11-05T20:18:19.492000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -442,7 +442,7 @@
             "votes": 1711636
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T20:10:05.207000+00:00",
+        "sourceUpdatedAt": "2026-11-05T20:17:35.064000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -572,32 +572,32 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2497852
+            "votes": 2504591
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2162890
+            "votes": 2169405
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49309
+            "votes": 49434
           },
           {
             "name": "Tim Long",
             "party": "U.S. Taxpayers",
-            "votes": 26319
+            "votes": 26374
           },
           {
             "name": "Douglas P. Marsh",
             "party": "Green",
-            "votes": 12455
+            "votes": 12493
           },
           {
             "name": "Walter P. Kristy",
             "party": "Natural Law",
-            "votes": 7195
+            "votes": 7216
           },
           {
             "name": "Write-in",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:46:24.895000+00:00",
+        "sourceUpdatedAt": "2026-11-05T20:18:01.606000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:46:26.737000+00:00",
+        "sourceUpdatedAt": "2026-11-05T20:18:59.796000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:46:30.847000+00:00",
+        "sourceUpdatedAt": "2026-11-05T20:18:19.492000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -814,17 +814,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5445000
+            "votes": 5445156
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4249741
+            "votes": 4249762
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190253
+            "votes": 190259
           },
           {
             "name": "Write-in",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:48:44.751000+00:00",
+        "sourceUpdatedAt": "2026-11-05T20:17:54.721000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
