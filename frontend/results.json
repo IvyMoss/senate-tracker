@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T10:06:11.053000+00:00",
+      "sourceUpdatedAt": "2026-11-05T10:10:06.019000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -172,7 +172,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T10:06:26.256000+00:00",
+      "sourceUpdatedAt": "2026-11-05T10:08:55.689000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -393,7 +393,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T10:06:11.053000+00:00",
+        "sourceUpdatedAt": "2026-11-05T10:10:06.019000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -532,7 +532,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T10:06:26.256000+00:00",
+        "sourceUpdatedAt": "2026-11-05T10:08:55.689000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4204506
+            "votes": 4207947
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3963696
+            "votes": 3969186
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94418
+            "votes": 94534
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T10:02:22.783000+00:00",
+        "sourceUpdatedAt": "2026-11-05T10:09:41.603000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
