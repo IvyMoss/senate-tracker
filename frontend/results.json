@@ -15,19 +15,19 @@
           "votes": 1643088
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55726
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36404
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T05:20:11+00:00"
+      "sourceUpdatedAt": "2026-11-05T05:25:25.754000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T05:20:58.099000+00:00",
+      "sourceUpdatedAt": "2026-11-05T05:25:05.213000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -172,7 +172,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T05:20:33.290000+00:00",
+      "sourceUpdatedAt": "2026-11-05T05:25:16.126000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -393,7 +393,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:20:58.099000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:25:05.213000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -532,7 +532,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:20:33.290000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:25:16.126000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:19:42.804000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:25:25.754000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4207947
+            "votes": 4205205
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969186
+            "votes": 3965182
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94534
+            "votes": 94366
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T05:20:36.668000+00:00",
+        "sourceUpdatedAt": "2026-11-05T05:23:22.320000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
