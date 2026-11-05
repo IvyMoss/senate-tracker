@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T19:25:24+00:00"
+      "sourceUpdatedAt": "2026-11-05T19:40:24+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T19:12:12.988000+00:00",
+      "sourceUpdatedAt": "2026-11-05T19:41:55.061000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -109,21 +109,19 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "votes": 2463162
+        },
+        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1711636
-        },
-        {
-          "name": "Jon Ossoff (I)",
-          "party": "D",
-          "votes": 2463162
         }
       ],
-      "reporting": 159,
-      "reportingTotal": 159,
-      "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-05T17:29:04Z",
-      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
+      "sourceUpdatedAt": "2026-11-05T19:43:14.670000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
     "IA": {
       "status": "reporting",
@@ -131,25 +129,25 @@
         {
           "name": "Josh Turek",
           "party": "D",
-          "votes": 687967
+          "votes": 686486
         },
         {
           "name": "Ashley Hinson",
           "party": "R",
-          "votes": 631030
+          "votes": 630615
         },
         {
           "name": "Thomas Laehn",
           "party": "Libertarian",
-          "votes": 42165
+          "votes": 42052
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 0
+          "votes": 1686
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:50:02.126000+00:00",
+      "sourceUpdatedAt": "2026-11-05T19:44:27.922000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -172,7 +170,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T19:28:50.367000+00:00",
+      "sourceUpdatedAt": "2026-11-05T19:43:50.452000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -182,20 +180,20 @@
         {
           "name": "Troy Jackson",
           "party": "D",
-          "votes": 361071
+          "votes": 376015
         },
         {
           "name": "Susan Collins",
           "party": "R",
-          "votes": 313533
+          "votes": 332563
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 862
+          "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-04T15:46:36.448000+00:00",
+      "sourceUpdatedAt": "2026-11-05T19:44:24.943000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -325,13 +323,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
+          "party": "Independent",
           "votes": 94538
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T19:25:20+00:00"
+      "sourceUpdatedAt": "2026-11-05T19:43:20.783000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -393,7 +391,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:12:12.988000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:41:55.061000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -431,15 +429,15 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2463135
+            "votes": 2463162
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1711322
+            "votes": 1711636
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:49:46.958000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:43:14.670000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -489,25 +487,25 @@
           {
             "name": "Josh Turek",
             "party": "D",
-            "votes": 687967
+            "votes": 686486
           },
           {
             "name": "Ashley Hinson",
             "party": "R",
-            "votes": 631030
+            "votes": 630615
           },
           {
             "name": "Thomas Laehn",
             "party": "Libertarian",
-            "votes": 42165
+            "votes": 42052
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 0
+            "votes": 1686
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:50:02.126000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:44:27.922000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -532,7 +530,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:28:50.367000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:43:50.452000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -544,20 +542,20 @@
           {
             "name": "Troy Jackson",
             "party": "D",
-            "votes": 361071
+            "votes": 376015
           },
           {
             "name": "Susan Collins",
             "party": "R",
-            "votes": 313533
+            "votes": 332563
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 862
+            "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-04T15:46:36.448000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:44:24.943000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -713,7 +711,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T19:25:24+00:00"
+        "sourceUpdatedAt": "2026-11-05T19:40:24+00:00"
       }
     },
     "OH": {
@@ -926,20 +924,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4202862
+            "votes": 4208004
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3961806
+            "votes": 3969271
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94291
+            "votes": 94538
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T19:09:33.814000+00:00",
+        "sourceUpdatedAt": "2026-11-05T19:43:20.783000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +984,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T19:25:20+00:00"
+        "sourceUpdatedAt": "2026-11-05T19:40:21+00:00"
       }
     },
     "SC": {
