@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-05T00:25:06+00:00"
+      "sourceUpdatedAt": "2026-11-05T00:29:04+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -101,7 +101,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T00:26:07.834000+00:00",
+      "sourceUpdatedAt": "2026-11-05T00:29:57.749000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -159,12 +159,12 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 559840
+          "votes": 559842
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 504946
+          "votes": 504949
         },
         {
           "name": "David C Graham",
@@ -172,7 +172,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T00:25:48.797000+00:00",
+      "sourceUpdatedAt": "2026-11-05T00:28:22.159000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -316,22 +316,22 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4208022
+          "votes": 4208004
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3969303
+          "votes": 3969271
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "Independent",
+          "party": "I",
           "votes": 94538
         }
       ],
-      "sourceUpdatedAt": "2026-11-05T00:23:28.390000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-05T00:29:11+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -393,7 +393,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T00:26:07.834000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:29:57.749000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -404,22 +404,22 @@
           {
             "name": "Heikes, Gerald L.",
             "party": "R",
-            "votes": 4821
+            "votes": 4846
           },
           {
             "name": "Peltola, Mary",
             "party": "D",
-            "votes": 102701
+            "votes": 102962
           },
           {
             "name": "Sullivan, Daniel J. Jr.",
             "party": "Other",
-            "votes": 3583
+            "votes": 3600
           },
           {
             "name": "Sullivan, Dan S.",
             "party": "R",
-            "votes": 102075
+            "votes": 102325
           }
         ]
       }
@@ -519,12 +519,12 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 559840
+            "votes": 559842
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 504946
+            "votes": 504949
           },
           {
             "name": "David C Graham",
@@ -532,7 +532,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T00:25:48.797000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:28:22.159000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -683,7 +683,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T00:24:33.275000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:29:00.276000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -713,7 +713,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T00:25:06+00:00"
+        "sourceUpdatedAt": "2026-11-05T00:29:04+00:00"
       }
     },
     "OH": {
@@ -926,20 +926,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4208022
+            "votes": 4207774
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969303
+            "votes": 3968811
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94538
+            "votes": 94529
           }
         ],
-        "sourceUpdatedAt": "2026-11-05T00:23:28.390000+00:00",
+        "sourceUpdatedAt": "2026-11-05T00:29:53.523000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -986,7 +986,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T00:25:03+00:00"
+        "sourceUpdatedAt": "2026-11-05T00:29:11+00:00"
       }
     },
     "SC": {
