@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T00:40:22+00:00"
+      "sourceUpdatedAt": "2026-11-06T00:55:21+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T00:29:45.500000+00:00",
+      "sourceUpdatedAt": "2026-11-06T00:57:24.303000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T00:30:14.039000+00:00",
+      "sourceUpdatedAt": "2026-11-06T00:48:11.508000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T00:31:32.573000+00:00",
+      "sourceUpdatedAt": "2026-11-06T00:53:42.852000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -208,37 +208,37 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2504881
+          "votes": 2505871
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2170186
+          "votes": 2171078
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49457
+          "votes": 49470
         },
         {
           "name": "Tim Long",
           "party": "U.S. Taxpayers",
-          "votes": 26383
+          "votes": 26389
         },
         {
           "name": "Douglas P. Marsh",
           "party": "Green",
-          "votes": 12495
+          "votes": 12499
         },
         {
           "name": "Walter P. Kristy",
           "party": "Natural Law",
-          "votes": 7217
+          "votes": 7220
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 3611
+          "votes": 3612
         },
         {
           "name": "Craig HenleyJohnson",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T00:27:57.807000+00:00",
+      "sourceUpdatedAt": "2026-11-06T00:56:47.265000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T00:40:19+00:00"
+      "sourceUpdatedAt": "2026-11-06T00:55:17+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -365,7 +365,7 @@
           "votes": 4895
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T00:24:44.641000+00:00",
+      "sourceUpdatedAt": "2026-11-06T00:51:25.859000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -396,7 +396,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:30:14.039000+00:00",
+        "sourceUpdatedAt": "2026-11-06T00:48:11.508000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:31:32.573000+00:00",
+        "sourceUpdatedAt": "2026-11-06T00:53:42.852000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -572,37 +572,37 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2504881
+            "votes": 2505871
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2170186
+            "votes": 2171078
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49457
+            "votes": 49470
           },
           {
             "name": "Tim Long",
             "party": "U.S. Taxpayers",
-            "votes": 26383
+            "votes": 26389
           },
           {
             "name": "Douglas P. Marsh",
             "party": "Green",
-            "votes": 12495
+            "votes": 12499
           },
           {
             "name": "Walter P. Kristy",
             "party": "Natural Law",
-            "votes": 7217
+            "votes": 7220
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 3611
+            "votes": 3612
           },
           {
             "name": "Craig HenleyJohnson",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:27:57.807000+00:00",
+        "sourceUpdatedAt": "2026-11-06T00:56:47.265000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T00:40:22+00:00"
+        "sourceUpdatedAt": "2026-11-06T00:55:21+00:00"
       }
     },
     "OH": {
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:29:45.500000+00:00",
+        "sourceUpdatedAt": "2026-11-06T00:57:24.303000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T00:40:19+00:00"
+        "sourceUpdatedAt": "2026-11-06T00:55:17+00:00"
       }
     },
     "SC": {
@@ -1027,7 +1027,7 @@
             "votes": 4895
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:24:44.641000+00:00",
+        "sourceUpdatedAt": "2026-11-06T00:51:25.859000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
