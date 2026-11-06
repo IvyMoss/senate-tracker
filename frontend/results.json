@@ -15,19 +15,19 @@
           "votes": 1643114
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 55727
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36405
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T22:38:44.047000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-06T22:40:16+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -328,13 +328,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
+          "party": "Independent",
           "votes": 94538
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T22:40:13+00:00"
+      "sourceUpdatedAt": "2026-11-06T22:44:45.538000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T22:35:30+00:00"
+        "sourceUpdatedAt": "2026-11-06T22:40:16+00:00"
       }
     },
     "OH": {
@@ -947,7 +947,7 @@
             "votes": 94538
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T22:12:18.439000+00:00",
+        "sourceUpdatedAt": "2026-11-06T22:44:45.538000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
