@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T21:50:38+00:00"
+      "sourceUpdatedAt": "2026-11-06T21:55:30+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -164,20 +164,20 @@
         {
           "name": "Adam Hamilton",
           "party": "D",
-          "votes": 559906
+          "votes": 560268
         },
         {
           "name": "Roger Marshall",
           "party": "R",
-          "votes": 504979
+          "votes": 505077
         },
         {
           "name": "David C Graham",
           "party": "Libertarian",
-          "votes": 33124
+          "votes": 33136
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T21:26:19.891000+00:00",
+      "sourceUpdatedAt": "2026-11-06T21:57:03.946000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -336,7 +336,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T21:50:47+00:00"
+      "sourceUpdatedAt": "2026-11-06T21:55:27+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -367,7 +367,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T21:31:29.770000+00:00",
+      "sourceUpdatedAt": "2026-11-06T21:57:19.144000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -524,20 +524,20 @@
           {
             "name": "Adam Hamilton",
             "party": "D",
-            "votes": 559906
+            "votes": 560268
           },
           {
             "name": "Roger Marshall",
             "party": "R",
-            "votes": 504979
+            "votes": 505077
           },
           {
             "name": "David C Graham",
             "party": "Libertarian",
-            "votes": 33124
+            "votes": 33136
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T21:26:19.891000+00:00",
+        "sourceUpdatedAt": "2026-11-06T21:57:03.946000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -718,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T21:50:38+00:00"
+        "sourceUpdatedAt": "2026-11-06T21:55:30+00:00"
       }
     },
     "OH": {
@@ -996,7 +996,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T21:50:47+00:00"
+        "sourceUpdatedAt": "2026-11-06T21:55:27+00:00"
       }
     },
     "SC": {
@@ -1029,7 +1029,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T21:31:29.770000+00:00",
+        "sourceUpdatedAt": "2026-11-06T21:57:19.144000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
