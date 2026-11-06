@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T14:10:12+00:00"
+      "sourceUpdatedAt": "2026-11-06T14:30:37+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T13:57:15.878000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:24:58.642000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T13:58:38.609000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:16:35.571000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -114,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2463162
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1711636
+          "votes": 1711641
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2463192
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T14:07:12.073000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-06T13:57:24Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -175,7 +177,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T13:58:04.220000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:28:54.335000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +200,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T14:10:03.252000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:32:16.050000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -266,7 +268,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T13:58:39.289000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:26:23.437000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -334,7 +336,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T14:10:23+00:00"
+      "sourceUpdatedAt": "2026-11-06T14:30:47+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -365,7 +367,7 @@
           "votes": 4895
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T13:59:02.512000+00:00",
+      "sourceUpdatedAt": "2026-11-06T14:25:13.992000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -396,7 +398,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T13:58:38.609000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:16:35.571000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -452,17 +454,17 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "votes": 2463162
+            "votes": 2463192
           },
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1711636
+            "votes": 1711641
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-05T17:29:04+00:00"
+        "sourceUpdatedAt": "2026-11-06T13:57:24+00:00"
       },
       "official": {
         "status": "reporting",
@@ -470,18 +472,18 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1711636
+            "votes": 1711641
           },
           {
             "name": "Jon Ossoff (I)",
             "party": "D",
-            "votes": 2463162
+            "votes": 2463192
           }
         ],
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-05T17:29:04Z",
+        "sourceUpdatedAt": "2026-11-06T13:57:24Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -535,7 +537,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T13:58:04.220000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:28:54.335000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +562,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T14:10:03.252000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:32:16.050000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -630,7 +632,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T13:58:39.289000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:26:23.437000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -716,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T14:10:12+00:00"
+        "sourceUpdatedAt": "2026-11-06T14:30:37+00:00"
       }
     },
     "OH": {
@@ -857,7 +859,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T13:57:15.878000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:24:58.642000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -994,7 +996,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T14:10:23+00:00"
+        "sourceUpdatedAt": "2026-11-06T14:30:47+00:00"
       }
     },
     "SC": {
@@ -1027,7 +1029,7 @@
             "votes": 4895
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T13:59:02.512000+00:00",
+        "sourceUpdatedAt": "2026-11-06T14:25:13.992000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
