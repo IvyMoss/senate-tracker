@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T17:00:15+00:00"
+      "sourceUpdatedAt": "2026-11-06T17:10:14+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -208,32 +208,32 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2505871
+          "votes": 2506952
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2171078
+          "votes": 2172463
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49470
+          "votes": 49503
         },
         {
           "name": "Tim Long",
           "party": "U.S. Taxpayers",
-          "votes": 26389
+          "votes": 26409
         },
         {
           "name": "Douglas P. Marsh",
           "party": "Green",
-          "votes": 12499
+          "votes": 12504
         },
         {
           "name": "Walter P. Kristy",
           "party": "Natural Law",
-          "votes": 7220
+          "votes": 7226
         },
         {
           "name": "Write-in",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T16:43:11.208000+00:00",
+      "sourceUpdatedAt": "2026-11-06T17:11:15.309000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T17:00:12+00:00"
+      "sourceUpdatedAt": "2026-11-06T17:10:22+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -342,22 +342,22 @@
         {
           "name": "Annie Andrews",
           "party": "D",
-          "votes": 1042463
+          "votes": 1042801
         },
         {
           "name": "Darline Graham",
           "party": "R",
-          "votes": 951230
+          "votes": 951444
         },
         {
           "name": "Kasie Whitener",
           "party": "Libertarian",
-          "votes": 23562
+          "votes": 23572
         },
         {
           "name": "Mark Hackett",
           "party": "Constitution",
-          "votes": 16802
+          "votes": 16805
         },
         {
           "name": "Write-in",
@@ -365,7 +365,7 @@
           "votes": 4895
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T16:41:53.966000+00:00",
+      "sourceUpdatedAt": "2026-11-06T17:08:24.593000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -572,32 +572,32 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2505871
+            "votes": 2506952
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2171078
+            "votes": 2172463
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49470
+            "votes": 49503
           },
           {
             "name": "Tim Long",
             "party": "U.S. Taxpayers",
-            "votes": 26389
+            "votes": 26409
           },
           {
             "name": "Douglas P. Marsh",
             "party": "Green",
-            "votes": 12499
+            "votes": 12504
           },
           {
             "name": "Walter P. Kristy",
             "party": "Natural Law",
-            "votes": 7220
+            "votes": 7226
           },
           {
             "name": "Write-in",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T16:43:11.208000+00:00",
+        "sourceUpdatedAt": "2026-11-06T17:11:15.309000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T17:00:15+00:00"
+        "sourceUpdatedAt": "2026-11-06T17:10:14+00:00"
       }
     },
     "OH": {
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T17:00:12+00:00"
+        "sourceUpdatedAt": "2026-11-06T17:10:22+00:00"
       }
     },
     "SC": {
@@ -1004,22 +1004,22 @@
           {
             "name": "Annie Andrews",
             "party": "D",
-            "votes": 1042463
+            "votes": 1042801
           },
           {
             "name": "Darline Graham",
             "party": "R",
-            "votes": 951230
+            "votes": 951444
           },
           {
             "name": "Kasie Whitener",
             "party": "Libertarian",
-            "votes": 23562
+            "votes": 23572
           },
           {
             "name": "Mark Hackett",
             "party": "Constitution",
-            "votes": 16802
+            "votes": 16805
           },
           {
             "name": "Write-in",
@@ -1027,7 +1027,7 @@
             "votes": 4895
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T16:41:53.966000+00:00",
+        "sourceUpdatedAt": "2026-11-06T17:08:24.593000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
