@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T23:05:14+00:00"
+      "sourceUpdatedAt": "2026-11-06T23:10:11+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -319,22 +319,21 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4208004
+          "votes": 4211455
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3969271
+          "votes": 3974148
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
-          "votes": 94538
+          "party": "NPA",
+          "votes": 94665
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T23:05:22+00:00"
+      "sourceName": "Florida Division of Elections",
+      "sourceUrl": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt"
     },
     "SC": {
       "status": "reporting",
@@ -716,7 +715,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T23:05:14+00:00"
+        "sourceUpdatedAt": "2026-11-06T23:10:11+00:00"
       }
     },
     "OH": {
@@ -957,17 +956,17 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4208004
+            "votes": 4211455
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969271
+            "votes": 3974148
           },
           {
             "name": "Neil J. Gillespie",
             "party": "NPA",
-            "votes": 94538
+            "votes": 94665
           }
         ],
         "sourceName": "Florida Division of Elections",
@@ -994,7 +993,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T23:05:22+00:00"
+        "sourceUpdatedAt": "2026-11-06T23:10:20+00:00"
       }
     },
     "SC": {
