@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T21:25:15+00:00"
+      "sourceUpdatedAt": "2026-11-06T21:30:37+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1712414
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T20:58:56.769000+00:00",
+      "sourceUpdatedAt": "2026-11-06T21:29:59.787000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T21:25:13+00:00"
+      "sourceUpdatedAt": "2026-11-06T21:30:47+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -342,12 +342,12 @@
         {
           "name": "Annie Andrews",
           "party": "D",
-          "votes": 1043446
+          "votes": 1043516
         },
         {
           "name": "Darline Graham",
           "party": "R",
-          "votes": 951912
+          "votes": 951951
         },
         {
           "name": "Kasie Whitener",
@@ -357,7 +357,7 @@
         {
           "name": "Mark Hackett",
           "party": "Constitution",
-          "votes": 16816
+          "votes": 16817
         },
         {
           "name": "Write-in",
@@ -365,7 +365,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T21:05:16.085000+00:00",
+      "sourceUpdatedAt": "2026-11-06T21:31:29.770000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -442,7 +442,7 @@
             "votes": 1712414
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T20:58:56.769000+00:00",
+        "sourceUpdatedAt": "2026-11-06T21:29:59.787000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T21:25:15+00:00"
+        "sourceUpdatedAt": "2026-11-06T21:30:37+00:00"
       }
     },
     "OH": {
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T21:25:13+00:00"
+        "sourceUpdatedAt": "2026-11-06T21:30:47+00:00"
       }
     },
     "SC": {
@@ -1004,12 +1004,12 @@
           {
             "name": "Annie Andrews",
             "party": "D",
-            "votes": 1043446
+            "votes": 1043516
           },
           {
             "name": "Darline Graham",
             "party": "R",
-            "votes": 951912
+            "votes": 951951
           },
           {
             "name": "Kasie Whitener",
@@ -1019,7 +1019,7 @@
           {
             "name": "Mark Hackett",
             "party": "Constitution",
-            "votes": 16816
+            "votes": 16817
           },
           {
             "name": "Write-in",
@@ -1027,7 +1027,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T21:05:16.085000+00:00",
+        "sourceUpdatedAt": "2026-11-06T21:31:29.770000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
