@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T01:05:31+00:00"
+      "sourceUpdatedAt": "2026-11-06T01:10:13+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T01:05:39+00:00"
+      "sourceUpdatedAt": "2026-11-06T01:10:23+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -686,7 +686,7 @@
             "votes": 36404
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:38:36.397000+00:00",
+        "sourceUpdatedAt": "2026-11-06T01:09:49.146000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T01:05:31+00:00"
+        "sourceUpdatedAt": "2026-11-06T01:10:13+00:00"
       }
     },
     "OH": {
@@ -934,20 +934,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4208004
+            "votes": 4207774
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969271
+            "votes": 3968811
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94538
+            "votes": 94529
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T00:39:12.900000+00:00",
+        "sourceUpdatedAt": "2026-11-06T01:11:41.854000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T01:05:39+00:00"
+        "sourceUpdatedAt": "2026-11-06T01:10:23+00:00"
       }
     },
     "SC": {
