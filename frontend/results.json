@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T10:45:44+00:00"
+      "sourceUpdatedAt": "2026-11-06T10:50:22+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -175,7 +175,7 @@
           "votes": 33117
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T10:22:02.520000+00:00",
+      "sourceUpdatedAt": "2026-11-06T10:52:48.488000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T10:28:38.842000+00:00",
+      "sourceUpdatedAt": "2026-11-06T10:50:41.887000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T10:45:41+00:00"
+      "sourceUpdatedAt": "2026-11-06T10:50:30+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -535,7 +535,7 @@
             "votes": 33117
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T10:22:02.520000+00:00",
+        "sourceUpdatedAt": "2026-11-06T10:52:48.488000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T10:28:38.842000+00:00",
+        "sourceUpdatedAt": "2026-11-06T10:50:41.887000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T10:45:44+00:00"
+        "sourceUpdatedAt": "2026-11-06T10:50:22+00:00"
       }
     },
     "OH": {
@@ -934,20 +934,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4207947
+            "votes": 4208004
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3969186
+            "votes": 3969271
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94534
+            "votes": 94538
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T10:18:17.277000+00:00",
+        "sourceUpdatedAt": "2026-11-06T10:50:19.620000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T10:45:41+00:00"
+        "sourceUpdatedAt": "2026-11-06T10:50:30+00:00"
       }
     },
     "SC": {
