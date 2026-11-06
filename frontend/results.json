@@ -7,27 +7,25 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2467963
+          "votes": 2467972
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1643088
+          "votes": 1643114
         },
         {
           "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 55726
+          "party": "LIB",
+          "votes": 55727
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
-          "votes": 36404
+          "party": "GRE",
+          "votes": 36405
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T20:05:29+00:00"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -198,7 +196,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T19:49:06.049000+00:00",
+      "sourceUpdatedAt": "2026-11-06T20:11:13.388000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -334,7 +332,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T20:05:36+00:00"
+      "sourceUpdatedAt": "2026-11-06T20:10:27+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -342,22 +340,22 @@
         {
           "name": "Annie Andrews",
           "party": "D",
-          "votes": 1043354
+          "votes": 1043378
         },
         {
           "name": "Darline Graham",
           "party": "R",
-          "votes": 951855
+          "votes": 951868
         },
         {
           "name": "Kasie Whitener",
           "party": "Libertarian",
-          "votes": 23588
+          "votes": 23589
         },
         {
           "name": "Mark Hackett",
           "party": "Constitution",
-          "votes": 16815
+          "votes": 16816
         },
         {
           "name": "Write-in",
@@ -365,7 +363,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-06T19:46:17.234000+00:00",
+      "sourceUpdatedAt": "2026-11-06T20:12:43.652000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -560,7 +558,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T19:49:06.049000+00:00",
+        "sourceUpdatedAt": "2026-11-06T20:11:13.388000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -642,22 +640,22 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2467963
+            "votes": 2467972
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643088
+            "votes": 1643114
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55726
+            "votes": 55727
           },
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36404
+            "votes": 36405
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -716,7 +714,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T20:05:29+00:00"
+        "sourceUpdatedAt": "2026-11-06T20:10:17+00:00"
       }
     },
     "OH": {
@@ -994,7 +992,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T20:05:36+00:00"
+        "sourceUpdatedAt": "2026-11-06T20:10:27+00:00"
       }
     },
     "SC": {
@@ -1004,22 +1002,22 @@
           {
             "name": "Annie Andrews",
             "party": "D",
-            "votes": 1043354
+            "votes": 1043378
           },
           {
             "name": "Darline Graham",
             "party": "R",
-            "votes": 951855
+            "votes": 951868
           },
           {
             "name": "Kasie Whitener",
             "party": "Libertarian",
-            "votes": 23588
+            "votes": 23589
           },
           {
             "name": "Mark Hackett",
             "party": "Constitution",
-            "votes": 16815
+            "votes": 16816
           },
           {
             "name": "Write-in",
@@ -1027,7 +1025,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T19:46:17.234000+00:00",
+        "sourceUpdatedAt": "2026-11-06T20:12:43.652000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
