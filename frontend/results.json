@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T20:25:11+00:00"
+      "sourceUpdatedAt": "2026-11-06T20:30:10+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-06T20:25:08+00:00"
+      "sourceUpdatedAt": "2026-11-06T20:30:18+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2467963
+            "votes": 2467972
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643088
+            "votes": 1643114
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55726
+            "votes": 55727
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36404
+            "votes": 36405
           }
         ],
-        "sourceUpdatedAt": "2026-11-06T19:58:08.761000+00:00",
+        "sourceUpdatedAt": "2026-11-06T20:29:06.785000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T20:25:11+00:00"
+        "sourceUpdatedAt": "2026-11-06T20:30:10+00:00"
       }
     },
     "OH": {
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-06T20:25:08+00:00"
+        "sourceUpdatedAt": "2026-11-06T20:30:18+00:00"
       }
     },
     "SC": {
