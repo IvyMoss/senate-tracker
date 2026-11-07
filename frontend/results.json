@@ -15,19 +15,19 @@
           "votes": 1643114
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55727
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36405
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-07T20:40:27+00:00"
+      "sourceUpdatedAt": "2026-11-07T20:47:46.213000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5446279
+          "votes": 5447039
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4250075
+          "votes": 4250573
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190289
+          "votes": 190319
         },
         {
           "name": "Write-in",
@@ -60,12 +60,12 @@
         {
           "name": "Jade Simmons",
           "party": "Write-In",
-          "votes": 1738
+          "votes": 1739
         },
         {
           "name": "Bradford \"Brad\" Hall",
           "party": "Write-In",
-          "votes": 1263
+          "votes": 1264
         },
         {
           "name": "Zul Mohamed",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-07T20:17:50.286000+00:00",
+      "sourceUpdatedAt": "2026-11-07T20:45:45.132000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -124,7 +124,7 @@
           "votes": 1712586
         }
       ],
-      "sourceUpdatedAt": "2026-11-07T20:15:04.159000+00:00",
+      "sourceUpdatedAt": "2026-11-07T20:46:12.952000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-07T20:40:24+00:00"
+      "sourceUpdatedAt": "2026-11-07T20:45:04+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -442,7 +442,7 @@
             "votes": 1712586
           }
         ],
-        "sourceUpdatedAt": "2026-11-07T20:15:04.159000+00:00",
+        "sourceUpdatedAt": "2026-11-07T20:46:12.952000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -686,7 +686,7 @@
             "votes": 36405
           }
         ],
-        "sourceUpdatedAt": "2026-11-07T20:16:43.867000+00:00",
+        "sourceUpdatedAt": "2026-11-07T20:47:46.213000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-07T20:40:27+00:00"
+        "sourceUpdatedAt": "2026-11-07T20:45:07+00:00"
       }
     },
     "OH": {
@@ -814,17 +814,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5446279
+            "votes": 5447039
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4250075
+            "votes": 4250573
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190289
+            "votes": 190319
           },
           {
             "name": "Write-in",
@@ -839,12 +839,12 @@
           {
             "name": "Jade Simmons",
             "party": "Write-In",
-            "votes": 1738
+            "votes": 1739
           },
           {
             "name": "Bradford \"Brad\" Hall",
             "party": "Write-In",
-            "votes": 1263
+            "votes": 1264
           },
           {
             "name": "Zul Mohamed",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-07T20:17:50.286000+00:00",
+        "sourceUpdatedAt": "2026-11-07T20:45:45.132000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-07T20:40:24+00:00"
+        "sourceUpdatedAt": "2026-11-07T20:45:04+00:00"
       }
     },
     "SC": {
