@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-07T19:10:09+00:00"
+      "sourceUpdatedAt": "2026-11-07T19:15:12+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-07T19:10:16+00:00"
+      "sourceUpdatedAt": "2026-11-07T19:15:09+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -686,7 +686,7 @@
             "votes": 36405
           }
         ],
-        "sourceUpdatedAt": "2026-11-07T18:43:24.833000+00:00",
+        "sourceUpdatedAt": "2026-11-07T19:14:30.036000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-07T19:10:09+00:00"
+        "sourceUpdatedAt": "2026-11-07T19:15:12+00:00"
       }
     },
     "OH": {
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-07T19:10:16+00:00"
+        "sourceUpdatedAt": "2026-11-07T19:15:09+00:00"
       }
     },
     "SC": {
