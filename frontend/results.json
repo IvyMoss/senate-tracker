@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T05:30:16+00:00"
+      "sourceUpdatedAt": "2026-11-08T05:35:16+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T05:07:02.131000+00:00",
+      "sourceUpdatedAt": "2026-11-08T05:34:31.882000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -124,7 +124,7 @@
           "votes": 1712587
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T05:05:29.355000+00:00",
+      "sourceUpdatedAt": "2026-11-08T05:36:41.371000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T05:30:23+00:00"
+      "sourceUpdatedAt": "2026-11-08T05:35:13+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -365,7 +365,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T05:09:02.296000+00:00",
+      "sourceUpdatedAt": "2026-11-08T05:34:58.174000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -442,7 +442,7 @@
             "votes": 1712587
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:05:29.355000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:36:41.371000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -686,7 +686,7 @@
             "votes": 36405
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:04:15.594000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:35:11.356000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T05:30:16+00:00"
+        "sourceUpdatedAt": "2026-11-08T05:35:16+00:00"
       }
     },
     "OH": {
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:07:02.131000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:34:31.882000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T05:30:23+00:00"
+        "sourceUpdatedAt": "2026-11-08T05:35:13+00:00"
       }
     },
     "SC": {
@@ -1027,7 +1027,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:09:02.296000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:34:58.174000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
