@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T05:26:34.380000+00:00",
+      "sourceUpdatedAt": "2026-11-08T05:57:19.151000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -328,13 +328,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
+          "party": "Independent",
           "votes": 94665
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T05:55:12+00:00"
+      "sourceUpdatedAt": "2026-11-08T05:56:22.707000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:26:34.380000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:57:19.151000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -947,7 +947,7 @@
             "votes": 94665
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T05:24:36.411000+00:00",
+        "sourceUpdatedAt": "2026-11-08T05:56:22.707000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
