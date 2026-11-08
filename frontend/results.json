@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T02:15:15+00:00"
+      "sourceUpdatedAt": "2026-11-08T02:20:23+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,12 +35,12 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5447039
+          "votes": 5447019
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4250573
+          "votes": 4250568
         },
         {
           "name": "Ted Brown",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T01:52:17.164000+00:00",
+      "sourceUpdatedAt": "2026-11-08T02:20:34.364000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -334,7 +334,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T02:15:12+00:00"
+      "sourceUpdatedAt": "2026-11-08T02:20:20+00:00"
     },
     "SC": {
       "status": "reporting",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T02:15:15+00:00"
+        "sourceUpdatedAt": "2026-11-08T02:20:23+00:00"
       }
     },
     "OH": {
@@ -814,12 +814,12 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5447039
+            "votes": 5447019
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4250573
+            "votes": 4250568
           },
           {
             "name": "Ted Brown",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T01:52:17.164000+00:00",
+        "sourceUpdatedAt": "2026-11-08T02:20:34.364000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T02:15:12+00:00"
+        "sourceUpdatedAt": "2026-11-08T02:20:20+00:00"
       }
     },
     "SC": {
