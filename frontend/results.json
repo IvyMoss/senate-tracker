@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T00:01:08.015000+00:00",
+      "sourceUpdatedAt": "2026-11-08T00:28:53.837000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T00:01:08.015000+00:00",
+        "sourceUpdatedAt": "2026-11-08T00:28:53.837000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
