@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T22:45:21+00:00"
+      "sourceUpdatedAt": "2026-11-08T22:50:41+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-08T22:33:26.643000+00:00",
+      "sourceUpdatedAt": "2026-11-08T22:51:29.879000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -328,13 +328,13 @@
         },
         {
           "name": "Neil J. Gillespie",
-          "party": "I",
+          "party": "Independent",
           "votes": 94665
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-08T22:45:18+00:00"
+      "sourceUpdatedAt": "2026-11-08T22:52:23.613000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
     "SC": {
       "status": "reporting",
@@ -396,7 +396,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T22:33:26.643000+00:00",
+        "sourceUpdatedAt": "2026-11-08T22:51:29.879000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T22:45:21+00:00"
+        "sourceUpdatedAt": "2026-11-08T22:50:41+00:00"
       }
     },
     "OH": {
@@ -947,7 +947,7 @@
             "votes": 94665
           }
         ],
-        "sourceUpdatedAt": "2026-11-08T22:20:29.451000+00:00",
+        "sourceUpdatedAt": "2026-11-08T22:52:23.613000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -994,7 +994,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-08T22:45:18+00:00"
+        "sourceUpdatedAt": "2026-11-08T22:50:49+00:00"
       }
     },
     "SC": {
