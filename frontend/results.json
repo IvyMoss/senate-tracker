@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-09T17:55:33+00:00"
+      "sourceUpdatedAt": "2026-11-09T18:00:10+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 3607
         }
       ],
-      "sourceUpdatedAt": "2026-11-09T17:42:15.755000+00:00",
+      "sourceUpdatedAt": "2026-11-09T18:00:06.986000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -398,7 +398,7 @@
             "votes": 3607
           }
         ],
-        "sourceUpdatedAt": "2026-11-09T17:42:15.755000+00:00",
+        "sourceUpdatedAt": "2026-11-09T18:00:06.986000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -718,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-09T17:55:33+00:00"
+        "sourceUpdatedAt": "2026-11-09T18:00:10+00:00"
       }
     },
     "OH": {
@@ -1039,31 +1039,31 @@
           {
             "name": "REP Darline Graham",
             "party": "R",
-            "votes": 951165
+            "votes": 951896
           },
           {
             "name": "LIB Kasie Whitener",
             "party": "LIB",
-            "votes": 23560
+            "votes": 23583
           },
           {
             "name": "DEM Annie Andrews",
             "party": "D",
-            "votes": 1042362
+            "votes": 1043712
           },
           {
             "name": "CON Mark Hackett",
             "party": "CON",
-            "votes": 16799
+            "votes": 16806
           },
           {
             "name": "Write-In",
             "party": "NON",
-            "votes": 4894
+            "votes": 4898
           }
         ],
-        "sourceUrl": "https://www.enr-scvotes.org/SC/127300/385464/reports/detailxml.zip",
-        "sourceUpdatedAt": "2026-11-04T07:11:41Z",
+        "sourceUrl": "https://www.enr-scvotes.org/SC/127300/386034/reports/detailxml.zip",
+        "sourceUpdatedAt": "2026-11-06T23:25:28Z",
         "sourceName": "South Carolina Election Commission"
       }
     }
