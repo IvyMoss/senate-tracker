@@ -15,19 +15,19 @@
           "votes": 1643203
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 55723
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36405
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T18:10:10+00:00"
+      "sourceUpdatedAt": "2026-11-10T18:17:10.098000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1713656
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T17:44:46.399000+00:00",
+      "sourceUpdatedAt": "2026-11-10T18:15:58.078000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -365,7 +365,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T17:48:43.036000+00:00",
+      "sourceUpdatedAt": "2026-11-10T18:14:36.616000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -442,7 +442,7 @@
             "votes": 1713656
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T17:44:46.399000+00:00",
+        "sourceUpdatedAt": "2026-11-10T18:15:58.078000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2468052
+            "votes": 2468134
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643150
+            "votes": 1643203
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55719
+            "votes": 55723
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36402
+            "votes": 36405
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T17:45:57.469000+00:00",
+        "sourceUpdatedAt": "2026-11-10T18:17:10.098000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T18:10:10+00:00"
+        "sourceUpdatedAt": "2026-11-10T18:15:28+00:00"
       }
     },
     "OH": {
@@ -1027,7 +1027,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T17:48:43.036000+00:00",
+        "sourceUpdatedAt": "2026-11-10T18:14:36.616000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
