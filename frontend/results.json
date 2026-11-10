@@ -5,27 +5,29 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2475010
+        },
+        {
           "name": "Michael Whatley",
           "party": "R",
           "votes": 1646800
         },
         {
           "name": "Shannon W. Bray",
-          "party": "LIB",
+          "party": "L",
           "votes": 55945
         },
         {
           "name": "Michael Dublin",
-          "party": "GRE",
+          "party": "G",
           "votes": 36578
-        },
-        {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2475010
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-10T22:35:30+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -112,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2468990
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1713658
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2468990
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:27:45.547000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-10T22:30:12Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -460,7 +464,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T22:26:55+00:00"
+        "sourceUpdatedAt": "2026-11-10T22:30:12+00:00"
       },
       "official": {
         "status": "reporting",
@@ -479,7 +483,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T22:26:55Z",
+        "sourceUpdatedAt": "2026-11-10T22:30:12Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -666,12 +670,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2474998
+            "votes": 2475010
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1646767
+            "votes": 1646800
           },
           {
             "name": "Shannon Bray",
@@ -684,7 +688,7 @@
             "votes": 36578
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:28:39.976000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:34:50.001000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -694,12 +698,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2474998
+            "votes": 2475010
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1646767
+            "votes": 1646800
           },
           {
             "name": "Shannon W. Bray",
@@ -714,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T22:30:13+00:00"
+        "sourceUpdatedAt": "2026-11-10T22:35:30+00:00"
       }
     },
     "OH": {
