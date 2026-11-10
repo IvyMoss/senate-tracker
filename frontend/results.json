@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T15:15:21+00:00"
+      "sourceUpdatedAt": "2026-11-10T15:25:20+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T14:58:06.618000+00:00",
+      "sourceUpdatedAt": "2026-11-10T15:25:55.729000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 3651
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T15:03:55.835000+00:00",
+      "sourceUpdatedAt": "2026-11-10T15:21:53.690000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -114,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2468985
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1713656
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2468985
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T15:08:39.764000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-10T15:19:54Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -175,7 +177,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T14:53:48.977000+00:00",
+      "sourceUpdatedAt": "2026-11-10T15:24:38.370000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +200,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T14:59:20.690000+00:00",
+      "sourceUpdatedAt": "2026-11-10T15:21:24.346000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -396,7 +398,7 @@
             "votes": 3651
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T15:03:55.835000+00:00",
+        "sourceUpdatedAt": "2026-11-10T15:21:53.690000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -462,7 +464,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T14:20:05+00:00"
+        "sourceUpdatedAt": "2026-11-10T15:19:54+00:00"
       },
       "official": {
         "status": "reporting",
@@ -481,7 +483,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T14:20:05Z",
+        "sourceUpdatedAt": "2026-11-10T15:19:54Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -535,7 +537,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T14:53:48.977000+00:00",
+        "sourceUpdatedAt": "2026-11-10T15:24:38.370000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +562,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T14:59:20.690000+00:00",
+        "sourceUpdatedAt": "2026-11-10T15:21:24.346000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -716,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T15:15:21+00:00"
+        "sourceUpdatedAt": "2026-11-10T15:25:20+00:00"
       }
     },
     "OH": {
@@ -857,7 +859,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T14:58:06.618000+00:00",
+        "sourceUpdatedAt": "2026-11-10T15:25:55.729000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
