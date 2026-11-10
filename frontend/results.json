@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T00:40:12+00:00"
+      "sourceUpdatedAt": "2026-11-10T00:45:07+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -84,29 +84,31 @@
     },
     "AK": {
       "status": "ranked_choice_pending",
-      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Heikes, Gerald L.",
-          "party": "R",
-          "votes": 4865
-        },
-        {
-          "name": "Peltola, Mary",
+          "name": "Mary Peltola",
           "party": "D",
-          "votes": 106321
+          "votes": 106533
         },
         {
-          "name": "Sullivan, Daniel J. Jr.",
-          "party": "Other",
-          "votes": 3651
-        },
-        {
-          "name": "Sullivan, Dan S.",
+          "name": "Dan Sullivan",
           "party": "R",
-          "votes": 103804
+          "votes": 104094
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "votes": 4871
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
+          "votes": 3658
         }
-      ]
+      ],
+      "sourceUpdatedAt": "2026-11-10T00:47:35.519000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
       "status": "reporting",
@@ -378,25 +380,25 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 103171
+            "votes": 106533
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 102617
+            "votes": 104094
           },
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "votes": 4851
+            "votes": 4871
           },
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 3607
+            "votes": 3658
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T00:29:42.864000+00:00",
+        "sourceUpdatedAt": "2026-11-10T00:47:35.519000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -716,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T00:40:12+00:00"
+        "sourceUpdatedAt": "2026-11-10T00:45:07+00:00"
       }
     },
     "OH": {
