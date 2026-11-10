@@ -15,17 +15,19 @@
           "votes": 1647112
         },
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 36613
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 55986
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
-          "votes": 55986
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 36613
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-10T22:55:23+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -33,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5448902
+          "votes": 5449037
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4251447
+          "votes": 4251519
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190355
+          "votes": 190360
         },
         {
           "name": "Write-in",
@@ -76,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:27:34.761000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:55:08.229000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -266,7 +268,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:26:03.119000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:53:49.483000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -365,7 +367,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:25:33.362000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:51:35.666000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -630,7 +632,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:26:03.119000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:53:49.483000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -668,25 +670,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2475642
+            "votes": 2476911
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1646905
+            "votes": 1647112
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55952
+            "votes": 55986
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36591
+            "votes": 36613
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:46:34.917000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:52:38.557000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -696,27 +698,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2475846
+            "votes": 2476911
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1647005
+            "votes": 1647112
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 55965
+            "votes": 55986
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36595
+            "votes": 36613
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T22:50:07+00:00"
+        "sourceUpdatedAt": "2026-11-10T22:55:23+00:00"
       }
     },
     "OH": {
@@ -814,17 +816,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5448902
+            "votes": 5449037
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4251447
+            "votes": 4251519
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190355
+            "votes": 190360
           },
           {
             "name": "Write-in",
@@ -857,7 +859,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:27:34.761000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:55:08.229000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -1027,7 +1029,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:25:33.362000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:51:35.666000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
