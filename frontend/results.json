@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T13:00:16+00:00"
+      "sourceUpdatedAt": "2026-11-10T13:10:13+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T12:40:00.925000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:07:44.699000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -124,7 +124,7 @@
           "votes": 1713656
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T12:32:51.257000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:04:01.501000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -442,7 +442,7 @@
             "votes": 1713656
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T12:32:51.257000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:04:01.501000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -462,7 +462,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T00:24:54+00:00"
+        "sourceUpdatedAt": "2026-11-10T12:56:54+00:00"
       },
       "official": {
         "status": "reporting",
@@ -481,7 +481,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T00:24:54Z",
+        "sourceUpdatedAt": "2026-11-10T12:56:54Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -686,7 +686,7 @@
             "votes": 36400
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T12:36:22.003000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:07:20.424000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T13:00:16+00:00"
+        "sourceUpdatedAt": "2026-11-10T13:10:13+00:00"
       }
     },
     "OH": {
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T12:40:00.925000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:07:44.699000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
