@@ -7,27 +7,27 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2468821
+          "votes": 2469297
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1643756
+          "votes": 1644022
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 55756
+          "votes": 55771
         },
         {
           "name": "Michael Dublin",
           "party": "G",
-          "votes": 36422
+          "votes": 36438
         }
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T20:25:11+00:00"
+      "sourceUpdatedAt": "2026-11-10T20:30:20+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 3651
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T20:11:32.462000+00:00",
+      "sourceUpdatedAt": "2026-11-10T20:29:19.109000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -396,7 +396,7 @@
             "votes": 3651
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:11:32.462000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:29:19.109000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1643756
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2469297
           },
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36422
+            "votes": 36438
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55756
+            "votes": 55771
           },
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2468821
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1644022
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2468632
+            "votes": 2468821
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643649
+            "votes": 1643756
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55750
+            "votes": 55756
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36416
+            "votes": 36422
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T19:56:36.635000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:27:46.002000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -696,27 +696,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2468821
+            "votes": 2469297
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643756
+            "votes": 1644022
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 55756
+            "votes": 55771
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36422
+            "votes": 36438
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T20:25:11+00:00"
+        "sourceUpdatedAt": "2026-11-10T20:30:20+00:00"
       }
     },
     "OH": {
