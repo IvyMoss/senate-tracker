@@ -5,29 +5,27 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2475642
-        },
-        {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1646905
+          "votes": 1647005
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
-          "votes": 55952
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2475846
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 36591
+          "party": "GRE",
+          "votes": 36595
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 55965
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:40:43.653000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -642,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1647005
+          },
+          {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2475642
+            "votes": 2475846
           },
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36591
-          },
-          {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1646905
+            "votes": 36595
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55952
+            "votes": 55965
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -688,7 +686,7 @@
             "votes": 36591
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:40:43.653000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:46:34.917000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -718,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T22:40:17+00:00"
+        "sourceUpdatedAt": "2026-11-10T22:45:08+00:00"
       }
     },
     "OH": {
