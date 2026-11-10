@@ -7,27 +7,27 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2476911
+          "votes": 2477197
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1647112
+          "votes": 1647225
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 55986
+          "name": "Shannon Bray",
+          "party": "Libertarian",
+          "votes": 55993
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
-          "votes": 36613
+          "party": "Green",
+          "votes": 36617
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T22:55:23+00:00"
+      "sourceUpdatedAt": "2026-11-10T22:58:44.423000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -154,7 +154,7 @@
           "votes": 1686
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:27:08.249000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:57:12.134000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -177,7 +177,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:27:56.849000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:58:49.084000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -512,7 +512,7 @@
             "votes": 1686
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:27:08.249000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:57:12.134000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -537,7 +537,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:27:56.849000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:58:49.084000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -642,24 +642,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2476911
-          },
-          {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1647112
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36613
+            "votes": 36617
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2477197
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55986
+            "votes": 55993
+          },
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1647225
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -670,25 +670,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2476911
+            "votes": 2477197
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1647112
+            "votes": 1647225
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55986
+            "votes": 55993
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36613
+            "votes": 36617
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:52:38.557000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:58:44.423000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
