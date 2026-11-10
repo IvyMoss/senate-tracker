@@ -106,7 +106,7 @@
           "votes": 3651
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:34:50.721000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:52:43.830000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -127,7 +127,7 @@
       "reporting": 159,
       "reportingTotal": 159,
       "reportingUnit": "counties",
-      "sourceUpdatedAt": "2026-11-10T13:38:54Z",
+      "sourceUpdatedAt": "2026-11-10T13:47:15Z",
       "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
@@ -177,7 +177,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:21:22.209000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:52:11.611000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -367,7 +367,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:27:42.131000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:53:59.869000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -398,7 +398,7 @@
             "votes": 3651
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T13:34:50.721000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:52:43.830000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -483,7 +483,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T13:38:54Z",
+        "sourceUpdatedAt": "2026-11-10T13:47:15Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -537,7 +537,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T13:21:22.209000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:52:11.611000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -1029,7 +1029,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T13:27:42.131000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:53:59.869000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
