@@ -5,9 +5,9 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 36401
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2468006
         },
         {
           "name": "Michael Whatley",
@@ -15,17 +15,19 @@
           "votes": 1643140
         },
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2468006
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 55719
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
-          "votes": 55719
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 36401
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-10T17:20:27+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -307,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T16:49:16.849000+00:00",
+      "sourceUpdatedAt": "2026-11-10T17:19:38.390000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -694,27 +696,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2467984
+            "votes": 2468006
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643106
+            "votes": 1643140
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 55713
+            "votes": 55719
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36400
+            "votes": 36401
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T17:15:25+00:00"
+        "sourceUpdatedAt": "2026-11-10T17:20:27+00:00"
       }
     },
     "OH": {
@@ -757,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T16:49:16.849000+00:00",
+        "sourceUpdatedAt": "2026-11-10T17:19:38.390000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
