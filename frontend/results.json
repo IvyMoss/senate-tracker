@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T18:05:07+00:00"
+      "sourceUpdatedAt": "2026-11-10T18:10:10+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5447795
+          "votes": 5447831
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4250913
+          "votes": 4250928
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190336
+          "votes": 190337
         },
         {
           "name": "Write-in",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T17:44:56.385000+00:00",
+      "sourceUpdatedAt": "2026-11-10T18:12:34.467000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T18:05:07+00:00"
+        "sourceUpdatedAt": "2026-11-10T18:10:10+00:00"
       }
     },
     "OH": {
@@ -814,17 +814,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5447795
+            "votes": 5447831
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4250913
+            "votes": 4250928
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190336
+            "votes": 190337
           },
           {
             "name": "Write-in",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T17:44:56.385000+00:00",
+        "sourceUpdatedAt": "2026-11-10T18:12:34.467000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
