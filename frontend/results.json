@@ -5,27 +5,29 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2468821
+        },
+        {
           "name": "Michael Whatley",
           "party": "R",
           "votes": 1643756
         },
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 36422
-        },
-        {
           "name": "Shannon W. Bray",
-          "party": "LIB",
+          "party": "L",
           "votes": 55756
         },
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2468821
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 36422
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-10T20:20:15+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -363,7 +365,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T19:57:21.552000+00:00",
+      "sourceUpdatedAt": "2026-11-10T20:23:17.508000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -694,27 +696,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2468711
+            "votes": 2468821
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1643718
+            "votes": 1643756
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 55755
+            "votes": 55756
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36418
+            "votes": 36422
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T20:15:15+00:00"
+        "sourceUpdatedAt": "2026-11-10T20:20:15+00:00"
       }
     },
     "OH": {
@@ -1025,7 +1027,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T19:57:21.552000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:23:17.508000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
