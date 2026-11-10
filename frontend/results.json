@@ -5,24 +5,24 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 55842
+        },
+        {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2470864
+          "votes": 2471095
         },
         {
           "name": "Michael Dublin",
           "party": "GRE",
-          "votes": 36477
+          "votes": 36488
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1645242
-        },
-        {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
-          "votes": 55836
+          "votes": 1645442
         }
       ],
       "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -330,7 +330,7 @@
           "votes": 94665
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T20:58:27.709000+00:00",
+      "sourceUpdatedAt": "2026-11-10T21:30:48.864000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -638,24 +638,24 @@
         "status": "reporting",
         "candidates": [
           {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 55842
+          },
+          {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2470864
+            "votes": 2471095
           },
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36477
+            "votes": 36488
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1645242
-          },
-          {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 55836
+            "votes": 1645442
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -666,25 +666,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2470163
+            "votes": 2470864
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1644665
+            "votes": 1645242
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55804
+            "votes": 55836
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36458
+            "votes": 36477
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:59:00.187000+00:00",
+        "sourceUpdatedAt": "2026-11-10T21:30:44.953000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -694,12 +694,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2470839
+            "votes": 2470864
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1645191
+            "votes": 1645242
           },
           {
             "name": "Shannon W. Bray",
@@ -709,12 +709,12 @@
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36476
+            "votes": 36477
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T21:25:17+00:00"
+        "sourceUpdatedAt": "2026-11-10T21:30:13+00:00"
       }
     },
     "OH": {
@@ -945,7 +945,7 @@
             "votes": 94665
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:58:27.709000+00:00",
+        "sourceUpdatedAt": "2026-11-10T21:30:48.864000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
