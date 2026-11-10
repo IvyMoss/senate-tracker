@@ -5,29 +5,27 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2472121
-        },
-        {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1645726
+          "votes": 1645804
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 55859
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2472181
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
-          "votes": 36510
+          "party": "GRE",
+          "votes": 36516
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 55868
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T21:40:27+00:00"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -365,7 +363,7 @@
           "votes": 4899
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:15:06.821000+00:00",
+      "sourceUpdatedAt": "2026-11-10T21:41:09.959000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -640,24 +638,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36510
-          },
-          {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 55859
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1645804
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2472121
+            "votes": 2472181
           },
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1645726
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36516
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 55868
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -1027,7 +1025,7 @@
             "votes": 4899
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:15:06.821000+00:00",
+        "sourceUpdatedAt": "2026-11-10T21:41:09.959000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
