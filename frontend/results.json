@@ -5,29 +5,27 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Roy Cooper",
-          "party": "D",
-          "votes": 2472181
-        },
-        {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1645804
+          "votes": 1645898
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 55868
+          "name": "Roy Cooper",
+          "party": "D",
+          "votes": 2472408
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
-          "votes": 36516
+          "party": "GRE",
+          "votes": 36518
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 55872
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T21:45:09+00:00"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -35,22 +33,22 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5447908
+          "votes": 5448718
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4251090
+          "votes": 4251351
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190343
+          "votes": 190354
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 4461
+          "votes": 4466
         },
         {
           "name": "Avery Ayers",
@@ -78,7 +76,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:20:59.491000+00:00",
+      "sourceUpdatedAt": "2026-11-10T21:48:43.913000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -642,22 +640,22 @@
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1645804
+            "votes": 1645898
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2472181
+            "votes": 2472408
           },
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36516
+            "votes": 36518
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55868
+            "votes": 55872
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -716,7 +714,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T21:45:09+00:00"
+        "sourceUpdatedAt": "2026-11-10T21:50:09+00:00"
       }
     },
     "OH": {
@@ -814,22 +812,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5447908
+            "votes": 5448718
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4251090
+            "votes": 4251351
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190343
+            "votes": 190354
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 4461
+            "votes": 4466
           },
           {
             "name": "Avery Ayers",
@@ -857,7 +855,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:20:59.491000+00:00",
+        "sourceUpdatedAt": "2026-11-10T21:48:43.913000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
