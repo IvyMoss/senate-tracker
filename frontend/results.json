@@ -76,7 +76,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T20:25:47.825000+00:00",
+      "sourceUpdatedAt": "2026-11-10T20:53:25.424000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -150,7 +150,7 @@
           "votes": 1686
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T20:24:42.911000+00:00",
+      "sourceUpdatedAt": "2026-11-10T20:54:58.281000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -206,12 +206,12 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2506961
+          "votes": 2506968
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2172464
+          "votes": 2172466
         },
         {
           "name": "Lydia Christensen",
@@ -264,7 +264,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T20:23:39.691000+00:00",
+      "sourceUpdatedAt": "2026-11-10T20:51:53.482000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -508,7 +508,7 @@
             "votes": 1686
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:24:42.911000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:54:58.281000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -570,12 +570,12 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2506961
+            "votes": 2506968
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2172464
+            "votes": 2172466
           },
           {
             "name": "Lydia Christensen",
@@ -628,7 +628,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:23:39.691000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:51:53.482000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -855,7 +855,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T20:25:47.825000+00:00",
+        "sourceUpdatedAt": "2026-11-10T20:53:25.424000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
