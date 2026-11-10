@@ -106,7 +106,7 @@
           "votes": 3651
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:16:54.432000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:34:50.721000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -114,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2468985
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1713656
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2468985
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T13:23:24+00:00"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-10T13:23:24Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -152,7 +154,7 @@
           "votes": 1686
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:00:54.043000+00:00",
+      "sourceUpdatedAt": "2026-11-10T13:31:06.997000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -396,7 +398,7 @@
             "votes": 3651
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T13:16:54.432000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:34:50.721000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -481,7 +483,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T13:15:48Z",
+        "sourceUpdatedAt": "2026-11-10T13:23:24Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -510,7 +512,7 @@
             "votes": 1686
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T13:00:54.043000+00:00",
+        "sourceUpdatedAt": "2026-11-10T13:31:06.997000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
