@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T13:40:25+00:00"
+      "sourceUpdatedAt": "2026-11-10T13:45:11+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -114,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2468985
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1713656
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2468985
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T13:35:11.030000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-10T13:38:54Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -462,7 +464,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T13:23:24+00:00"
+        "sourceUpdatedAt": "2026-11-10T13:38:54+00:00"
       },
       "official": {
         "status": "reporting",
@@ -481,7 +483,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T13:23:24Z",
+        "sourceUpdatedAt": "2026-11-10T13:38:54Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -716,7 +718,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-10T13:40:25+00:00"
+        "sourceUpdatedAt": "2026-11-10T13:45:11+00:00"
       }
     },
     "OH": {
