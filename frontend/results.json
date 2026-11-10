@@ -7,27 +7,27 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2474405
+          "votes": 2474998
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1646562
+          "votes": 1646767
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
-          "votes": 55927
+          "name": "Shannon Bray",
+          "party": "Libertarian",
+          "votes": 55945
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
-          "votes": 36568
+          "party": "Green",
+          "votes": 36578
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-10T22:25:16+00:00"
+      "sourceUpdatedAt": "2026-11-10T22:28:39.976000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5448718
+          "votes": 5448902
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4251351
+          "votes": 4251447
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190354
+          "votes": 190355
         },
         {
           "name": "Write-in",
@@ -55,7 +55,7 @@
         {
           "name": "Avery Ayers",
           "party": "Write-In",
-          "votes": 2039
+          "votes": 2040
         },
         {
           "name": "Jade Simmons",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T22:00:17.036000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:27:34.761000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -124,7 +124,7 @@
           "votes": 1713658
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:56:22.439000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:27:45.547000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -152,7 +152,7 @@
           "votes": 1686
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:56:55.111000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:27:08.249000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:57:01.093000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:27:56.849000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:58:23.122000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:26:03.119000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:58:55.817000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:29:11.135000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -332,7 +332,7 @@
           "votes": 94665
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T21:56:55.779000+00:00",
+      "sourceUpdatedAt": "2026-11-10T22:28:37.159000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -442,7 +442,7 @@
             "votes": 1713658
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:56:22.439000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:27:45.547000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -481,7 +481,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-10T21:03:53Z",
+        "sourceUpdatedAt": "2026-11-10T22:26:55Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -510,7 +510,7 @@
             "votes": 1686
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:56:55.111000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:27:08.249000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:57:01.093000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:27:56.849000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:58:23.122000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:26:03.119000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2474405
-          },
-          {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36568
-          },
-          {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1646562
+            "votes": 1646767
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 55927
+            "votes": 55945
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2474998
+          },
+          {
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36578
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2474405
+            "votes": 2474998
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1646562
+            "votes": 1646767
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 55927
+            "votes": 55945
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36568
+            "votes": 36578
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:22:36.957000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:28:39.976000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:58:55.817000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:29:11.135000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -814,17 +814,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5448718
+            "votes": 5448902
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4251351
+            "votes": 4251447
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190354
+            "votes": 190355
           },
           {
             "name": "Write-in",
@@ -834,7 +834,7 @@
           {
             "name": "Avery Ayers",
             "party": "Write-In",
-            "votes": 2039
+            "votes": 2040
           },
           {
             "name": "Jade Simmons",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T22:00:17.036000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:27:34.761000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -947,7 +947,7 @@
             "votes": 94665
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T21:56:55.779000+00:00",
+        "sourceUpdatedAt": "2026-11-10T22:28:37.159000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
