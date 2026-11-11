@@ -5,29 +5,27 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Michael Dublin",
+          "party": "GRE",
+          "votes": 36654
+        },
+        {
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 56024
+        },
+        {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2477601
+          "votes": 2478113
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1647553
-        },
-        {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
-          "votes": 56009
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 36628
+          "votes": 1647746
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:39:46.696000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -640,24 +638,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 56009
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36654
           },
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1647553
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 56024
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2477601
+            "votes": 2478113
           },
           {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36628
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1647746
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -716,7 +714,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T00:35:17+00:00"
+        "sourceUpdatedAt": "2026-11-11T00:40:21+00:00"
       }
     },
     "OH": {
