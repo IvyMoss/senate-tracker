@@ -15,19 +15,19 @@
           "votes": 1648593
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 56074
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36710
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-11T12:20:47+00:00"
+      "sourceUpdatedAt": "2026-11-11T12:26:13.410000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T11:58:53.919000+00:00",
+      "sourceUpdatedAt": "2026-11-11T12:25:03.503000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T12:20:02.041000+00:00",
+        "sourceUpdatedAt": "2026-11-11T12:26:13.410000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T12:20:47+00:00"
+        "sourceUpdatedAt": "2026-11-11T12:25:08+00:00"
       }
     },
     "OH": {
@@ -766,46 +766,46 @@
     },
     "TX": {
       "official": {
-        "status": "unresolved",
+        "status": "reporting",
         "candidates": [
           {
             "name": "KEN PAXTON",
             "party": "R",
-            "votes": null
+            "votes": 4249373
           },
           {
             "name": "JAMES TALARICO",
             "party": "D",
-            "votes": null
+            "votes": 5444982
           },
           {
             "name": "TED BROWN",
             "party": "LIBERTARIAN",
-            "votes": null
+            "votes": 190237
           },
           {
             "name": "AVERY AYERS",
             "party": "WRITE-IN",
-            "votes": null
-          },
-          {
-            "name": "BRADFORD 'BRAD' HALL",
-            "party": "WRITE-IN",
-            "votes": null
-          },
-          {
-            "name": "ZUL MOHAMED",
-            "party": "WRITE-IN",
-            "votes": null
+            "votes": 1925
           },
           {
             "name": "JADE SIMMONS",
             "party": "WRITE-IN",
-            "votes": null
+            "votes": 1738
+          },
+          {
+            "name": "BRADFORD 'BRAD' HALL",
+            "party": "WRITE-IN",
+            "votes": 1263
+          },
+          {
+            "name": "ZUL MOHAMED",
+            "party": "WRITE-IN",
+            "votes": 186
           }
         ],
-        "reportingPercent": 0.0,
-        "sourceUpdatedAt": "2026-10-14T12:34:00Z",
+        "reportingPercent": 100.0,
+        "sourceUpdatedAt": "2026-11-04T22:59:00Z",
         "sourceUrl": "https://electionresults.sos.state.tx.us/results.html"
       },
       "civicapi": {
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T11:58:53.919000+00:00",
+        "sourceUpdatedAt": "2026-11-11T12:25:03.503000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
