@@ -25,7 +25,7 @@
           "votes": 36627
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:10:07.661000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:16:03.651000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T23:49:34.495000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:16:56.205000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-10T23:49:03.699000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:16:38.332000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T23:49:03.699000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:16:38.332000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36627
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T00:10:07.661000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:16:03.651000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T00:10:05+00:00"
+        "sourceUpdatedAt": "2026-11-11T00:15:31+00:00"
       }
     },
     "OH": {
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-10T23:49:34.495000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:16:56.205000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
