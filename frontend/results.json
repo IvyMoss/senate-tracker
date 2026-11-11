@@ -15,19 +15,19 @@
           "votes": 1648464
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 56063
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36702
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T04:20:01.663000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-11T04:20:45+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -84,29 +84,31 @@
     },
     "AK": {
       "status": "ranked_choice_pending",
-      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Heikes, Gerald L.",
-          "party": "R",
-          "votes": 5318
-        },
-        {
-          "name": "Peltola, Mary",
+          "name": "Mary Peltola",
           "party": "D",
           "votes": 118926
         },
         {
-          "name": "Sullivan, Daniel J. Jr.",
-          "party": "Other",
-          "votes": 4027
-        },
-        {
-          "name": "Sullivan, Dan S.",
+          "name": "Dan Sullivan",
           "party": "R",
           "votes": 114676
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "votes": 5318
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
+          "votes": 4027
         }
-      ]
+      ],
+      "sourceUpdatedAt": "2026-11-11T04:20:39.601000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
       "status": "reporting",
@@ -376,25 +378,25 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 106321
+            "votes": 118926
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 103804
+            "votes": 114676
           },
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "votes": 4865
+            "votes": 5318
           },
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 3651
+            "votes": 4027
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T04:02:48.367000+00:00",
+        "sourceUpdatedAt": "2026-11-11T04:20:39.601000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -714,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T04:15:41+00:00"
+        "sourceUpdatedAt": "2026-11-11T04:20:45+00:00"
       }
     },
     "OH": {
