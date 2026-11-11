@@ -5,29 +5,27 @@
       "status": "reporting",
       "candidates": [
         {
+          "name": "Michael Dublin",
+          "party": "GRE",
+          "votes": 36666
+        },
+        {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2478251
+          "votes": 2478534
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1647802
+          "votes": 1647910
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
-          "votes": 56026
-        },
-        {
-          "name": "Michael Dublin",
-          "party": "Green",
-          "votes": 36657
+          "name": "Shannon W. Bray",
+          "party": "LIB",
+          "votes": 56035
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T01:15:48.755000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
     },
     "TX": {
       "status": "reporting",
@@ -640,24 +638,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1647802
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36666
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2478251
+            "votes": 2478534
+          },
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1647910
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 56026
-          },
-          {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36657
+            "votes": 56035
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
