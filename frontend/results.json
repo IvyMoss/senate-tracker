@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-11T19:05:07+00:00"
+      "sourceUpdatedAt": "2026-11-11T19:10:18+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1713658
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T18:38:00.873000+00:00",
+      "sourceUpdatedAt": "2026-11-11T19:09:31.444000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T18:40:48.378000+00:00",
+      "sourceUpdatedAt": "2026-11-11T19:08:41.755000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -442,7 +442,7 @@
             "votes": 1713658
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T18:38:00.873000+00:00",
+        "sourceUpdatedAt": "2026-11-11T19:09:31.444000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T18:40:48.378000+00:00",
+        "sourceUpdatedAt": "2026-11-11T19:08:41.755000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T19:01:54.705000+00:00",
+        "sourceUpdatedAt": "2026-11-11T19:07:55.141000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T19:05:07+00:00"
+        "sourceUpdatedAt": "2026-11-11T19:10:18+00:00"
       }
     },
     "OH": {
