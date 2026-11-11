@@ -15,19 +15,19 @@
           "votes": 1647553
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 56009
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36628
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:28:12.005000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-11T00:30:22+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1713658
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:01:26.982000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:32:25.326000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:00:16.794000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:31:01.466000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:10:08.327000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:32:15.680000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-11T00:00:13.061000+00:00",
+      "sourceUpdatedAt": "2026-11-11T00:30:28.093000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -442,7 +442,7 @@
             "votes": 1713658
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T00:01:26.982000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:32:25.326000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T00:00:16.794000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:31:01.466000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T00:10:08.327000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:32:15.680000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -696,27 +696,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2477545
+            "votes": 2477601
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1647523
+            "votes": 1647553
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 56004
+            "votes": 56009
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36627
+            "votes": 36628
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-11T00:25:13+00:00"
+        "sourceUpdatedAt": "2026-11-11T00:30:22+00:00"
       }
     },
     "OH": {
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-11T00:00:13.061000+00:00",
+        "sourceUpdatedAt": "2026-11-11T00:30:28.093000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
