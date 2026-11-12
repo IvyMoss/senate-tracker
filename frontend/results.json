@@ -7,12 +7,12 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2481018
+          "votes": 2481014
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1648946
+          "votes": 1648943
         },
         {
           "name": "Shannon Bray",
@@ -25,7 +25,7 @@
           "votes": 36716
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T21:21:08.923000+00:00",
+      "sourceUpdatedAt": "2026-11-12T21:27:08.311000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -35,17 +35,17 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5452466
+          "votes": 5452642
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4253003
+          "votes": 4253125
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190449
+          "votes": 190457
         },
         {
           "name": "Write-in",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T21:02:36.172000+00:00",
+      "sourceUpdatedAt": "2026-11-12T21:29:54.509000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T21:08:00.740000+00:00",
+      "sourceUpdatedAt": "2026-11-12T21:30:13.368000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T21:02:25.894000+00:00",
+      "sourceUpdatedAt": "2026-11-12T21:30:10.402000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T21:08:00.740000+00:00",
+        "sourceUpdatedAt": "2026-11-12T21:30:13.368000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T21:02:25.894000+00:00",
+        "sourceUpdatedAt": "2026-11-12T21:30:10.402000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -668,12 +668,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481018
+            "votes": 2481014
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648946
+            "votes": 1648943
           },
           {
             "name": "Shannon Bray",
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T21:21:08.923000+00:00",
+        "sourceUpdatedAt": "2026-11-12T21:27:08.311000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -814,17 +814,17 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5452466
+            "votes": 5452642
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4253003
+            "votes": 4253125
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190449
+            "votes": 190457
           },
           {
             "name": "Write-in",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T21:02:36.172000+00:00",
+        "sourceUpdatedAt": "2026-11-12T21:29:54.509000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
