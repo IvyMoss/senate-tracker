@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-12T09:15:29+00:00"
+      "sourceUpdatedAt": "2026-11-12T09:20:12+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T08:49:30.142000+00:00",
+      "sourceUpdatedAt": "2026-11-12T09:20:15.795000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T08:55:15.715000+00:00",
+      "sourceUpdatedAt": "2026-11-12T09:17:21.471000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T08:49:30.142000+00:00",
+        "sourceUpdatedAt": "2026-11-12T09:20:15.795000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T08:55:15.715000+00:00",
+        "sourceUpdatedAt": "2026-11-12T09:17:21.471000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T09:10:45.956000+00:00",
+        "sourceUpdatedAt": "2026-11-12T09:16:57.835000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-12T09:15:29+00:00"
+        "sourceUpdatedAt": "2026-11-12T09:20:12+00:00"
       }
     },
     "OH": {
