@@ -25,7 +25,7 @@
           "votes": 36716
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T04:12:21.275000+00:00",
+      "sourceUpdatedAt": "2026-11-12T04:18:20.952000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -106,7 +106,7 @@
           "votes": 4100
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T03:59:58.336000+00:00",
+      "sourceUpdatedAt": "2026-11-12T04:17:49.796000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T03:51:29.627000+00:00",
+      "sourceUpdatedAt": "2026-11-12T04:18:56.114000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T03:50:07.154000+00:00",
+      "sourceUpdatedAt": "2026-11-12T04:16:16.106000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -396,7 +396,7 @@
             "votes": 4100
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T03:59:58.336000+00:00",
+        "sourceUpdatedAt": "2026-11-12T04:17:49.796000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T03:51:29.627000+00:00",
+        "sourceUpdatedAt": "2026-11-12T04:18:56.114000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T04:12:21.275000+00:00",
+        "sourceUpdatedAt": "2026-11-12T04:18:20.952000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T03:50:07.154000+00:00",
+        "sourceUpdatedAt": "2026-11-12T04:16:16.106000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
