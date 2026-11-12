@@ -84,31 +84,29 @@
     },
     "AK": {
       "status": "ranked_choice_pending",
+      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Mary Peltola",
+          "name": "Heikes, Gerald L.",
+          "party": "R",
+          "votes": 5426
+        },
+        {
+          "name": "Peltola, Mary",
           "party": "D",
-          "votes": 118926
+          "votes": 121487
         },
         {
-          "name": "Dan Sullivan",
+          "name": "Sullivan, Daniel J. Jr.",
+          "party": "Other",
+          "votes": 4100
+        },
+        {
+          "name": "Sullivan, Dan S.",
           "party": "R",
-          "votes": 114676
-        },
-        {
-          "name": "Gerald L. Heikes",
-          "party": "R",
-          "votes": 5318
-        },
-        {
-          "name": "Daniel J. Jr. Sullivan",
-          "party": "Nonpartisan",
-          "votes": 4027
+          "votes": 117512
         }
-      ],
-      "sourceUpdatedAt": "2026-11-12T03:24:11.218000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
+      ]
     },
     "GA": {
       "status": "reporting",
@@ -407,22 +405,22 @@
           {
             "name": "Heikes, Gerald L.",
             "party": "R",
-            "votes": 5318
+            "votes": 5426
           },
           {
             "name": "Peltola, Mary",
             "party": "D",
-            "votes": 118926
+            "votes": 121487
           },
           {
             "name": "Sullivan, Daniel J. Jr.",
             "party": "Other",
-            "votes": 4027
+            "votes": 4100
           },
           {
             "name": "Sullivan, Dan S.",
             "party": "R",
-            "votes": 114676
+            "votes": 117512
           }
         ]
       }
