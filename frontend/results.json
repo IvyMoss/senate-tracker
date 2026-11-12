@@ -15,19 +15,19 @@
           "votes": 1648945
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 56091
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36716
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-12T15:50:17+00:00"
+      "sourceUpdatedAt": "2026-11-12T15:54:30.516000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 4100
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T15:36:43.067000+00:00",
+      "sourceUpdatedAt": "2026-11-12T15:54:36.073000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -208,7 +208,7 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2507456
+          "votes": 2507457
         },
         {
           "name": "Mike Rogers",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T15:26:26.953000+00:00",
+      "sourceUpdatedAt": "2026-11-12T15:54:39.763000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -396,7 +396,7 @@
             "votes": 4100
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T15:36:43.067000+00:00",
+        "sourceUpdatedAt": "2026-11-12T15:54:36.073000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -572,7 +572,7 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2507456
+            "votes": 2507457
           },
           {
             "name": "Mike Rogers",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T15:26:26.953000+00:00",
+        "sourceUpdatedAt": "2026-11-12T15:54:39.763000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T15:48:37.523000+00:00",
+        "sourceUpdatedAt": "2026-11-12T15:54:30.516000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
