@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36710
-          },
-          {
             "name": "Michael Whatley",
             "party": "R",
             "votes": 1648873
           },
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 56084
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36710
           },
           {
             "name": "Roy Cooper",
             "party": "D",
             "votes": 2480674
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 56084
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
