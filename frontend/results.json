@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T18:45:14+00:00"
+      "sourceUpdatedAt": "2026-11-13T18:50:12+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1713664
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T18:17:31.453000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:48:51.886000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -319,12 +319,12 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211466
+          "votes": 4211469
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974224
+          "votes": 3974229
         },
         {
           "name": "Neil J. Gillespie",
@@ -332,7 +332,7 @@
           "votes": 94666
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T18:17:39.049000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:49:54.267000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T18:24:37.378000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:50:39.560000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -442,7 +442,7 @@
             "votes": 1713664
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:17:31.453000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:48:51.886000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -640,11 +640,6 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2480810
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
             "votes": 36712
@@ -653,6 +648,11 @@
             "name": "Shannon W. Bray",
             "party": "LIB",
             "votes": 56089
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2480810
           },
           {
             "name": "Michael Whatley",
@@ -686,7 +686,7 @@
             "votes": 36712
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:42:57.598000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:49:07.444000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T18:45:14+00:00"
+        "sourceUpdatedAt": "2026-11-13T18:50:12+00:00"
       }
     },
     "OH": {
@@ -934,12 +934,12 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211466
+            "votes": 4211469
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974224
+            "votes": 3974229
           },
           {
             "name": "Neil J. Gillespie",
@@ -947,7 +947,7 @@
             "votes": 94666
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:17:39.049000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:49:54.267000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:24:37.378000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:50:39.560000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
