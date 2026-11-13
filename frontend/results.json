@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:31:17.423000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:37:12.840000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -208,7 +208,7 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2507550
+          "votes": 2507552
         },
         {
           "name": "Mike Rogers",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:11:11.018000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:39:00.455000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:08:35.705000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:38:53.275000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -572,7 +572,7 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2507550
+            "votes": 2507552
           },
           {
             "name": "Mike Rogers",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:11:11.018000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:39:00.455000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:31:17.423000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:37:12.840000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T21:30:17+00:00"
+        "sourceUpdatedAt": "2026-11-13T21:35:17+00:00"
       }
     },
     "OH": {
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:08:35.705000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:38:53.275000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
