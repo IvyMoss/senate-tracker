@@ -7,12 +7,12 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2481029
+          "votes": 2481028
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1648954
+          "votes": 1648950
         },
         {
           "name": "Shannon Bray",
@@ -25,7 +25,7 @@
           "votes": 36716
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T16:31:07.074000+00:00",
+      "sourceUpdatedAt": "2026-11-13T16:37:00.024000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -645,19 +645,19 @@
             "votes": 36716
           },
           {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 56092
+          },
+          {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481028
+            "votes": 2481022
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648950
-          },
-          {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 56093
+            "votes": 1648946
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,12 +668,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481029
+            "votes": 2481028
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648954
+            "votes": 1648950
           },
           {
             "name": "Shannon Bray",
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T16:31:07.074000+00:00",
+        "sourceUpdatedAt": "2026-11-13T16:37:00.024000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -696,12 +696,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481029
+            "votes": 2481028
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648954
+            "votes": 1648950
           },
           {
             "name": "Shannon W. Bray",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T16:30:17+00:00"
+        "sourceUpdatedAt": "2026-11-13T16:35:26+00:00"
       }
     },
     "OH": {
