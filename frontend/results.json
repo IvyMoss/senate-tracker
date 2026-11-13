@@ -15,19 +15,19 @@
           "votes": 1648966
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 56094
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36717
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T13:49:56.439000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-13T13:50:20+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -640,9 +640,9 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 56094
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2481061
           },
           {
             "name": "Michael Dublin",
@@ -650,14 +650,14 @@
             "votes": 36717
           },
           {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 56094
+          },
+          {
             "name": "Michael Whatley",
             "party": "R",
             "votes": 1648966
-          },
-          {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2481061
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T13:45:17+00:00"
+        "sourceUpdatedAt": "2026-11-13T13:50:20+00:00"
       }
     },
     "OH": {
