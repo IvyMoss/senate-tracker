@@ -106,7 +106,7 @@
           "votes": 4199
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T18:06:56.651000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:24:46.374000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -208,12 +208,12 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2507538
+          "votes": 2507550
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2173065
+          "votes": 2173066
         },
         {
           "name": "Lydia Christensen",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T17:56:03.691000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:23:58.680000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T17:58:36.602000+00:00",
+      "sourceUpdatedAt": "2026-11-13T18:24:37.378000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -396,7 +396,7 @@
             "votes": 4199
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:06:56.651000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:24:46.374000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -572,12 +572,12 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2507538
+            "votes": 2507550
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2173065
+            "votes": 2173066
           },
           {
             "name": "Lydia Christensen",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T17:56:03.691000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:23:58.680000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -642,22 +642,22 @@
           {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36712
+            "votes": 36711
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648907
+            "votes": 1648904
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 56090
+            "votes": 56089
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480851
+            "votes": 2480817
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480851
+            "votes": 2480817
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648907
+            "votes": 1648904
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 56090
+            "votes": 56089
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36712
+            "votes": 36711
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:18:57.217000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:24:52.078000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T17:58:36.602000+00:00",
+        "sourceUpdatedAt": "2026-11-13T18:24:37.378000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
