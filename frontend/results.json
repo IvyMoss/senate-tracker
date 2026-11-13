@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T19:20:28+00:00"
+      "sourceUpdatedAt": "2026-11-13T19:25:19+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -319,12 +319,12 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211469
+          "votes": 4211472
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974229
+          "votes": 3974246
         },
         {
           "name": "Neil J. Gillespie",
@@ -332,7 +332,7 @@
           "votes": 94666
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T18:49:54.267000+00:00",
+      "sourceUpdatedAt": "2026-11-13T19:21:57.376000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T19:20:28+00:00"
+        "sourceUpdatedAt": "2026-11-13T19:25:19+00:00"
       }
     },
     "OH": {
@@ -934,12 +934,12 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211469
+            "votes": 4211472
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974229
+            "votes": 3974246
           },
           {
             "name": "Neil J. Gillespie",
@@ -947,7 +947,7 @@
             "votes": 94666
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T18:49:54.267000+00:00",
+        "sourceUpdatedAt": "2026-11-13T19:21:57.376000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
