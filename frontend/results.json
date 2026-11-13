@@ -15,19 +15,19 @@
           "votes": 1648880
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 56087
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36712
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T20:32:14.171000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-13T20:35:33+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -276,40 +276,40 @@
         {
           "name": "Sherrod Brown",
           "party": "D",
-          "votes": 2309949
+          "votes": 2301042
         },
         {
           "name": "Jon Husted",
           "party": "R",
-          "votes": 2091226
+          "votes": 2077748
         },
         {
           "name": "William B. Redpath",
           "party": "Libertarian",
-          "votes": 187857
+          "votes": 128272
         },
         {
           "name": "Greg Levy",
           "party": "Other Party",
-          "votes": 163123
+          "votes": 94509
         },
         {
           "name": "Stephen Faris",
           "party": "Write-In",
-          "votes": 270
+          "votes": 291
         },
         {
           "name": "Anthony Holliman",
           "party": "Write-In",
-          "votes": 34
+          "votes": 36
         },
         {
           "name": "Timothy Telymonde",
           "party": "Write-In",
-          "votes": 24
+          "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T20:07:54.070000+00:00",
+      "sourceUpdatedAt": "2026-11-13T20:38:20.436000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T20:08:48.782000+00:00",
+      "sourceUpdatedAt": "2026-11-13T20:34:47.914000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1648880
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
-            "votes": 36712
+            "votes": 36711
+          },
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1648877
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 56087
+            "votes": 56086
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480773
+            "votes": 2480719
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -668,25 +668,25 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480773
+            "votes": 2480719
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648880
+            "votes": 1648877
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 56087
+            "votes": 56086
           },
           {
             "name": "Michael Dublin",
             "party": "Green",
-            "votes": 36712
+            "votes": 36711
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T20:32:14.171000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:38:09.977000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T20:30:10+00:00"
+        "sourceUpdatedAt": "2026-11-13T20:35:33+00:00"
       }
     },
     "OH": {
@@ -726,40 +726,40 @@
           {
             "name": "Sherrod Brown",
             "party": "D",
-            "votes": 2309949
+            "votes": 2301042
           },
           {
             "name": "Jon Husted",
             "party": "R",
-            "votes": 2091226
+            "votes": 2077748
           },
           {
             "name": "William B. Redpath",
             "party": "Libertarian",
-            "votes": 187857
+            "votes": 128272
           },
           {
             "name": "Greg Levy",
             "party": "Other Party",
-            "votes": 163123
+            "votes": 94509
           },
           {
             "name": "Stephen Faris",
             "party": "Write-In",
-            "votes": 270
+            "votes": 291
           },
           {
             "name": "Anthony Holliman",
             "party": "Write-In",
-            "votes": 34
+            "votes": 36
           },
           {
             "name": "Timothy Telymonde",
             "party": "Write-In",
-            "votes": 24
+            "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T20:07:54.070000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:38:20.436000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T20:08:48.782000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:34:47.914000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
