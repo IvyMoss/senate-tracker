@@ -15,19 +15,19 @@
           "votes": 1648963
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 56094
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36717
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T15:05:29+00:00"
+      "sourceUpdatedAt": "2026-11-13T15:07:20.629000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 4199
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T14:50:45.369000+00:00",
+      "sourceUpdatedAt": "2026-11-13T15:08:34.467000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T14:37:05.058000+00:00",
+      "sourceUpdatedAt": "2026-11-13T15:07:57.870000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -208,17 +208,17 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2507467
+          "votes": 2507494
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2173036
+          "votes": 2173043
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49513
+          "votes": 49514
         },
         {
           "name": "Tim Long",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T14:40:44.354000+00:00",
+      "sourceUpdatedAt": "2026-11-13T15:08:46.928000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -396,7 +396,7 @@
             "votes": 4199
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:50:45.369000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:08:34.467000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:37:05.058000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:07:57.870000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -572,17 +572,17 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2507467
+            "votes": 2507494
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2173036
+            "votes": 2173043
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49513
+            "votes": 49514
           },
           {
             "name": "Tim Long",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:40:44.354000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:08:46.928000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -686,7 +686,7 @@
             "votes": 36717
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T15:01:30.190000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:07:20.629000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
