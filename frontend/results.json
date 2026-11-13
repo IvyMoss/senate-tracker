@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T21:45:18+00:00"
+      "sourceUpdatedAt": "2026-11-13T21:50:12+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,22 +35,22 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5453877
+          "votes": 5458615
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4253780
+          "votes": 4255941
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190483
+          "votes": 190601
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 4469
+          "votes": 4488
         },
         {
           "name": "Avery Ayers",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:20:46.558000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:47:43.566000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:17:46.653000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:48:41.518000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:17:46.653000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:48:41.518000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:43:07.001000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:48:53.038000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T21:45:18+00:00"
+        "sourceUpdatedAt": "2026-11-13T21:50:12+00:00"
       }
     },
     "OH": {
@@ -814,22 +814,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5453877
+            "votes": 5458615
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4253780
+            "votes": 4255941
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190483
+            "votes": 190601
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 4469
+            "votes": 4488
           },
           {
             "name": "Avery Ayers",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:20:46.558000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:47:43.566000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
