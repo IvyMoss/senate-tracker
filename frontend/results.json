@@ -15,19 +15,19 @@
           "votes": 1648965
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 56092
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36716
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T09:15:34+00:00"
+      "sourceUpdatedAt": "2026-11-13T09:21:05.114000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T08:57:31.321000+00:00",
+      "sourceUpdatedAt": "2026-11-13T09:19:36.465000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T08:52:48.528000+00:00",
+      "sourceUpdatedAt": "2026-11-13T09:18:50.712000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T08:57:31.321000+00:00",
+        "sourceUpdatedAt": "2026-11-13T09:19:36.465000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -686,7 +686,7 @@
             "votes": 36716
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T09:14:59.138000+00:00",
+        "sourceUpdatedAt": "2026-11-13T09:21:05.114000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T09:15:34+00:00"
+        "sourceUpdatedAt": "2026-11-13T09:20:21+00:00"
       }
     },
     "OH": {
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T08:52:48.528000+00:00",
+        "sourceUpdatedAt": "2026-11-13T09:18:50.712000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
