@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T20:53:52.287000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:20:46.558000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 4199
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T21:05:29.964000+00:00",
+      "sourceUpdatedAt": "2026-11-13T21:23:23.760000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -396,7 +396,7 @@
             "votes": 4199
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T21:05:29.964000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:23:23.760000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36710
+          },
+          {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648877
+            "votes": 1648873
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480719
-          },
-          {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36711
+            "votes": 2480674
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 56086
+            "votes": 56084
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T20:53:52.287000+00:00",
+        "sourceUpdatedAt": "2026-11-13T21:20:46.558000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
