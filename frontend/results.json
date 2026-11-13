@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T20:05:25+00:00"
+      "sourceUpdatedAt": "2026-11-13T20:10:16+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -276,40 +276,40 @@
         {
           "name": "Sherrod Brown",
           "party": "D",
-          "votes": 2302237
+          "votes": 2309949
         },
         {
           "name": "Jon Husted",
           "party": "R",
-          "votes": 2078285
+          "votes": 2091226
         },
         {
           "name": "William B. Redpath",
           "party": "Libertarian",
-          "votes": 136889
+          "votes": 187857
         },
         {
           "name": "Greg Levy",
           "party": "Other Party",
-          "votes": 94220
+          "votes": 163123
         },
         {
           "name": "Stephen Faris",
           "party": "Write-In",
-          "votes": 289
+          "votes": 270
         },
         {
           "name": "Anthony Holliman",
           "party": "Write-In",
-          "votes": 36
+          "votes": 34
         },
         {
           "name": "Timothy Telymonde",
           "party": "Write-In",
-          "votes": 27
+          "votes": 24
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T19:37:25.312000+00:00",
+      "sourceUpdatedAt": "2026-11-13T20:07:54.070000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T19:42:53.056000+00:00",
+      "sourceUpdatedAt": "2026-11-13T20:08:48.782000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -640,14 +640,14 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1648880
-          },
-          {
             "name": "Roy Cooper",
             "party": "D",
             "votes": 2480773
+          },
+          {
+            "name": "Shannon W. Bray",
+            "party": "LIB",
+            "votes": 56087
           },
           {
             "name": "Michael Dublin",
@@ -655,9 +655,9 @@
             "votes": 36712
           },
           {
-            "name": "Shannon W. Bray",
-            "party": "LIB",
-            "votes": 56087
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1648880
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -686,7 +686,7 @@
             "votes": 36712
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T20:02:33.444000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:08:28.406000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T20:05:25+00:00"
+        "sourceUpdatedAt": "2026-11-13T20:10:16+00:00"
       }
     },
     "OH": {
@@ -726,40 +726,40 @@
           {
             "name": "Sherrod Brown",
             "party": "D",
-            "votes": 2302237
+            "votes": 2309949
           },
           {
             "name": "Jon Husted",
             "party": "R",
-            "votes": 2078285
+            "votes": 2091226
           },
           {
             "name": "William B. Redpath",
             "party": "Libertarian",
-            "votes": 136889
+            "votes": 187857
           },
           {
             "name": "Greg Levy",
             "party": "Other Party",
-            "votes": 94220
+            "votes": 163123
           },
           {
             "name": "Stephen Faris",
             "party": "Write-In",
-            "votes": 289
+            "votes": 270
           },
           {
             "name": "Anthony Holliman",
             "party": "Write-In",
-            "votes": 36
+            "votes": 34
           },
           {
             "name": "Timothy Telymonde",
             "party": "Write-In",
-            "votes": 27
+            "votes": 24
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T19:37:25.312000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:07:54.070000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T19:42:53.056000+00:00",
+        "sourceUpdatedAt": "2026-11-13T20:08:48.782000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
