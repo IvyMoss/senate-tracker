@@ -15,17 +15,19 @@
           "votes": 1648963
         },
         {
-          "name": "Michael Dublin",
-          "party": "GRE",
-          "votes": 36717
+          "name": "Shannon W. Bray",
+          "party": "L",
+          "votes": 56094
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "LIB",
-          "votes": 56094
+          "name": "Michael Dublin",
+          "party": "G",
+          "votes": 36717
         }
       ],
-      "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-13T15:20:37+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -638,11 +640,6 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2481046
-          },
-          {
             "name": "Michael Whatley",
             "party": "R",
             "votes": 1648963
@@ -656,6 +653,11 @@
             "name": "Shannon W. Bray",
             "party": "LIB",
             "votes": 56094
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2481044
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -666,7 +668,7 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481045
+            "votes": 2481046
           },
           {
             "name": "Michael Whatley",
@@ -684,7 +686,7 @@
             "votes": 36717
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T15:13:09.813000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:19:01.390000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -694,7 +696,7 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481045
+            "votes": 2481046
           },
           {
             "name": "Michael Whatley",
@@ -714,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T15:15:15+00:00"
+        "sourceUpdatedAt": "2026-11-13T15:20:37+00:00"
       }
     },
     "OH": {
