@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T19:16:49.354000+00:00",
+      "sourceUpdatedAt": "2026-11-13T19:42:53.056000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -668,17 +668,17 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480794
+            "votes": 2480774
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648886
+            "votes": 1648882
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 56088
+            "votes": 56087
           },
           {
             "name": "Michael Dublin",
@@ -686,7 +686,7 @@
             "votes": 36711
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T19:38:22.025000+00:00",
+        "sourceUpdatedAt": "2026-11-13T19:44:26.374000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T19:16:49.354000+00:00",
+        "sourceUpdatedAt": "2026-11-13T19:42:53.056000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
