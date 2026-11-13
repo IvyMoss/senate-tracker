@@ -7,17 +7,17 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2481063
+          "votes": 2481051
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1648966
+          "votes": 1648965
         },
         {
           "name": "Shannon W. Bray",
           "party": "L",
-          "votes": 56094
+          "votes": 56095
         },
         {
           "name": "Michael Dublin",
@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-13T14:40:25+00:00"
+      "sourceUpdatedAt": "2026-11-13T14:45:26+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -668,17 +668,17 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481063
+            "votes": 2481051
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648966
+            "votes": 1648965
           },
           {
             "name": "Shannon Bray",
             "party": "Libertarian",
-            "votes": 56094
+            "votes": 56095
           },
           {
             "name": "Michael Dublin",
@@ -686,7 +686,7 @@
             "votes": 36717
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:38:00.343000+00:00",
+        "sourceUpdatedAt": "2026-11-13T14:44:00.731000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -696,17 +696,17 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481063
+            "votes": 2481051
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648966
+            "votes": 1648965
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 56094
+            "votes": 56095
           },
           {
             "name": "Michael Dublin",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T14:40:25+00:00"
+        "sourceUpdatedAt": "2026-11-13T14:45:26+00:00"
       }
     },
     "OH": {
