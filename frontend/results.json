@@ -15,19 +15,19 @@
           "votes": 1648963
         },
         {
-          "name": "Shannon Bray",
-          "party": "Libertarian",
+          "name": "Shannon W. Bray",
+          "party": "L",
           "votes": 56094
         },
         {
           "name": "Michael Dublin",
-          "party": "Green",
+          "party": "G",
           "votes": 36717
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T15:01:30.190000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-13T15:05:29+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -35,22 +35,22 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5453742
+          "votes": 5453761
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4253630
+          "votes": 4253652
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190477
+          "votes": 190479
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 4467
+          "votes": 4468
         },
         {
           "name": "Avery Ayers",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T14:36:38.400000+00:00",
+      "sourceUpdatedAt": "2026-11-13T15:03:35.611000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -319,20 +319,20 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211455
+          "votes": 4211458
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974155
+          "votes": 3974176
         },
         {
           "name": "Neil J. Gillespie",
           "party": "Independent",
-          "votes": 94665
+          "votes": 94666
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T14:33:52.937000+00:00",
+      "sourceUpdatedAt": "2026-11-13T15:05:53.177000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T15:00:28+00:00"
+        "sourceUpdatedAt": "2026-11-13T15:05:29+00:00"
       }
     },
     "OH": {
@@ -814,22 +814,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5453742
+            "votes": 5453761
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4253630
+            "votes": 4253652
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190477
+            "votes": 190479
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 4467
+            "votes": 4468
           },
           {
             "name": "Avery Ayers",
@@ -857,7 +857,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:36:38.400000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:03:35.611000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -934,20 +934,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211455
+            "votes": 4211458
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974155
+            "votes": 3974176
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94665
+            "votes": 94666
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T14:33:52.937000+00:00",
+        "sourceUpdatedAt": "2026-11-13T15:05:53.177000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
