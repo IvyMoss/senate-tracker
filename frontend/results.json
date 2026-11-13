@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T17:11:32.155000+00:00",
+      "sourceUpdatedAt": "2026-11-13T17:42:07.903000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T17:11:32.155000+00:00",
+        "sourceUpdatedAt": "2026-11-13T17:42:07.903000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -640,24 +640,24 @@
         "status": "reporting",
         "candidates": [
           {
-            "name": "Michael Dublin",
-            "party": "GRE",
-            "votes": 36716
+            "name": "Michael Whatley",
+            "party": "R",
+            "votes": 1648912
           },
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481378
+            "votes": 2480918
           },
           {
             "name": "Shannon W. Bray",
             "party": "LIB",
-            "votes": 56097
+            "votes": 56091
           },
           {
-            "name": "Michael Whatley",
-            "party": "R",
-            "votes": 1649130
+            "name": "Michael Dublin",
+            "party": "GRE",
+            "votes": 36714
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
@@ -696,27 +696,27 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2481378
+            "votes": 2480943
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1649130
+            "votes": 1648914
           },
           {
             "name": "Shannon W. Bray",
             "party": "L",
-            "votes": 56097
+            "votes": 56092
           },
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36716
+            "votes": 36715
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-13T17:35:50+00:00"
+        "sourceUpdatedAt": "2026-11-13T17:40:29+00:00"
       }
     },
     "OH": {
