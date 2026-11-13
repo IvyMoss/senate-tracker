@@ -7,12 +7,12 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2480674
+          "votes": 2480642
         },
         {
           "name": "Michael Whatley",
           "party": "R",
-          "votes": 1648873
+          "votes": 1648870
         },
         {
           "name": "Shannon Bray",
@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T23:41:57.265000+00:00",
+      "sourceUpdatedAt": "2026-11-13T23:47:56.575000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -668,12 +668,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480674
+            "votes": 2480642
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648873
+            "votes": 1648870
           },
           {
             "name": "Shannon Bray",
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T23:41:57.265000+00:00",
+        "sourceUpdatedAt": "2026-11-13T23:47:56.575000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
