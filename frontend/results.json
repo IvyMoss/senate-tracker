@@ -642,7 +642,7 @@
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648933
+            "votes": 1648930
           },
           {
             "name": "Shannon W. Bray",
@@ -650,14 +650,14 @@
             "votes": 56092
           },
           {
-            "name": "Roy Cooper",
-            "party": "D",
-            "votes": 2481015
-          },
-          {
             "name": "Michael Dublin",
             "party": "GRE",
             "votes": 36715
+          },
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "votes": 2481015
           }
         ],
         "sourceUrl": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/results_pct_20261103.zip"
