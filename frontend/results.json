@@ -106,7 +106,7 @@
           "votes": 4199
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T15:44:11.405000+00:00",
+      "sourceUpdatedAt": "2026-11-13T16:01:59.455000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -208,17 +208,17 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2507494
+          "votes": 2507537
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2173043
+          "votes": 2173065
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49514
+          "votes": 49515
         },
         {
           "name": "Tim Long",
@@ -266,7 +266,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T15:36:22.035000+00:00",
+      "sourceUpdatedAt": "2026-11-13T16:04:49.275000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T15:32:03.586000+00:00",
+      "sourceUpdatedAt": "2026-11-13T16:02:17.775000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -396,7 +396,7 @@
             "votes": 4199
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T15:44:11.405000+00:00",
+        "sourceUpdatedAt": "2026-11-13T16:01:59.455000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -572,17 +572,17 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2507494
+            "votes": 2507537
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2173043
+            "votes": 2173065
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49514
+            "votes": 49515
           },
           {
             "name": "Tim Long",
@@ -630,7 +630,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T15:36:22.035000+00:00",
+        "sourceUpdatedAt": "2026-11-13T16:04:49.275000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T15:32:03.586000+00:00",
+        "sourceUpdatedAt": "2026-11-13T16:02:17.775000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
