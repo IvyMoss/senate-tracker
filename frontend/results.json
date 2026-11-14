@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-14T11:45:11+00:00"
+      "sourceUpdatedAt": "2026-11-14T11:50:11+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-14T11:45:11+00:00"
+        "sourceUpdatedAt": "2026-11-14T11:50:11+00:00"
       }
     },
     "OH": {
