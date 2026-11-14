@@ -27,7 +27,7 @@
       ],
       "sourceName": "State election office via Open America",
       "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-14T19:25:11+00:00"
+      "sourceUpdatedAt": "2026-11-14T19:30:11+00:00"
     },
     "TX": {
       "status": "reporting",
@@ -106,7 +106,7 @@
           "votes": 4560
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T05:07:21.137000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:29:57.223000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -124,7 +124,7 @@
           "votes": 1713664
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T05:11:08.626000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:30:40.813000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -134,25 +134,25 @@
         {
           "name": "Josh Turek",
           "party": "D",
-          "votes": 686486
+          "votes": 688608
         },
         {
           "name": "Ashley Hinson",
           "party": "R",
-          "votes": 630615
+          "votes": 631274
         },
         {
           "name": "Thomas Laehn",
           "party": "Libertarian",
-          "votes": 42052
+          "votes": 41829
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 1686
+          "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-12T18:38:08.564000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:31:48.140000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T04:59:27.647000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:31:16.960000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T05:14:37.116000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:31:53.273000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -319,12 +319,12 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211546
+          "votes": 4211550
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974574
+          "votes": 3974614
         },
         {
           "name": "Neil J. Gillespie",
@@ -332,7 +332,7 @@
           "votes": 94672
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T04:56:27.602000+00:00",
+      "sourceUpdatedAt": "2026-11-14T19:31:26.739000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -396,7 +396,7 @@
             "votes": 4560
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T05:07:21.137000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:29:57.223000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -442,7 +442,7 @@
             "votes": 1713664
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T05:11:08.626000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:30:40.813000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -492,25 +492,25 @@
           {
             "name": "Josh Turek",
             "party": "D",
-            "votes": 686486
+            "votes": 688608
           },
           {
             "name": "Ashley Hinson",
             "party": "R",
-            "votes": 630615
+            "votes": 631274
           },
           {
             "name": "Thomas Laehn",
             "party": "Libertarian",
-            "votes": 42052
+            "votes": 41829
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 1686
+            "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-12T18:38:08.564000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:31:48.140000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -535,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T04:59:27.647000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:31:16.960000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -560,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T05:14:37.116000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:31:53.273000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-14T19:25:11+00:00"
+        "sourceUpdatedAt": "2026-11-14T19:30:11+00:00"
       }
     },
     "OH": {
@@ -934,12 +934,12 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211546
+            "votes": 4211550
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974574
+            "votes": 3974614
           },
           {
             "name": "Neil J. Gillespie",
@@ -947,7 +947,7 @@
             "votes": 94672
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T04:56:27.602000+00:00",
+        "sourceUpdatedAt": "2026-11-14T19:31:26.739000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
