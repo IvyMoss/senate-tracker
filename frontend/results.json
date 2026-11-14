@@ -7,7 +7,7 @@
         {
           "name": "Roy Cooper",
           "party": "D",
-          "votes": 2480642
+          "votes": 2480640
         },
         {
           "name": "Michael Whatley",
@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-14T00:05:38.927000+00:00",
+      "sourceUpdatedAt": "2026-11-14T00:11:33.424000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -309,7 +309,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T23:40:07.051000+00:00",
+      "sourceUpdatedAt": "2026-11-14T00:10:29.595000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -319,12 +319,12 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211544
+          "votes": 4211546
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974533
+          "votes": 3974574
         },
         {
           "name": "Neil J. Gillespie",
@@ -332,7 +332,7 @@
           "votes": 94672
         }
       ],
-      "sourceUpdatedAt": "2026-11-13T23:38:11.248000+00:00",
+      "sourceUpdatedAt": "2026-11-14T00:10:30.250000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -668,7 +668,7 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480642
+            "votes": 2480640
           },
           {
             "name": "Michael Whatley",
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-14T00:05:38.927000+00:00",
+        "sourceUpdatedAt": "2026-11-14T00:11:33.424000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -696,7 +696,7 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480642
+            "votes": 2480640
           },
           {
             "name": "Michael Whatley",
@@ -716,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-14T00:05:21+00:00"
+        "sourceUpdatedAt": "2026-11-14T00:10:22+00:00"
       }
     },
     "OH": {
@@ -759,7 +759,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T23:40:07.051000+00:00",
+        "sourceUpdatedAt": "2026-11-14T00:10:29.595000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -934,12 +934,12 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211544
+            "votes": 4211546
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974533
+            "votes": 3974574
           },
           {
             "name": "Neil J. Gillespie",
@@ -947,7 +947,7 @@
             "votes": 94672
           }
         ],
-        "sourceUpdatedAt": "2026-11-13T23:38:11.248000+00:00",
+        "sourceUpdatedAt": "2026-11-14T00:10:30.250000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
