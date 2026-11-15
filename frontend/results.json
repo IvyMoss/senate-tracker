@@ -15,19 +15,19 @@
           "votes": 1648870
         },
         {
-          "name": "Shannon W. Bray",
-          "party": "L",
+          "name": "Shannon Bray",
+          "party": "Libertarian",
           "votes": 56084
         },
         {
           "name": "Michael Dublin",
-          "party": "G",
+          "party": "Green",
           "votes": 36710
         }
       ],
-      "sourceName": "State election office via Open America",
-      "sourceUrl": "https://openamerica.io/elections/api/",
-      "sourceUpdatedAt": "2026-11-15T04:40:26+00:00"
+      "sourceUpdatedAt": "2026-11-15T04:43:14.339000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
     "TX": {
       "status": "reporting",
@@ -124,7 +124,7 @@
           "votes": 1713664
         }
       ],
-      "sourceUpdatedAt": "2026-11-15T03:41:38.995000+00:00",
+      "sourceUpdatedAt": "2026-11-15T04:42:49.902000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -365,7 +365,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-15T03:41:39.945000+00:00",
+      "sourceUpdatedAt": "2026-11-15T04:42:29.685000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -442,7 +442,7 @@
             "votes": 1713664
           }
         ],
-        "sourceUpdatedAt": "2026-11-15T03:41:38.995000+00:00",
+        "sourceUpdatedAt": "2026-11-15T04:42:49.902000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -686,7 +686,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-15T03:42:10.883000+00:00",
+        "sourceUpdatedAt": "2026-11-15T04:43:14.339000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -1027,7 +1027,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-15T03:41:39.945000+00:00",
+        "sourceUpdatedAt": "2026-11-15T04:42:29.685000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
