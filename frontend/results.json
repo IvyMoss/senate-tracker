@@ -84,29 +84,31 @@
     },
     "AK": {
       "status": "ranked_choice_pending",
-      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Heikes, Gerald L.",
-          "party": "R",
-          "votes": 6002
-        },
-        {
-          "name": "Peltola, Mary",
+          "name": "Mary Peltola",
           "party": "D",
           "votes": 140637
         },
         {
-          "name": "Sullivan, Daniel J. Jr.",
-          "party": "Other",
-          "votes": 4652
-        },
-        {
-          "name": "Sullivan, Dan S.",
+          "name": "Dan Sullivan",
           "party": "R",
           "votes": 129424
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "votes": 6002
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
+          "votes": 4652
         }
-      ]
+      ],
+      "sourceUpdatedAt": "2026-11-15T01:32:24.067000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
       "status": "reporting",
@@ -376,25 +378,25 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 138240
+            "votes": 140637
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 127828
+            "votes": 129424
           },
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "votes": 5885
+            "votes": 6002
           },
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 4560
+            "votes": 4652
           }
         ],
-        "sourceUpdatedAt": "2026-11-15T00:31:52.836000+00:00",
+        "sourceUpdatedAt": "2026-11-15T01:32:24.067000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
