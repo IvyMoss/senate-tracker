@@ -106,7 +106,7 @@
           "votes": 4684
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T20:06:10.800000+00:00",
+      "sourceUpdatedAt": "2026-11-17T20:11:26.586000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -271,7 +271,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T20:03:15.552000+00:00",
+      "sourceUpdatedAt": "2026-11-17T20:10:04.649000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -337,7 +337,7 @@
           "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T19:09:19.524000+00:00",
+      "sourceUpdatedAt": "2026-11-17T20:11:08.503000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -401,7 +401,7 @@
             "votes": 4684
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T20:06:10.800000+00:00",
+        "sourceUpdatedAt": "2026-11-17T20:11:26.586000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -640,7 +640,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T20:03:15.552000+00:00",
+        "sourceUpdatedAt": "2026-11-17T20:10:04.649000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-17T20:05:34+00:00"
+        "sourceUpdatedAt": "2026-11-17T20:10:08+00:00"
       }
     },
     "OH": {
@@ -957,7 +957,7 @@
             "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T19:09:19.524000+00:00",
+        "sourceUpdatedAt": "2026-11-17T20:11:08.503000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
