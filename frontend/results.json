@@ -106,7 +106,7 @@
           "votes": 4684
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T17:47:39.285000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:52:55.419000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -152,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T16:51:29.654000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:52:29.167000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -190,7 +190,7 @@
         {
           "name": "Susan Collins",
           "party": "R",
-          "votes": 332803
+          "votes": 332806
         },
         {
           "name": "Write-in",
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T16:53:34.295000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:54:38.239000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -271,7 +271,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T17:47:35.860000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:54:15.542000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -314,7 +314,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T16:54:35.232000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:55:40.689000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -370,7 +370,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T16:55:12.220000+00:00",
+      "sourceUpdatedAt": "2026-11-17T17:56:00.037000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -401,7 +401,7 @@
             "votes": 4684
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T17:47:39.285000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:52:55.419000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -515,7 +515,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T16:51:29.654000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:52:29.167000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -557,7 +557,7 @@
           {
             "name": "Susan Collins",
             "party": "R",
-            "votes": 332803
+            "votes": 332806
           },
           {
             "name": "Write-in",
@@ -565,7 +565,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T16:53:34.295000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:54:38.239000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -640,7 +640,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T17:47:35.860000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:54:15.542000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-17T17:50:33+00:00"
+        "sourceUpdatedAt": "2026-11-17T17:55:17+00:00"
       }
     },
     "OH": {
@@ -769,7 +769,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T16:54:35.232000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:55:40.689000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -1037,7 +1037,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T16:55:12.220000+00:00",
+        "sourceUpdatedAt": "2026-11-17T17:56:00.037000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
