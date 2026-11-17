@@ -106,7 +106,7 @@
           "votes": 4684
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T15:13:40.796000+00:00",
+      "sourceUpdatedAt": "2026-11-17T15:19:00.795000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -208,17 +208,17 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2509466
+          "votes": 2509583
         },
         {
           "name": "Mike Rogers",
           "party": "R",
-          "votes": 2173850
+          "votes": 2173887
         },
         {
           "name": "Lydia Christensen",
           "party": "Libertarian",
-          "votes": 49518
+          "votes": 49520
         },
         {
           "name": "Tim Long",
@@ -238,7 +238,7 @@
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 3611
+          "votes": 3610
         },
         {
           "name": "George Earnest Huffman",
@@ -247,6 +247,11 @@
         },
         {
           "name": "Craig HenleyJohnson",
+          "party": "Nonpartisan",
+          "votes": 0
+        },
+        {
+          "name": "George Earnest Hoffman",
           "party": "Nonpartisan",
           "votes": 0
         },
@@ -266,7 +271,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T09:44:15.585000+00:00",
+      "sourceUpdatedAt": "2026-11-17T15:20:00.569000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -396,7 +401,7 @@
             "votes": 4684
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T15:13:40.796000+00:00",
+        "sourceUpdatedAt": "2026-11-17T15:19:00.795000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -572,17 +577,17 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2509466
+            "votes": 2509583
           },
           {
             "name": "Mike Rogers",
             "party": "R",
-            "votes": 2173850
+            "votes": 2173887
           },
           {
             "name": "Lydia Christensen",
             "party": "Libertarian",
-            "votes": 49518
+            "votes": 49520
           },
           {
             "name": "Tim Long",
@@ -602,7 +607,7 @@
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 3611
+            "votes": 3610
           },
           {
             "name": "George Earnest Huffman",
@@ -611,6 +616,11 @@
           },
           {
             "name": "Craig HenleyJohnson",
+            "party": "Nonpartisan",
+            "votes": 0
+          },
+          {
+            "name": "George Earnest Hoffman",
             "party": "Nonpartisan",
             "votes": 0
           },
@@ -630,7 +640,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:44:15.585000+00:00",
+        "sourceUpdatedAt": "2026-11-17T15:20:00.569000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -716,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-17T15:15:26+00:00"
+        "sourceUpdatedAt": "2026-11-17T15:20:16+00:00"
       }
     },
     "OH": {
