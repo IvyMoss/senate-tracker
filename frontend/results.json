@@ -152,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T15:50:42.211000+00:00",
+      "sourceUpdatedAt": "2026-11-17T16:51:29.654000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -208,7 +208,7 @@
         {
           "name": "Abdul El-Sayed",
           "party": "D",
-          "votes": 2509583
+          "votes": 2509584
         },
         {
           "name": "Mike Rogers",
@@ -271,7 +271,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-17T16:45:05.994000+00:00",
+      "sourceUpdatedAt": "2026-11-17T16:52:49.154000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -515,7 +515,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T15:50:42.211000+00:00",
+        "sourceUpdatedAt": "2026-11-17T16:51:29.654000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -577,7 +577,7 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "votes": 2509583
+            "votes": 2509584
           },
           {
             "name": "Mike Rogers",
@@ -640,7 +640,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-17T16:45:05.994000+00:00",
+        "sourceUpdatedAt": "2026-11-17T16:52:49.154000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-17T16:45:07+00:00"
+        "sourceUpdatedAt": "2026-11-17T16:50:22+00:00"
       }
     },
     "OH": {
