@@ -84,29 +84,31 @@
     },
     "AK": {
       "status": "ranked_choice_pending",
-      "sourceUrl": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
       "candidates": [
         {
-          "name": "Heikes, Gerald L.",
-          "party": "R",
-          "votes": 6020
-        },
-        {
-          "name": "Peltola, Mary",
+          "name": "Mary Peltola",
           "party": "D",
           "votes": 141637
         },
         {
-          "name": "Sullivan, Daniel J. Jr.",
-          "party": "Other",
-          "votes": 4684
-        },
-        {
-          "name": "Sullivan, Dan S.",
+          "name": "Dan Sullivan",
           "party": "R",
           "votes": 130162
+        },
+        {
+          "name": "Gerald L. Heikes",
+          "party": "R",
+          "votes": 6020
+        },
+        {
+          "name": "Daniel J. Jr. Sullivan",
+          "party": "Nonpartisan",
+          "votes": 4684
         }
-      ]
+      ],
+      "sourceUpdatedAt": "2026-11-17T03:40:22.795000+00:00",
+      "sourceName": "civicAPI",
+      "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
     "GA": {
       "status": "reporting",
@@ -122,7 +124,7 @@
           "votes": 1713664
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T09:15:40.051000+00:00",
+      "sourceUpdatedAt": "2026-11-17T03:40:59.430000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -132,12 +134,12 @@
         {
           "name": "Josh Turek",
           "party": "D",
-          "votes": 688608
+          "votes": 688613
         },
         {
           "name": "Ashley Hinson",
           "party": "R",
-          "votes": 631274
+          "votes": 631275
         },
         {
           "name": "Thomas Laehn",
@@ -150,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T09:05:38.661000+00:00",
+      "sourceUpdatedAt": "2026-11-17T03:41:33.275000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -173,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T10:02:35.688000+00:00",
+      "sourceUpdatedAt": "2026-11-17T03:41:23.276000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -196,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T09:06:49.412000+00:00",
+      "sourceUpdatedAt": "2026-11-17T03:41:58.978000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -317,20 +319,20 @@
         {
           "name": "Ashley Moody",
           "party": "R",
-          "votes": 4211557
+          "votes": 4211589
         },
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974631
+          "votes": 3974751
         },
         {
           "name": "Neil J. Gillespie",
           "party": "Independent",
-          "votes": 94672
+          "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-16T09:43:50.577000+00:00",
+      "sourceUpdatedAt": "2026-11-17T03:41:44.716000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -376,25 +378,25 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 140637
+            "votes": 141637
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 129424
+            "votes": 130162
           },
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "votes": 6002
+            "votes": 6020
           },
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 4652
+            "votes": 4684
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:44:00.592000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:40:22.795000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -440,7 +442,7 @@
             "votes": 1713664
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:15:40.051000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:40:59.430000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -490,12 +492,12 @@
           {
             "name": "Josh Turek",
             "party": "D",
-            "votes": 688608
+            "votes": 688613
           },
           {
             "name": "Ashley Hinson",
             "party": "R",
-            "votes": 631274
+            "votes": 631275
           },
           {
             "name": "Thomas Laehn",
@@ -508,7 +510,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:05:38.661000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:41:33.275000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -533,7 +535,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T10:02:35.688000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:41:23.276000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -558,7 +560,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:06:49.412000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:41:58.978000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -714,7 +716,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-17T03:35:21+00:00"
+        "sourceUpdatedAt": "2026-11-17T03:40:18+00:00"
       }
     },
     "OH": {
@@ -932,20 +934,20 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "votes": 4211557
+            "votes": 4211589
           },
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974631
+            "votes": 3974751
           },
           {
             "name": "Neil J. Gillespie",
             "party": "Independent",
-            "votes": 94672
+            "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-16T09:43:50.577000+00:00",
+        "sourceUpdatedAt": "2026-11-17T03:41:44.716000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
