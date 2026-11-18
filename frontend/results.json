@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:04:29.585000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:11:17.020000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:07:59.038000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:15:09.138000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -88,25 +88,25 @@
         {
           "name": "Mary Peltola",
           "party": "D",
-          "votes": 141637
+          "votes": 144302
         },
         {
           "name": "Dan Sullivan",
           "party": "R",
-          "votes": 130162
+          "votes": 131844
         },
         {
           "name": "Gerald L. Heikes",
           "party": "R",
-          "votes": 6020
+          "votes": 6105
         },
         {
           "name": "Daniel J. Jr. Sullivan",
           "party": "Nonpartisan",
-          "votes": 4684
+          "votes": 4760
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:28:24.530000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:17:58.344000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -124,7 +124,7 @@
           "votes": 1713671
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:05:29.030000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:12:59.827000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -152,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T01:58:57.194000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:05:35.984000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:07:33.255000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:12:49.741000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:01:35.162000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:07:48.986000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -271,7 +271,7 @@
           "votes": 0
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:27:36.549000+00:00",
+      "sourceUpdatedAt": "2026-11-18T09:09:01.299000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87214"
     },
@@ -314,7 +314,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:03:50.264000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:09:24.415000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -337,7 +337,7 @@
           "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:21:38.244000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:35:14.313000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -370,7 +370,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-18T02:01:50.440000+00:00",
+      "sourceUpdatedAt": "2026-11-18T10:07:27.629000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -383,25 +383,25 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 141637
+            "votes": 144302
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 130162
+            "votes": 131844
           },
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "votes": 6020
+            "votes": 6105
           },
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 4684
+            "votes": 4760
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:28:24.530000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:17:58.344000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -412,22 +412,22 @@
           {
             "name": "Heikes, Gerald L.",
             "party": "R",
-            "votes": 6020
+            "votes": 6105
           },
           {
             "name": "Peltola, Mary",
             "party": "D",
-            "votes": 141637
+            "votes": 144302
           },
           {
             "name": "Sullivan, Daniel J. Jr.",
             "party": "Other",
-            "votes": 4684
+            "votes": 4760
           },
           {
             "name": "Sullivan, Dan S.",
             "party": "R",
-            "votes": 130162
+            "votes": 131844
           }
         ]
       }
@@ -447,7 +447,7 @@
             "votes": 1713671
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:05:29.030000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:12:59.827000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -515,7 +515,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T01:58:57.194000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:05:35.984000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -540,7 +540,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:07:33.255000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:12:49.741000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -565,7 +565,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:01:35.162000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:07:48.986000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -640,7 +640,7 @@
             "votes": 0
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:27:36.549000+00:00",
+        "sourceUpdatedAt": "2026-11-18T09:09:01.299000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87214"
       }
@@ -696,7 +696,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:04:29.585000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:11:17.020000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-18T02:30:28+00:00"
+        "sourceUpdatedAt": "2026-11-18T10:35:41+00:00"
       }
     },
     "OH": {
@@ -769,7 +769,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:03:50.264000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:09:24.415000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -867,7 +867,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:07:59.038000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:15:09.138000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -957,7 +957,7 @@
             "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:21:38.244000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:35:14.313000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -1037,7 +1037,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-18T02:01:50.440000+00:00",
+        "sourceUpdatedAt": "2026-11-18T10:07:27.629000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
