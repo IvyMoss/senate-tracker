@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:24:09.437000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:39:58.527000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -35,12 +35,12 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5458693
+          "votes": 5458710
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4256003
+          "votes": 4256021
         },
         {
           "name": "Ted Brown",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:29:25.829000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:47:00.822000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -88,12 +88,12 @@
         {
           "name": "Mary Peltola",
           "party": "D",
-          "votes": 144302
+          "votes": 144486
         },
         {
           "name": "Dan Sullivan",
           "party": "R",
-          "votes": 131844
+          "votes": 131965
         },
         {
           "name": "Gerald L. Heikes",
@@ -103,10 +103,10 @@
         {
           "name": "Daniel J. Jr. Sullivan",
           "party": "Nonpartisan",
-          "votes": 4760
+          "votes": 4765
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:22:34.992000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:45:45.503000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -121,12 +121,12 @@
         {
           "name": "Mike Collins",
           "party": "R",
-          "votes": 1713671
+          "votes": 1713673
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:29:08.903000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "sourceName": "State election office via Open America",
+      "sourceUrl": "https://openamerica.io/elections/api/",
+      "sourceUpdatedAt": "2026-11-19T17:18:53+00:00"
     },
     "IA": {
       "status": "reporting",
@@ -152,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T01:16:22.634000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:28:56.591000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:55:05.812000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:06:29.430000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:18:56.086000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:33:11.280000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -314,7 +314,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:19:03.591000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:35:34.607000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -337,7 +337,7 @@
           "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T01:00:59.323000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:31:06.845000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -370,7 +370,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-19T00:17:27.743000+00:00",
+      "sourceUpdatedAt": "2026-11-19T17:29:46.871000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -383,12 +383,12 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "votes": 144302
+            "votes": 144486
           },
           {
             "name": "Dan Sullivan",
             "party": "R",
-            "votes": 131844
+            "votes": 131965
           },
           {
             "name": "Gerald L. Heikes",
@@ -398,10 +398,10 @@
           {
             "name": "Daniel J. Jr. Sullivan",
             "party": "Nonpartisan",
-            "votes": 4760
+            "votes": 4765
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:22:34.992000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:45:45.503000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -417,17 +417,17 @@
           {
             "name": "Peltola, Mary",
             "party": "D",
-            "votes": 144302
+            "votes": 144486
           },
           {
             "name": "Sullivan, Daniel J. Jr.",
             "party": "Other",
-            "votes": 4760
+            "votes": 4765
           },
           {
             "name": "Sullivan, Dan S.",
             "party": "R",
-            "votes": 131844
+            "votes": 131965
           }
         ]
       }
@@ -447,7 +447,7 @@
             "votes": 1713671
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:29:08.903000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:48:57.282000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -462,12 +462,12 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "votes": 1713671
+            "votes": 1713673
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-16T21:42:20+00:00"
+        "sourceUpdatedAt": "2026-11-19T17:18:53+00:00"
       },
       "official": {
         "status": "reporting",
@@ -486,7 +486,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-16T21:42:20Z",
+        "sourceUpdatedAt": "2026-11-18T20:25:23Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -515,7 +515,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T01:16:22.634000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:28:56.591000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -540,7 +540,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:55:05.812000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:06:29.430000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -565,7 +565,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:18:56.086000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:33:11.280000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -696,7 +696,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:24:09.437000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:39:58.527000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-19T01:15:22+00:00"
+        "sourceUpdatedAt": "2026-11-19T17:50:23+00:00"
       }
     },
     "OH": {
@@ -769,7 +769,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:19:03.591000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:35:34.607000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -824,12 +824,12 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5458693
+            "votes": 5458710
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4256003
+            "votes": 4256021
           },
           {
             "name": "Ted Brown",
@@ -867,7 +867,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:29:25.829000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:47:00.822000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -957,7 +957,7 @@
             "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T01:00:59.323000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:31:06.845000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -1037,7 +1037,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-19T00:17:27.743000+00:00",
+        "sourceUpdatedAt": "2026-11-19T17:29:46.871000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
