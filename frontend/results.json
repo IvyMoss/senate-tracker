@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:52:35.470000+00:00",
+      "sourceUpdatedAt": "2026-11-20T16:00:35.311000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T07:00:20.625000+00:00",
+      "sourceUpdatedAt": "2026-11-20T16:09:39.485000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 4765
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T07:09:30.994000+00:00",
+      "sourceUpdatedAt": "2026-11-20T16:08:49.405000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -114,19 +114,21 @@
       "status": "reporting",
       "candidates": [
         {
-          "name": "Jon Ossoff",
-          "party": "D",
-          "votes": 2469059
-        },
-        {
           "name": "Mike Collins",
           "party": "R",
           "votes": 1713673
+        },
+        {
+          "name": "Jon Ossoff (I)",
+          "party": "D",
+          "votes": 2469059
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T07:03:14.878000+00:00",
-      "sourceName": "civicAPI",
-      "sourceUrl": "https://civicapi.org/api/v2/race/87087"
+      "reporting": 159,
+      "reportingTotal": 159,
+      "reportingUnit": "counties",
+      "sourceUpdatedAt": "2026-11-20T15:50:56Z",
+      "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
     },
     "IA": {
       "status": "reporting",
@@ -152,7 +154,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:40:34.846000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:46:33.109000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +177,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:15:58.198000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:22:24.785000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +200,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:47:51.040000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:54:13.413000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -314,7 +316,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:53:35.528000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:59:22.185000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -329,7 +331,7 @@
         {
           "name": "Angie Nixon",
           "party": "D",
-          "votes": 3974761
+          "votes": 3974763
         },
         {
           "name": "Neil J. Gillespie",
@@ -337,7 +339,7 @@
           "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:58:18.184000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:12:30.607000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -370,7 +372,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T06:40:43.112000+00:00",
+      "sourceUpdatedAt": "2026-11-20T15:46:15.032000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -401,7 +403,7 @@
             "votes": 4765
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T07:09:30.994000+00:00",
+        "sourceUpdatedAt": "2026-11-20T16:08:49.405000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -447,7 +449,7 @@
             "votes": 1713673
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T07:03:14.878000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:11:55.983000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -467,7 +469,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-19T22:58:54+00:00"
+        "sourceUpdatedAt": "2026-11-20T15:50:56+00:00"
       },
       "official": {
         "status": "reporting",
@@ -486,7 +488,7 @@
         "reporting": 159,
         "reportingTotal": 159,
         "reportingUnit": "counties",
-        "sourceUpdatedAt": "2026-11-19T22:58:54Z",
+        "sourceUpdatedAt": "2026-11-20T15:50:56Z",
         "sourceUrl": "https://results.sos.ga.gov/results/public/Georgia/11032026GeneralAndSpecialElection"
       }
     },
@@ -515,7 +517,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:40:34.846000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:46:33.109000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -540,7 +542,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:15:58.198000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:22:24.785000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -565,7 +567,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:47:51.040000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:54:13.413000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -696,7 +698,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:52:35.470000+00:00",
+        "sourceUpdatedAt": "2026-11-20T16:00:35.311000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -706,7 +708,7 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480636
+            "votes": 2480632
           },
           {
             "name": "Michael Whatley",
@@ -721,12 +723,12 @@
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36710
+            "votes": 36711
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-20T07:05:39+00:00"
+        "sourceUpdatedAt": "2026-11-20T16:05:22+00:00"
       }
     },
     "OH": {
@@ -769,7 +771,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:53:35.528000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:59:22.185000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -867,7 +869,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T07:00:20.625000+00:00",
+        "sourceUpdatedAt": "2026-11-20T16:09:39.485000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -949,7 +951,7 @@
           {
             "name": "Angie Nixon",
             "party": "D",
-            "votes": 3974761
+            "votes": 3974763
           },
           {
             "name": "Neil J. Gillespie",
@@ -957,7 +959,7 @@
             "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:58:18.184000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:12:30.607000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -1037,7 +1039,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T06:40:43.112000+00:00",
+        "sourceUpdatedAt": "2026-11-20T15:46:15.032000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
