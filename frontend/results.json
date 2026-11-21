@@ -25,7 +25,7 @@
           "votes": 36710
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:05:51.619000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:10:25.326000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87346"
     },
@@ -35,22 +35,22 @@
         {
           "name": "James Talarico",
           "party": "D",
-          "votes": 5458710
+          "votes": 5459188
         },
         {
           "name": "Ken Paxton",
           "party": "R",
-          "votes": 4256021
+          "votes": 4256142
         },
         {
           "name": "Ted Brown",
           "party": "Libertarian",
-          "votes": 190604
+          "votes": 190627
         },
         {
           "name": "Write-in",
           "party": "Nonpartisan",
-          "votes": 4488
+          "votes": 4489
         },
         {
           "name": "Avery Ayers",
@@ -78,7 +78,7 @@
           "votes": 15
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:16:00.376000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:20:38.607000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87438"
     },
@@ -106,7 +106,7 @@
           "votes": 4765
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:40:52.345000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:31:59.975000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/86916"
     },
@@ -124,7 +124,7 @@
           "votes": 1713673
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:19:13.322000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:25:09.970000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87087"
     },
@@ -152,7 +152,7 @@
           "votes": 1653
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T21:51:42.165000+00:00",
+      "sourceUpdatedAt": "2026-11-21T02:55:25.261000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87151"
     },
@@ -175,7 +175,7 @@
           "votes": 33195
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:27:15.647000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:30:51.859000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87162"
     },
@@ -198,7 +198,7 @@
           "votes": 882
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T21:58:59.891000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:03:25.801000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87188"
     },
@@ -314,7 +314,7 @@
           "votes": 27
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:03:34.835000+00:00",
+      "sourceUpdatedAt": "2026-11-21T03:06:44.122000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87527"
     },
@@ -337,7 +337,7 @@
           "votes": 94675
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T22:25:30.883000+00:00",
+      "sourceUpdatedAt": "2026-11-21T02:32:03.975000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87068"
     },
@@ -370,7 +370,7 @@
           "votes": 4900
         }
       ],
-      "sourceUpdatedAt": "2026-11-20T21:50:43.090000+00:00",
+      "sourceUpdatedAt": "2026-11-21T02:54:06.426000+00:00",
       "sourceName": "civicAPI",
       "sourceUrl": "https://civicapi.org/api/v2/race/87409"
     }
@@ -401,7 +401,7 @@
             "votes": 4765
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:40:52.345000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:31:59.975000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/86916"
       },
@@ -447,7 +447,7 @@
             "votes": 1713673
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:19:13.322000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:25:09.970000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87087"
       },
@@ -515,7 +515,7 @@
             "votes": 1653
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T21:51:42.165000+00:00",
+        "sourceUpdatedAt": "2026-11-21T02:55:25.261000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87151"
       }
@@ -540,7 +540,7 @@
             "votes": 33195
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:27:15.647000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:30:51.859000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87162"
       }
@@ -565,7 +565,7 @@
             "votes": 882
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T21:58:59.891000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:03:25.801000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87188"
       }
@@ -696,7 +696,7 @@
             "votes": 36710
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:05:51.619000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:10:25.326000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87346"
       },
@@ -726,7 +726,7 @@
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-20T22:40:25+00:00"
+        "sourceUpdatedAt": "2026-11-21T03:30:47+00:00"
       }
     },
     "OH": {
@@ -769,7 +769,7 @@
             "votes": 27
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:03:34.835000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:06:44.122000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87527"
       }
@@ -824,22 +824,22 @@
           {
             "name": "James Talarico",
             "party": "D",
-            "votes": 5458710
+            "votes": 5459188
           },
           {
             "name": "Ken Paxton",
             "party": "R",
-            "votes": 4256021
+            "votes": 4256142
           },
           {
             "name": "Ted Brown",
             "party": "Libertarian",
-            "votes": 190604
+            "votes": 190627
           },
           {
             "name": "Write-in",
             "party": "Nonpartisan",
-            "votes": 4488
+            "votes": 4489
           },
           {
             "name": "Avery Ayers",
@@ -867,7 +867,7 @@
             "votes": 15
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:16:00.376000+00:00",
+        "sourceUpdatedAt": "2026-11-21T03:20:38.607000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87438"
       },
@@ -957,7 +957,7 @@
             "votes": 94675
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T22:25:30.883000+00:00",
+        "sourceUpdatedAt": "2026-11-21T02:32:03.975000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87068"
       },
@@ -1037,7 +1037,7 @@
             "votes": 4900
           }
         ],
-        "sourceUpdatedAt": "2026-11-20T21:50:43.090000+00:00",
+        "sourceUpdatedAt": "2026-11-21T02:54:06.426000+00:00",
         "sourceName": "civicAPI",
         "sourceUrl": "https://civicapi.org/api/v2/race/87409"
       },
