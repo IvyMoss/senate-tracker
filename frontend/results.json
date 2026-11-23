@@ -706,12 +706,12 @@
           {
             "name": "Roy Cooper",
             "party": "D",
-            "votes": 2480632
+            "votes": 2480645
           },
           {
             "name": "Michael Whatley",
             "party": "R",
-            "votes": 1648859
+            "votes": 1648860
           },
           {
             "name": "Shannon W. Bray",
@@ -721,12 +721,12 @@
           {
             "name": "Michael Dublin",
             "party": "G",
-            "votes": 36711
+            "votes": 36713
           }
         ],
         "sourceName": "State election office via Open America",
         "sourceUrl": "https://openamerica.io/elections/api/",
-        "sourceUpdatedAt": "2026-11-23T08:00:33+00:00"
+        "sourceUpdatedAt": "2026-11-23T20:05:39+00:00"
       }
     },
     "OH": {
